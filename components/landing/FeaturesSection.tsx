@@ -6,7 +6,7 @@ import {
   ChartNoAxesCombined,
   Gift,
   Languages,
-  MapPin,
+  Navigation,
   Wine,
   type LucideIcon,
 } from "lucide-react";
@@ -65,7 +65,7 @@ const FEATURES: FeatureDef[] = [
   { id: "wineSpirits", Icon: Wine },
   { id: "gifts", Icon: Gift },
   { id: "value", Icon: ChartNoAxesCombined },
-  { id: "locations", Icon: MapPin },
+  { id: "locations", Icon: Navigation },
   { id: "languages", Icon: Languages },
 ];
 
@@ -86,7 +86,7 @@ export function FeaturesSection() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         {/* En-tête : sur-ligne, titre avec accent, sous-titre centré. */}
         <motion.div
-          className="mx-auto mb-12 flex max-w-[500px] flex-col items-center text-center sm:mb-16"
+          className="mx-auto mb-16 flex max-w-[500px] flex-col items-center text-center"
           initial={{ opacity: 0, y: 22 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-40px" }}
@@ -127,11 +127,17 @@ export function FeaturesSection() {
               <motion.article
                 key={id}
                 variants={cardVariants}
-                className="group h-full"
+                className="h-full"
               >
                 <div
-                  className="flex h-full flex-col rounded-2xl border border-[#E5E5EA] bg-white p-6 shadow-[0_4px_24px_rgba(13,38,77,0.06)] transition-all duration-300 ease-in-out group-hover:-translate-y-1 group-hover:border-navy/20 group-hover:shadow-[0_12px_40px_rgba(13,38,77,0.12)] sm:p-7"
+                  className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[#E5E5EA] bg-white shadow-[0_4px_24px_rgba(13,38,77,0.06)] transition-all duration-300 ease-in-out group-hover:-translate-y-1 group-hover:border-navy/20 group-hover:shadow-[0_12px_40px_rgba(13,38,77,0.12)]"
                 >
+                  {/* Accent premium en haut de carte : dégradé navy, halo au survol. */}
+                  <div
+                    className="h-[3px] w-full shrink-0 rounded-t-[16px] bg-[linear-gradient(90deg,#0D264D_0%,#1a3a6b_100%)] transition-[box-shadow] duration-300 ease-in-out group-hover:shadow-[0_0_20px_rgba(13,38,77,0.3)]"
+                    aria-hidden
+                  />
+                  <div className="flex flex-1 flex-col p-7">
                   {/* Rangée du haut : icône à gauche, grand numéro estompé à droite. */}
                   <div className="relative flex shrink-0 items-start justify-between">
                     <motion.div
@@ -145,7 +151,7 @@ export function FeaturesSection() {
                       />
                     </motion.div>
                     <span
-                      className="pointer-events-none absolute right-0 top-0 select-none text-[64px] font-extrabold leading-none text-navy/[0.05]"
+                      className="pointer-events-none absolute right-0 top-0 select-none text-[64px] font-extrabold leading-none text-navy/[0.03]"
                       aria-hidden
                     >
                       {num}
@@ -157,6 +163,7 @@ export function FeaturesSection() {
                   <p className="mt-2 text-pretty text-sm leading-relaxed text-gray-500 sm:text-base">
                     {t(`${id}.text`)}
                   </p>
+                  </div>
                 </div>
               </motion.article>
             );
