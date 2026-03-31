@@ -9,6 +9,7 @@
     "appName": "Alcotheque"
   },
   "features": {
+    "eyebrow": "FEATURES",
     "title": "Everything you need",
     "subtitle": "Built for true wine and spirits enthusiasts.",
     "scan": {

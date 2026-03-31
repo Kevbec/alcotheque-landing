@@ -9,6 +9,7 @@
     "appName": "Alcothèque"
   },
   "features": {
+    "eyebrow": "FONCTIONNALITÉS",
     "title": "Tout ce dont vous avez besoin",
     "subtitle": "Conçu pour les vrais amateurs de vins et spiritueux.",
     "scan": {
