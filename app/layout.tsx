@@ -1,7 +1,5 @@
 import type { ReactNode } from "react";
 import localFont from "next/font/local";
-import { headers } from "next/headers";
-import { routing } from "@/i18n/routing";
 import "./globals.css";
 
 // Polices locales (voir dossier `app/fonts`).
@@ -21,12 +19,8 @@ type Props = {
 };
 
 export default function RootLayout({ children }: Props) {
-  // Le middleware next-intl expose la locale négociée pour l’attribut `lang` du document.
-  const locale =
-    headers().get("x-next-intl-locale") ?? routing.defaultLocale;
-
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang="fr">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
