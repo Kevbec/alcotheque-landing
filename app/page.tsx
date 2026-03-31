@@ -1,3 +1,5 @@
-export default function HomePage() {
-  return <div>Alcotheque - Coming Soon</div>;
+import { redirect } from "next/navigation";
+
+export default function RootPage() {
+  redirect("/fr");
 }
