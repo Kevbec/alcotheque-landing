@@ -20,7 +20,7 @@ type Props = {
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html lang="fr">
+    <html lang="fr" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

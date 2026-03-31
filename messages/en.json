@@ -1,5 +1,28 @@
 {
+  "metadata": {
+    "title": "Alcotheque – Wine & Spirits Collection Manager | iOS App",
+    "description": "Scan, organize and track your wine and spirits collection with AI. Available on iPhone. Download for free.",
+    "ogTitle": "Alcotheque – Your wine & spirits cellar on iPhone",
+    "ogDescription": "Scan your bottles, organize your collection, and track every gift with artificial intelligence."
+  },
+  "nav": {
+    "appName": "Alcotheque"
+  },
   "hero": {
-    "title": "test"
+    "appName": "Alcotheque",
+    "tagline": "Your wine & spirits collection, always with you.",
+    "subtext": "Scan your bottles, organize your collection, track every gift.",
+    "cta": "Download on the App Store",
+    "ctaAria": "Download Alcotheque on the App Store",
+    "badgeAlt": "Available on the App Store",
+    "scrollHint": "Scroll to explore",
+    "logoAlt": "Alcotheque logo"
+  },
+  "lang": {
+    "switchToFr": "Français",
+    "switchToEn": "English"
+  },
+  "schema": {
+    "description": "Premium iOS app to manage wine and spirits collections: scanning, organizing, and AI-powered tracking."
   }
 }

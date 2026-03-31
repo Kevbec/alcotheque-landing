@@ -1,7 +1,5 @@
-type Props = {
-  params: { locale: string };
-};
+import { HeroLanding } from "@/components/landing/HeroLanding";
 
-export default function LocaleHomePage({ params }: Props) {
-  return <div>Alcotheque - Coming Soon [{params.locale}]</div>;
+export default function LocaleHomePage() {
+  return <HeroLanding />;
 }

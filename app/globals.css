@@ -5,19 +5,59 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --navy: #0d264d;
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Flottement doux pour les formes décoratives du hero (CSS pur, léger sur la batterie). */
+@keyframes hero-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-3deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(3deg);
+  }
+}
+
+@keyframes hero-float-reverse {
+  0%,
+  100% {
+    transform: translateY(0) rotate(4deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-4deg);
+  }
+}
+
+.animate-hero-float {
+  animation: hero-float 9s ease-in-out infinite;
+}
+
+.animate-hero-float-reverse {
+  animation: hero-float-reverse 11s ease-in-out infinite;
+  animation-delay: -2s;
+}
+
+@keyframes chevron-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(6px);
+    opacity: 1;
+  }
+}
+
+.animate-chevron-bob {
+  animation: chevron-bob 2s ease-in-out infinite;
 }
 
 @layer utilities {
