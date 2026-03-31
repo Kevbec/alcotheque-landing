@@ -8,6 +8,34 @@
   "nav": {
     "appName": "Alcotheque"
   },
+  "features": {
+    "title": "Everything you need",
+    "subtitle": "Built for true wine and spirits enthusiasts.",
+    "scan": {
+      "title": "AI Bottle Scanner",
+      "text": "Photograph a label, AI automatically extracts all the details."
+    },
+    "wineSpirits": {
+      "title": "Wine AND Spirits",
+      "text": "The only app that manages your cellar and your bar in one place."
+    },
+    "gifts": {
+      "title": "Gift Tracking",
+      "text": "Never forget who gifted you which bottle and when."
+    },
+    "value": {
+      "title": "Collection Value",
+      "text": "Track the estimated value of your collection in real time."
+    },
+    "locations": {
+      "title": "Location Management",
+      "text": "Cellar, bar, living room — organize your bottles wherever they are."
+    },
+    "languages": {
+      "title": "7 Languages",
+      "text": "French, English, German, Spanish, Italian, Dutch, Portuguese."
+    }
+  },
   "hero": {
     "appName": "Alcotheque",
     "tagline": "Your wine & spirits collection, always with you.",

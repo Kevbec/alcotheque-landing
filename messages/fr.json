@@ -8,6 +8,34 @@
   "nav": {
     "appName": "Alcothèque"
   },
+  "features": {
+    "title": "Tout ce dont vous avez besoin",
+    "subtitle": "Conçu pour les vrais amateurs de vins et spiritueux.",
+    "scan": {
+      "title": "Scan IA de vos bouteilles",
+      "text": "Photographiez une étiquette, l'IA extrait automatiquement tous les détails."
+    },
+    "wineSpirits": {
+      "title": "Vins ET spiritueux",
+      "text": "La seule app qui gère votre cave et votre bar en un seul endroit."
+    },
+    "gifts": {
+      "title": "Suivi des cadeaux",
+      "text": "N'oubliez jamais qui vous a offert quelle bouteille et quand."
+    },
+    "value": {
+      "title": "Valeur de votre collection",
+      "text": "Suivez la valeur estimée de votre collection en temps réel."
+    },
+    "locations": {
+      "title": "Gestion par emplacement",
+      "text": "Cave, bar, salon — organisez vos bouteilles où qu'elles soient."
+    },
+    "languages": {
+      "title": "7 langues disponibles",
+      "text": "Français, anglais, allemand, espagnol, italien, néerlandais, portugais."
+    }
+  },
   "hero": {
     "appName": "Alcothèque",
     "tagline": "Toute votre cave, dans votre poche.",
