@@ -40,7 +40,7 @@ function wrapTablesInScrollContainer(html: string): string {
   return html.replace(
     /<table(\s[^>]*)?>[\s\S]*?<\/table>/gi,
     (table) =>
-      `<div class="blog-table-wrap overflow-x-auto">${table}</div>`,
+      `<div class="blog-table-wrap overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0">${table}</div>`,
   );
 }
 

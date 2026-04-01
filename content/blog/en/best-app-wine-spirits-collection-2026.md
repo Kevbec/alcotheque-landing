@@ -83,9 +83,7 @@ Track the estimated value of your **collection** in real time. Clear charts show
 
 ## Alcotheque vs Competitors
 
-<div class="mb-3 mt-10 text-center"><span class="inline-flex items-center gap-1.5 rounded-full border border-navy/15 bg-navy/8 px-3 py-1.5 text-xs font-semibold text-navy">⭐ Recommended</span></div>
-
-| | **Alcotheque** ⭐ | OnlyDrams | Vivino | Oeni |
+| | **Alcotheque** ✓ | OnlyDrams | Vivino | Oeni |
 |---|---|---|---|---|
 | Wine AND Spirits | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> |
 | AI Scanning | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> |

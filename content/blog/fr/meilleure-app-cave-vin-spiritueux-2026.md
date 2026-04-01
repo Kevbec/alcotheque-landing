@@ -84,9 +84,7 @@ Suivez la valeur estimée de votre **collection** en temps réel. Des graphiques
 
 ## Alcothèque vs les concurrents
 
-<div class="mb-3 mt-10 text-center"><span class="inline-flex items-center gap-1.5 rounded-full border border-navy/15 bg-navy/8 px-3 py-1.5 text-xs font-semibold text-navy">⭐ Recommandé</span></div>
-
-| | **Alcothèque** ⭐ | OnlyDrams | Vivino | Oeni |
+| | **Alcothèque** ✓ | OnlyDrams | Vivino | Oeni |
 |---|---|---|---|---|
 | Vins ET spiritueux | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> |
 | Scan IA | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> |
