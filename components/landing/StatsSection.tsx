@@ -111,7 +111,7 @@ export function StatsSection() {
     >
       <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <motion.div
-          className="grid grid-cols-2 gap-y-10 md:grid-cols-4 md:gap-y-0"
+          className="grid grid-cols-2 gap-y-12 md:grid-cols-4 md:gap-y-0"
           variants={gridVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -124,7 +124,7 @@ export function StatsSection() {
             >
               <p className="flex items-baseline justify-center gap-0 tabular-nums">
                 {/* Note App Store : "5★" statique — pas d’animation du chiffre. */}
-                <span className="text-[64px] font-extrabold leading-none tracking-tight text-white">
+                <span className="text-[40px] sm:text-[64px] font-extrabold leading-none tracking-tight text-white">
                   {stat.id === "rating" ? (
                     stat.value.toLocaleString()
                   ) : (
@@ -135,8 +135,8 @@ export function StatsSection() {
                 <span
                   className={
                     stat.id === "rating"
-                      ? "text-[64px] font-extrabold leading-none text-[#FFD700]"
-                      : "text-[64px] font-extrabold leading-none text-[#93C5FD]"
+                      ? "text-[40px] sm:text-[64px] font-extrabold leading-none text-[#FFD700]"
+                      : "text-[40px] sm:text-[64px] font-extrabold leading-none text-[#93C5FD]"
                   }
                 >
                   {stat.suffix}
