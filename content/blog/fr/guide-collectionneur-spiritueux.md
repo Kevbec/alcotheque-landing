@@ -86,7 +86,7 @@ Fréquentez **salons** et **événements** de dégustation : rien ne remplace le
 
 **Partagez** des échantillons ou des découvertes avec d'autres passionnés : la collection vit aussi par la conversation honnête sur ce qui vaut le coup.
 
-## Conclusion : l'outil du collectionneur moderne
+## Conclusion : l'outil indispensable du collectionneur moderne
 
 Priorisez le plaisir, structurez tôt votre **inventaire**, protégez l'état des **bouteilles** et diversifiez sans vous disperser. La valeur suit souvent la clarté de votre stratégie et la qualité de votre documentation.
 
