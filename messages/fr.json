@@ -35,10 +35,6 @@
     "languages": {
       "title": "7 langues disponibles",
       "text": "Français, anglais, allemand, espagnol, italien, néerlandais, portugais."
-    },
-    "history": {
-      "title": "Historique complet",
-      "text": "Suivez toute l'histoire de chaque bouteille, de l'achat à la dernière goutte."
     }
   },
   "stats": {
@@ -100,11 +96,15 @@
     "q6": {
       "question": "Mes données sont-elles sécurisées ?",
       "answer": "Oui. Toutes vos données sont stockées de manière sécurisée sur Firebase (Google Cloud) et synchronisées en temps réel. Votre collection est protégée et accessible uniquement depuis votre compte."
+    },
+    "history": {
+      "question": "Puis-je suivre l'historique complet de mes bouteilles ?",
+      "answer": "Oui. Alcothèque enregistre toute l'histoire de chaque bouteille : date d'achat, ouverture, dégustation, cadeau offert ou reçu. Vous retrouvez une frise chronologique complète pour chaque bouteille de votre collection."
     }
   },
   "cta": {
     "eyebrow": "DISPONIBLE MAINTENANT",
-    "title": "Votre cave mérite mieux qu'un tableur.",
+    "title": "Votre cave mérite mieux qu'un tableur Excel.",
     "subtitle": "Rejoignez des centaines de collectionneurs qui gèrent leur cave avec Alcothèque.",
     "badgeAlt": "Disponible sur l'App Store",
     "ctaAria": "Télécharger Alcothèque sur l'App Store",
@@ -114,7 +114,8 @@
     "appName": "Alcothèque",
     "logoAlt": "Logo Alcothèque",
     "tagline": "Toute votre cave, dans votre poche.",
-    "madeBy": "Fait avec ❤️ par Kevin",
+    "madeByBefore": "Fait avec ",
+    "madeByAfter": " par Kevin",
     "productHuntAlt": "Alcothèque sur Product Hunt",
     "productHuntAria": "Voir Alcothèque sur Product Hunt",
     "columns": {

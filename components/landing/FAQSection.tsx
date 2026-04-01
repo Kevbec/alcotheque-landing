@@ -5,8 +5,8 @@ import { ChevronDown } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { useMemo, useState } from "react";
 
-// Clés des 6 entrées FAQ — alignées avec messages/fr.json et messages/en.json.
-const FAQ_KEYS = ["q1", "q2", "q3", "q4", "q5", "q6"] as const;
+// Clés des entrées FAQ — alignées avec messages/fr.json et messages/en.json (dernier : historique).
+const FAQ_KEYS = ["q1", "q2", "q3", "q4", "q5", "q6", "history"] as const;
 
 // Variantes Framer Motion : hauteur 0 → auto pour l’ouverture / fermeture fluide.
 const accordionContentVariants = {

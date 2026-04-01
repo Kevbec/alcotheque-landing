@@ -5,7 +5,6 @@ import {
   Camera,
   ChartNoAxesCombined,
   Gift,
-  History,
   Languages,
   Navigation,
   Wine,
@@ -63,11 +62,11 @@ type FeatureDef = {
     | "gifts"
     | "value"
     | "locations"
-    | "languages"
-    | "history";
+    | "languages";
   Icon: LucideIcon;
 };
 
+// 6 cartes : grille 2×3 (mobile 1 col, sm: 2 cols, lg: 3 cols).
 const FEATURES: FeatureDef[] = [
   { id: "scan", Icon: Camera },
   { id: "wineSpirits", Icon: Wine },
@@ -75,7 +74,6 @@ const FEATURES: FeatureDef[] = [
   { id: "value", Icon: ChartNoAxesCombined },
   { id: "locations", Icon: Navigation },
   { id: "languages", Icon: Languages },
-  { id: "history", Icon: History },
 ];
 
 export function FeaturesSection() {
@@ -122,7 +120,7 @@ export function FeaturesSection() {
           </p>
         </motion.div>
 
-        {/* Grille : 7 cartes ; au lg 3 colonnes, dernière carte centrée sur sa ligne. */}
+        {/* Grille : 6 cartes en 2×3 (responsive). */}
         <motion.div
           ref={gridRef}
           className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8"
@@ -132,16 +130,9 @@ export function FeaturesSection() {
         >
           {FEATURES.map(({ id, Icon }, index) => {
             const num = String(index + 1).padStart(2, "0");
-            const isLast = index === FEATURES.length - 1;
             return (
-              <motion.article
-                key={id}
-                variants={cardVariants}
-                className={`h-full ${isLast ? "lg:col-span-3 lg:flex lg:justify-center" : ""}`}
-              >
-                <div
-                  className={`group flex h-full w-full flex-col overflow-hidden rounded-2xl border border-[#E5E5EA] bg-white shadow-[0_4px_24px_rgba(13,38,77,0.06)] transition-all duration-300 ease-in-out group-hover:-translate-y-1 group-hover:border-navy/20 group-hover:shadow-[0_12px_40px_rgba(13,38,77,0.12)] ${isLast ? "lg:max-w-[calc((100%-4rem)/3)]" : ""}`}
-                >
+              <motion.article key={id} variants={cardVariants} className="h-full">
+                <div className="group flex h-full w-full flex-col overflow-hidden rounded-2xl border border-[#E5E5EA] bg-white shadow-[0_4px_24px_rgba(13,38,77,0.06)] transition-all duration-300 ease-in-out group-hover:-translate-y-1 group-hover:border-navy/20 group-hover:shadow-[0_12px_40px_rgba(13,38,77,0.12)]">
                   {/* Accent premium en haut de carte : dégradé navy, halo au survol. */}
                   <div
                     className="h-[3px] w-full shrink-0 rounded-t-[16px] bg-[linear-gradient(90deg,#0D264D_0%,#1a3a6b_100%)] transition-[box-shadow] duration-300 ease-in-out group-hover:shadow-[0_0_20px_rgba(13,38,77,0.3)]"

@@ -35,10 +35,6 @@
     "languages": {
       "title": "7 Languages",
       "text": "French, English, German, Spanish, Italian, Dutch, Portuguese."
-    },
-    "history": {
-      "title": "Complete History",
-      "text": "Track the full story of each bottle, from purchase to the last drop."
     }
   },
   "stats": {
@@ -100,11 +96,15 @@
     "q6": {
       "question": "Is my data secure?",
       "answer": "Yes. All your data is securely stored on Firebase (Google Cloud) and synchronized in real time. Your collection is protected and accessible only from your account."
+    },
+    "history": {
+      "question": "Can I track the complete history of my bottles?",
+      "answer": "Yes. Alcotheque records the full history of each bottle: purchase date, opening, tasting, gift given or received. You get a complete timeline for every bottle in your collection."
     }
   },
   "cta": {
     "eyebrow": "AVAILABLE NOW",
-    "title": "Your cellar deserves better than a spreadsheet.",
+    "title": "Your cellar deserves better than an Excel spreadsheet.",
     "subtitle": "Join hundreds of collectors managing their cellar with Alcotheque.",
     "badgeAlt": "Available on the App Store",
     "ctaAria": "Download Alcotheque on the App Store",
@@ -114,7 +114,8 @@
     "appName": "Alcotheque",
     "logoAlt": "Alcotheque logo",
     "tagline": "Your wine & spirits collection, always with you.",
-    "madeBy": "Made with ❤️ by Kevin",
+    "madeByBefore": "Made with ",
+    "madeByAfter": " by Kevin",
     "productHuntAlt": "Alcotheque on Product Hunt",
     "productHuntAria": "View Alcotheque on Product Hunt",
     "columns": {

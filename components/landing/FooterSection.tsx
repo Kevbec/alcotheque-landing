@@ -35,7 +35,7 @@ export function FooterSection() {
                 alt={t("logoAlt")}
                 width={40}
                 height={40}
-                className="h-10 w-auto"
+                className="h-10 w-auto rounded-xl object-contain"
               />
               <span className="text-lg font-semibold tracking-tight text-white">
                 {t("appName")}
@@ -44,7 +44,14 @@ export function FooterSection() {
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-white/60">
               {t("tagline")}
             </p>
-            <p className="mt-2 text-xs text-white/40">{t("madeBy")}</p>
+            {/* Cœur en rouge (entité &hearts;) entre deux segments de texte i18n. */}
+            <p className="mt-2 text-xs text-white/40">
+              {t("madeByBefore")}
+              <span className="text-sm text-red-500" aria-hidden>
+                &hearts;
+              </span>
+              {t("madeByAfter")}
+            </p>
             <a
               href={PRODUCT_HUNT_URL}
               target="_blank"
