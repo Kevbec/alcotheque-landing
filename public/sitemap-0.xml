@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://example.com</loc><lastmod>2026-04-01T02:08:23.151Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://example.com/en/support</loc><lastmod>2026-04-01T02:08:23.151Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://example.com/fr/support</loc><lastmod>2026-04-01T02:08:23.151Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://example.com/en/terms</loc><lastmod>2026-04-01T02:08:23.151Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://example.com/fr/terms</loc><lastmod>2026-04-01T02:08:23.152Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://example.com/en</loc><lastmod>2026-04-01T02:08:23.152Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://example.com/fr</loc><lastmod>2026-04-01T02:08:23.152Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://example.com/en/blog</loc><lastmod>2026-04-01T02:08:23.152Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://example.com/fr/blog</loc><lastmod>2026-04-01T02:08:23.152Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://example.com/en/privacy</loc><lastmod>2026-04-01T02:08:23.152Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://example.com/fr/privacy</loc><lastmod>2026-04-01T02:08:23.152Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://example.com/en/blog/best-app-wine-spirits-collection-2026</loc><lastmod>2026-04-01T02:08:23.152Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://example.com/fr/blog/meilleure-app-cave-vin-spiritueux-2026</loc><lastmod>2026-04-01T02:08:23.152Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com</loc><lastmod>2026-04-01T02:15:29.338Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com/en/terms</loc><lastmod>2026-04-01T02:15:29.339Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com/fr/terms</loc><lastmod>2026-04-01T02:15:29.339Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com/en</loc><lastmod>2026-04-01T02:15:29.339Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com/fr</loc><lastmod>2026-04-01T02:15:29.339Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com/en/support</loc><lastmod>2026-04-01T02:15:29.339Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com/fr/support</loc><lastmod>2026-04-01T02:15:29.339Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com/en/privacy</loc><lastmod>2026-04-01T02:15:29.339Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com/fr/privacy</loc><lastmod>2026-04-01T02:15:29.339Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com/en/blog</loc><lastmod>2026-04-01T02:15:29.339Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com/fr/blog</loc><lastmod>2026-04-01T02:15:29.339Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com/en/blog/best-app-wine-spirits-collection-2026</loc><lastmod>2026-04-01T02:15:29.339Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://example.com/fr/blog/meilleure-app-cave-vin-spiritueux-2026</loc><lastmod>2026-04-01T02:15:29.339Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

@@ -83,7 +83,7 @@ Track the estimated value of your **collection** in real time. Clear charts show
 
 ## Alcotheque vs Competitors
 
-<div class="mb-3 mt-6 flex justify-center sm:justify-start"><span class="inline-flex items-center rounded-full bg-navy/10 px-3 py-1.5 text-xs font-semibold text-navy">⭐ Recommended</span></div>
+<div class="mb-3 mt-10 text-center"><span class="inline-flex items-center gap-1.5 rounded-full border border-navy/15 bg-navy/8 px-3 py-1.5 text-xs font-semibold text-navy">⭐ Recommended</span></div>
 
 | | **Alcotheque** ⭐ | OnlyDrams | Vivino | Oeni |
 |---|---|---|---|---|
@@ -94,7 +94,7 @@ Track the estimated value of your **collection** in real time. Clear charts show
 | Collection Analytics | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-green-500 font-bold">✅</span> |
 | Gamification / Badges | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> |
 | Available in French | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> |
-| Price | Free / $0.99/mo | Free / paid | Free | Paid |
+| Price | Free / $0.99/mo | $4.99/mo | Free / $4.99/mo | From $39.99/yr |
 
 Alcotheque is the only app covering both wine and spirits, with gift tracking and a gamification system unavailable in competing apps. Vivino excels at wine discovery and purchasing, Oeni at aging optimization, and OnlyDrams at data-driven whisky collections. Alcotheque is built for managing your entire personal cellar every day.
 
