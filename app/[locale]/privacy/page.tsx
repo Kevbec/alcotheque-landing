@@ -53,7 +53,8 @@ const copy = {
       {
         title: "Vos droits",
         subsections: null,
-        body: "Selon votre lieu de résidence, vous disposez des droits suivants : accéder à vos données personnelles, corriger ou mettre à jour vos informations, demander la suppression de vos données, retirer votre consentement. Pour exercer ces droits, contactez-nous à alcotheque.app@gmail.com",
+        body: "Selon votre lieu de résidence, vous disposez des droits suivants : accéder à vos données personnelles, corriger ou mettre à jour vos informations, demander la suppression de vos données, retirer votre consentement. Pour exercer ces droits, contactez-nous à ",
+        emailInline: { suffix: "" },
       },
       {
         title: "Protection des mineurs",
@@ -68,7 +69,8 @@ const copy = {
       {
         title: "Contact",
         subsections: null,
-        body: "Pour toute question : alcotheque.app@gmail.com",
+        body: "Pour toute question : ",
+        emailInline: { suffix: "" },
       },
     ],
   },
@@ -116,7 +118,8 @@ const copy = {
       {
         title: "Your Rights",
         subsections: null,
-        body: "Depending on your location, you may have the right to: access your personal data, correct or update your data, request deletion of your data, withdraw consent. To exercise these rights, please contact us at alcotheque.app@gmail.com",
+        body: "Depending on your location, you may have the right to: access your personal data, correct or update your data, request deletion of your data, withdraw consent. To exercise these rights, please contact us at ",
+        emailInline: { suffix: "" },
       },
       {
         title: "Children's Privacy",
@@ -131,11 +134,24 @@ const copy = {
       {
         title: "Contact Us",
         subsections: null,
-        body: "For any questions: alcotheque.app@gmail.com",
+        body: "For any questions: ",
+        emailInline: { suffix: "" },
       },
     ],
   },
 } as const;
+
+/** Lien email réutilisable (sous-texte légal, lisible et cliquable). */
+function LegalEmailLink() {
+  return (
+    <a
+      href="mailto:alcotheque.app@gmail.com"
+      className="text-navy underline hover:opacity-70 transition"
+    >
+      alcotheque.app@gmail.com
+    </a>
+  );
+}
 
 export function generateMetadata({
   params,
@@ -211,6 +227,12 @@ export default function PrivacyPage({
                   ) : (
                     <p className="text-[16px] leading-relaxed text-gray-600">
                       {section.body}
+                      {"emailInline" in section && section.emailInline ? (
+                        <>
+                          <LegalEmailLink />
+                          {section.emailInline.suffix}
+                        </>
+                      ) : null}
                     </p>
                   )}
                 </section>

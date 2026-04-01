@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
+import type { ReactNode } from "react";
 import { useState } from "react";
 
 // Même courbe d’animation que FAQSection pour une expérience cohérente.
@@ -26,7 +27,8 @@ const accordionContentVariants = {
 
 export type SupportFaqItem = {
   question: string;
-  answer: string;
+  /** Texte brut ou JSX (ex. lien mailto dans la réponse). */
+  answer: ReactNode;
 };
 
 type Props = {

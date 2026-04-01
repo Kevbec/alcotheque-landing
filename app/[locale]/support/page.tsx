@@ -1,5 +1,8 @@
 import { LandingNavbar } from "@/components/landing/LandingNavbar";
-import { SupportFaqAccordion } from "@/components/landing/SupportFaqAccordion";
+import {
+  SupportFaqAccordion,
+  type SupportFaqItem,
+} from "@/components/landing/SupportFaqAccordion";
 import { FooterSection } from "@/components/landing/FooterSection";
 import { Mail, RefreshCw, Smartphone } from "lucide-react";
 import type { Metadata } from "next";
@@ -53,13 +56,19 @@ const copy = {
       },
       {
         question: "J'ai perdu mon accès Premium, que faire ?",
-        answer:
-          "Allez dans les paramètres de l'app et appuyez sur Restaurer les achats. Si le problème persiste, contactez-nous à alcotheque.app@gmail.com",
+        mailtoParts: {
+          prefix:
+            "Allez dans les paramètres de l'app et appuyez sur Restaurer les achats. Si le problème persiste, contactez-nous à ",
+          suffix: "",
+        },
       },
       {
         question: "Comment supprimer mon compte ?",
-        answer:
-          "Contactez-nous à alcotheque.app@gmail.com avec votre adresse email de connexion. Nous traiterons votre demande sous 48h.",
+        mailtoParts: {
+          prefix: "Contactez-nous à ",
+          suffix:
+            " avec votre adresse email de connexion. Nous traiterons votre demande sous 48h.",
+        },
       },
       {
         question: "Le scan IA ne fonctionne pas, que faire ?",
@@ -107,13 +116,18 @@ const copy = {
       },
       {
         question: "I lost my Premium access, what should I do?",
-        answer:
-          'Go to app settings and tap Restore Purchases. If the issue persists, contact us at alcotheque.app@gmail.com',
+        mailtoParts: {
+          prefix:
+            "Go to app settings and tap Restore Purchases. If the issue persists, contact us at ",
+          suffix: "",
+        },
       },
       {
         question: "How do I delete my account?",
-        answer:
-          "Contact us at alcotheque.app@gmail.com with your login email. We will process your request within 48 hours.",
+        mailtoParts: {
+          prefix: "Contact us at ",
+          suffix: " with your login email. We will process your request within 48 hours.",
+        },
       },
       {
         question: "The AI scan is not working, what should I do?",
@@ -123,6 +137,41 @@ const copy = {
     ],
   },
 } as const;
+
+/** Même classes que sur les pages légales : lien email visible et cliquable. */
+const LEGAL_EMAIL_LINK_CLASS =
+  "text-navy underline hover:opacity-70 transition";
+
+/** Entrée FAQ côté contenu : paragraphe seul ou texte découpé autour de l’email cliquable. */
+type SupportFaqSourceItem =
+  | { question: string; answer: string }
+  | {
+      question: string;
+      mailtoParts: { prefix: string; suffix: string };
+    };
+
+/**
+ * Transforme les entrées FAQ (texte seul ou morceaux autour du mail) en items pour l’accordéon.
+ */
+function toSupportFaqItems(faq: readonly SupportFaqSourceItem[]): SupportFaqItem[] {
+  return faq.map((item) => {
+    if ("mailtoParts" in item) {
+      return {
+        question: item.question,
+        answer: (
+          <>
+            {item.mailtoParts.prefix}
+            <a href={MAILTO} className={LEGAL_EMAIL_LINK_CLASS}>
+              {SUPPORT_EMAIL}
+            </a>
+            {item.mailtoParts.suffix}
+          </>
+        ),
+      };
+    }
+    return { question: item.question, answer: item.answer };
+  });
+}
 
 export function generateMetadata({
   params,
@@ -196,15 +245,19 @@ export default function SupportPage({
               {c.heroTitle}
             </h1>
             <p className="mt-3 text-[18px] text-white/70">{c.heroSubtitle}</p>
-            {/* Pilule décorative (pas de champ de recherche fonctionnel). */}
-            <div
-              className="mx-auto mt-8 inline-flex max-w-full items-center gap-3 rounded-full bg-white/10 px-5 py-3"
-              aria-hidden
-            >
-              <Mail className="h-4 w-4 shrink-0 text-white/60" strokeWidth={2} />
-              <span className="truncate text-sm text-white/60">
+            {/* Pilule décorative : l’adresse est cliquable (mailto) pour cohérence avec le reste du site. */}
+            <div className="mx-auto mt-8 inline-flex max-w-full items-center gap-3 rounded-full bg-white/10 px-5 py-3">
+              <Mail
+                className="h-4 w-4 shrink-0 text-white/60"
+                strokeWidth={2}
+                aria-hidden
+              />
+              <a
+                href={MAILTO}
+                className="truncate text-sm text-white/60 underline decoration-white/30 underline-offset-2 transition hover:opacity-70"
+              >
                 {SUPPORT_EMAIL}
-              </span>
+              </a>
             </div>
           </div>
         </section>
@@ -272,7 +325,10 @@ export default function SupportPage({
                 aria-hidden
               />
             </div>
-            <SupportFaqAccordion items={[...c.faq]} headingId="support-faq-title" />
+            <SupportFaqAccordion
+              items={toSupportFaqItems(c.faq)}
+              headingId="support-faq-title"
+            />
           </div>
         </section>
 

@@ -38,7 +38,8 @@ const copy = {
       },
       {
         title: "Contact",
-        body: "Pour toute question : alcotheque.app@gmail.com",
+        body: "Pour toute question : ",
+        emailInline: { suffix: "" },
       },
     ],
   },
@@ -71,11 +72,24 @@ const copy = {
       },
       {
         title: "Contact",
-        body: "For any questions: alcotheque.app@gmail.com",
+        body: "For any questions: ",
+        emailInline: { suffix: "" },
       },
     ],
   },
 } as const;
+
+/** Lien email cliquable (cohérent avec la page confidentialité). */
+function LegalEmailLink() {
+  return (
+    <a
+      href="mailto:alcotheque.app@gmail.com"
+      className="text-navy underline hover:opacity-70 transition"
+    >
+      alcotheque.app@gmail.com
+    </a>
+  );
+}
 
 export function generateMetadata({
   params,
@@ -133,6 +147,12 @@ export default function TermsPage({ params }: { params: { locale: string } }) {
                   </h2>
                   <p className="text-[16px] leading-relaxed text-gray-600">
                     {section.body}
+                    {"emailInline" in section && section.emailInline ? (
+                      <>
+                        <LegalEmailLink />
+                        {section.emailInline.suffix}
+                      </>
+                    ) : null}
                   </p>
                 </section>
               </div>
