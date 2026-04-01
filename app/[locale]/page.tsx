@@ -1,3 +1,4 @@
+import { CTASection } from "@/components/landing/CTASection";
 import { FAQSection } from "@/components/landing/FAQSection";
 import { FeaturesSection } from "@/components/landing/FeaturesSection";
 import { FooterSection } from "@/components/landing/FooterSection";
@@ -11,6 +12,7 @@ export default function LocaleHomePage() {
       <FeaturesSection />
       <StatsSection />
       <FAQSection />
+      <CTASection />
       <FooterSection />
     </>
   );

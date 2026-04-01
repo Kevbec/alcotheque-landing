@@ -98,6 +98,14 @@
       "answer": "Yes. All your data is securely stored on Firebase (Google Cloud) and synchronized in real time. Your collection is protected and accessible only from your account."
     }
   },
+  "cta": {
+    "eyebrow": "AVAILABLE NOW",
+    "title": "Your cellar deserves better than a spreadsheet.",
+    "subtitle": "Join hundreds of collectors managing their cellar with Alcotheque.",
+    "badgeAlt": "Available on the App Store",
+    "ctaAria": "Download Alcotheque on the App Store",
+    "footnote": "Free • iOS 17+ • Cancel anytime"
+  },
   "footer": {
     "appName": "Alcotheque",
     "logoAlt": "Alcotheque logo",

@@ -98,6 +98,14 @@
       "answer": "Oui. Toutes vos données sont stockées de manière sécurisée sur Firebase (Google Cloud) et synchronisées en temps réel. Votre collection est protégée et accessible uniquement depuis votre compte."
     }
   },
+  "cta": {
+    "eyebrow": "DISPONIBLE MAINTENANT",
+    "title": "Votre cave mérite mieux qu'un tableur.",
+    "subtitle": "Rejoignez des centaines de collectionneurs qui gèrent leur cave avec Alcothèque.",
+    "badgeAlt": "Disponible sur l'App Store",
+    "ctaAria": "Télécharger Alcothèque sur l'App Store",
+    "footnote": "Gratuit • iOS 17+ • Annulez à tout moment"
+  },
   "footer": {
     "appName": "Alcothèque",
     "logoAlt": "Logo Alcothèque",
