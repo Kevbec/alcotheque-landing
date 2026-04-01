@@ -15,7 +15,6 @@ const copy = {
       "Données collectées, utilisation, conservation et vos droits pour l’app Alcothèque.",
     back: "← Retour",
     title: "Politique de confidentialité – Alcothèque",
-    subtitle: null as string | null,
     updated: "Dernière mise à jour : décembre 2025",
     sections: [
       {
@@ -34,7 +33,7 @@ const copy = {
             body: "Si vous souscrivez à Alcothèque Premium : les paiements sont traités de manière sécurisée par Apple App Store (StoreKit). Nous ne collectons ni ne stockons aucune donnée bancaire. Apple peut nous transmettre des informations anonymisées concernant le statut de votre abonnement.",
           },
         ],
-        body: null as string | null,
+        body: null,
       },
       {
         title: "Utilisation des données",
@@ -79,7 +78,6 @@ const copy = {
       "What we collect, how we use it, retention, and your rights for the Alcotheque app.",
     back: "← Back",
     title: "Privacy Policy – Alcotheque",
-    subtitle: null,
     updated: "Last updated: December 2025",
     sections: [
       {
@@ -187,9 +185,6 @@ export default function PrivacyPage({
           <h1 className="text-[36px] font-bold leading-tight text-navy">
             {c.title}
           </h1>
-          {c.subtitle ? (
-            <p className="mt-2 text-[18px] text-gray-500">{c.subtitle}</p>
-          ) : null}
           <p className="mt-1 text-sm text-gray-400">{c.updated}</p>
 
           <div className="mt-8">

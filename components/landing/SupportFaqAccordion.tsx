@@ -54,7 +54,7 @@ export function SupportFaqAccordion({ items, headingId }: Props) {
         return (
           <div
             key={buttonId}
-            className="mb-3 rounded-xl border border-[#E5E5EA] bg-white"
+            className="mb-3 rounded-[12px] border border-[#E5E5EA] bg-white"
           >
             <button
               id={buttonId}
@@ -86,7 +86,7 @@ export function SupportFaqAccordion({ items, headingId }: Props) {
                   exit="collapsed"
                   className="overflow-hidden"
                 >
-                  <div className="px-4 pb-4 text-base leading-relaxed text-gray-600">
+                  <div className="px-4 pb-4 text-[15px] leading-relaxed text-gray-600">
                     {item.answer}
                   </div>
                 </motion.div>
