@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Alcothèque – Gérez votre cave à vins et spiritueux | App iOS",
+    "title": "Alcothèque : Gérez votre cave à vins et spiritueux | App iOS",
     "description": "Scannez, organisez et suivez votre collection de vins et spiritueux avec l'IA. Disponible sur iPhone. Téléchargez gratuitement.",
-    "ogTitle": "Alcothèque – Votre cave à vins et spiritueux, sur iPhone",
+    "ogTitle": "Alcothèque : Votre cave à vins et spiritueux, sur iPhone",
     "ogDescription": "Scannez vos bouteilles, organisez votre collection et suivez chaque cadeau avec l'intelligence artificielle."
   },
   "nav": {
@@ -30,7 +30,7 @@
     },
     "locations": {
       "title": "Gestion par emplacement",
-      "text": "Cave, bar, salon — organisez vos bouteilles où qu'elles soient."
+      "text": "Cave, bar, salon : organisez vos bouteilles où qu'elles soient."
     },
     "languages": {
       "title": "7 langues disponibles",
@@ -43,7 +43,7 @@
     "subtext": "Scannez vos bouteilles, organisez votre collection, suivez chaque cadeau.",
     "cta": "Télécharger sur l'App Store",
     "ctaAria": "Télécharger Alcothèque sur l'App Store",
-    "badgeAlt": "Disponible sur l’App Store",
+    "badgeAlt": "Disponible sur l'App Store",
     "scrollHint": "Faire défiler",
     "logoAlt": "Logo Alcothèque"
   },

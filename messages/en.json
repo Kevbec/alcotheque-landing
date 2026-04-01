@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Alcotheque – Wine & Spirits Collection Manager | iOS App",
+    "title": "Alcotheque : Wine & Spirits Collection Manager | iOS App",
     "description": "Scan, organize and track your wine and spirits collection with AI. Available on iPhone. Download for free.",
-    "ogTitle": "Alcotheque – Your wine & spirits cellar on iPhone",
+    "ogTitle": "Alcotheque : Your wine & spirits cellar on iPhone",
     "ogDescription": "Scan your bottles, organize your collection, and track every gift with artificial intelligence."
   },
   "nav": {
@@ -30,7 +30,7 @@
     },
     "locations": {
       "title": "Location Management",
-      "text": "Cellar, bar, living room — organize your bottles wherever they are."
+      "text": "Cellar, bar, living room: organize your bottles wherever they are."
     },
     "languages": {
       "title": "7 Languages",

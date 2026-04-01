@@ -151,7 +151,7 @@ export function FeaturesSection() {
                       />
                     </motion.div>
                     <span
-                      className="pointer-events-none absolute right-0 top-0 select-none text-[64px] font-extrabold leading-none text-navy/[0.03]"
+                      className="pointer-events-none absolute right-0 top-0 select-none text-[64px] font-extrabold leading-none text-navy/[0.07]"
                       aria-hidden
                     >
                       {num}
