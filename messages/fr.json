@@ -37,6 +37,21 @@
       "text": "Français, anglais, allemand, espagnol, italien, néerlandais, portugais."
     }
   },
+  "stats": {
+    "ariaLabel": "Chiffres clés Alcothèque",
+    "bottlesCollected": {
+      "label": "Bouteilles collectionnées"
+    },
+    "activeUsers": {
+      "label": "Utilisateurs actifs"
+    },
+    "scansPerformed": {
+      "label": "Scans effectués"
+    },
+    "bottlesOpened": {
+      "label": "Bouteilles ouvertes"
+    }
+  },
   "hero": {
     "appName": "Alcothèque",
     "tagline": "Toute votre cave, dans votre poche.",

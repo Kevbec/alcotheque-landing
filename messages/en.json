@@ -37,6 +37,21 @@
       "text": "French, English, German, Spanish, Italian, Dutch, Portuguese."
     }
   },
+  "stats": {
+    "ariaLabel": "Alcotheque key figures",
+    "bottlesCollected": {
+      "label": "Bottles collected"
+    },
+    "activeUsers": {
+      "label": "Active users"
+    },
+    "scansPerformed": {
+      "label": "Scans performed"
+    },
+    "bottlesOpened": {
+      "label": "Bottles opened"
+    }
+  },
   "hero": {
     "appName": "Alcotheque",
     "tagline": "Your wine & spirits collection, always with you.",
