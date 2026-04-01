@@ -19,6 +19,7 @@ export function FooterSection() {
   // next-intl : la locale vient du segment d’URL (ex. /fr/…). Sans ce préfixe, Next.js ne trouve pas app/[locale]/….
   const locale = useLocale();
 
+  const blogHref = `/${locale}/blog`;
   const supportHref = `/${locale}/support`;
   const privacyHref = `/${locale}/privacy`;
   const termsHref = `/${locale}/terms`;
@@ -90,6 +91,14 @@ export function FooterSection() {
                 >
                   {t("links.download")}
                 </a>
+              </li>
+              <li>
+                <Link
+                  href={blogHref}
+                  className="transition-colors duration-200 hover:text-white"
+                >
+                  {t("links.blog")}
+                </Link>
               </li>
               <li>
                 <Link

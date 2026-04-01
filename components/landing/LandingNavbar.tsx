@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
  */
 export function LandingNavbar() {
   const tNav = useTranslations("nav");
+  const tFooter = useTranslations("footer");
   const tLang = useTranslations("lang");
   const tHero = useTranslations("hero");
   const locale = useLocale();
@@ -35,22 +36,30 @@ export function LandingNavbar() {
       animate={{ opacity: 1 }}
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link
-          href={`/${locale}`}
-          className="flex items-center gap-2 text-navy transition-opacity hover:opacity-80"
-        >
-          <Image
-            src="/logo.png"
-            alt={tHero("logoAlt")}
-            width={40}
-            height={40}
-            className="h-9 w-auto sm:h-10"
-            priority
-          />
-          <span className="font-semibold tracking-tight text-navy sm:text-lg">
-            {tNav("appName")}
-          </span>
-        </Link>
+        <div className="flex items-center gap-6">
+          <Link
+            href={`/${locale}`}
+            className="flex items-center gap-2 text-navy transition-opacity hover:opacity-80"
+          >
+            <Image
+              src="/logo.png"
+              alt={tHero("logoAlt")}
+              width={40}
+              height={40}
+              className="h-9 w-auto sm:h-10"
+              priority
+            />
+            <span className="font-semibold tracking-tight text-navy sm:text-lg">
+              {tNav("appName")}
+            </span>
+          </Link>
+          <Link
+            href={`/${locale}/blog`}
+            className="hidden text-sm font-medium text-navy/70 transition hover:text-navy sm:block"
+          >
+            {tFooter("links.blog")}
+          </Link>
+        </div>
 
         <nav
           className="flex items-center gap-1 text-sm font-medium text-navy/80"
