@@ -2,7 +2,12 @@
 
 import { motion, useInView } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { useEffect, useRef, useState } from "react";
+import {
+  type CSSProperties,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 
 // Texture subtile « grain » (SVG en data URL) — on la répète en tuile pour couvrir toute la section.
 const NOISE_DATA_URI =
@@ -93,7 +98,13 @@ export function StatsSection() {
   return (
     <motion.section
       ref={sectionRef}
-      className="relative isolate w-full overflow-hidden bg-[#0D264D] py-16 sm:py-24"
+      className="relative isolate w-full overflow-hidden bg-[#0D264D] py-16 sm:py-24 before:pointer-events-none before:absolute before:inset-0 before:z-0 before:content-[''] before:opacity-[0.12] before:mix-blend-overlay before:[background-image:var(--stats-noise)] before:[background-size:128px_128px] before:[background-repeat:repeat]"
+      style={
+        {
+          // SVG en data URL injecté ici ; le ::before lit la variable pour le grain.
+          ["--stats-noise" as string]: `url("${NOISE_DATA_URI}")`,
+        } as CSSProperties
+      }
       aria-label={t("ariaLabel")}
       initial={{ opacity: 0, y: 40 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
@@ -102,13 +113,6 @@ export function StatsSection() {
         ease: [0.16, 1, 0.3, 1] as const,
       }}
     >
-      {/* Calque grain : même rôle qu’un ::before en CSS, en overlay plein écran. */}
-      <div
-        className="pointer-events-none absolute inset-0 z-0 opacity-[0.12] mix-blend-overlay [background-size:128px_128px] [background-repeat:repeat]"
-        style={{ backgroundImage: `url("${NOISE_DATA_URI}")` }}
-        aria-hidden
-      />
-
       <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <motion.div
           className="grid grid-cols-2 gap-y-10 md:grid-cols-4 md:gap-y-0"
