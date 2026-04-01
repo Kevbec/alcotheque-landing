@@ -52,6 +52,12 @@ Suivez les sorties et **éditions limitées** via distilleries et revendeurs sp�
 
 **Collecter gin** avec méthode repose sur trois piliers : styles variés (dont **London dry** et **gin botanique**), stockage stable et **inventaire** à jour. Passez du tableur à une **application** mobile avec **scanner** : vous gagnez du temps en cave et au bar. Pour centraliser **gin**, **whisky**, **rhum** et **cognac**, Alcothèque couvre l’usage quotidien du collectionneur.
 
+## Articles similaires
+
+- [Guide du collectionneur de spiritueux](/fr/blog/guide-collectionneur-spiritueux)
+- [Comment organiser son home bar](/fr/blog/comment-organiser-son-home-bar)
+- [Meilleure app pour gérer sa cave](/fr/blog/meilleure-app-cave-vin-spiritueux-2026)
+
 [Téléchargez Alcothèque sur l’App Store](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=BlogCTA&mt=8) et pilotez votre **gin collection** comme un pro.
 
 *Par Kevin, Founder of Alcotheque.*

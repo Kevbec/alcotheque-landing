@@ -112,6 +112,12 @@ La version gratuite vous permet de gérer jusqu'à 15 bouteilles. Pour une colle
 
 En 2026, gérer sa cave à vins et spiritueux avec un tableur Excel, c'est comme naviguer sans GPS. Alcothèque vous offre une vue claire et complète de votre collection, avec la puissance de l'IA pour simplifier chaque ajout.
 
+## Articles similaires
+
+- [Guide du collectionneur de spiritueux](/fr/blog/guide-collectionneur-spiritueux)
+- [Comment constituer sa collection de whisky](/fr/blog/comment-constituer-collection-whisky)
+- [Comment organiser son home bar](/fr/blog/comment-organiser-son-home-bar)
+
 **Téléchargez Alcothèque gratuitement sur l'App Store et commencez à organiser votre collection dès aujourd'hui.**
 
 ---

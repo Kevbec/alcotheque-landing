@@ -92,4 +92,10 @@ Lead with enjoyment. Build your **inventory** early. Protect **bottle** conditio
 
 When you are ready to scale without friction, **Alcotheque** unites **wine and spirits** in one iOS experience: **AI scanning**, locations, **gift tracking**, and a live view of total collection **value**. Download the app, scan your first bottle, and your cellar finally becomes legible at a glance.
 
+## Related articles
+
+- [How to Build Your Whisky Collection](/en/blog/how-to-build-whisky-bourbon-collection)
+- [How to Manage Your Rum Collection](/en/blog/how-to-manage-rum-collection)
+- [How to Organize Your Home Bar](/en/blog/how-to-organize-your-home-bar)
+
 *By Kevin, Founder of Alcotheque.*

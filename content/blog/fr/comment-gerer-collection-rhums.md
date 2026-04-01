@@ -52,6 +52,12 @@ Clubs et réseaux révèlent les sorties et les **spiritueux** voisins comme le 
 
 **Gérer collection spiritueux** autour du rhum repose sur trois piliers : choix variés (dont **rhum agricole** et **rhum vieux**), stockage stable et **inventaire** à jour. Passez du tableur à une **app iOS** avec **scanner bouteille** : vous gagnez du temps et limitez les erreurs. Pour centraliser rhums, **whisky**, cognac et **gin**, Alcothèque couvre l’usage quotidien du collectionneur.
 
+## Articles similaires
+
+- [Guide du collectionneur de spiritueux](/fr/blog/guide-collectionneur-spiritueux)
+- [Comment organiser son home bar](/fr/blog/comment-organiser-son-home-bar)
+- [Meilleure app pour gérer sa cave](/fr/blog/meilleure-app-cave-vin-spiritueux-2026)
+
 [Téléchargez Alcothèque sur l’App Store](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=BlogCTA&mt=8) et pilotez votre **rhum collection** comme un pro.
 
 *Par Kevin, Founder of Alcotheque.*

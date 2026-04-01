@@ -54,4 +54,10 @@ Add liqueurs and **bitters** once your base spirits are stable: that is where cl
 
 A winning **home bar** blends solid base **spirits**, readable **storage**, and a current **inventory**. You save time, money, and friction. To move from a messy cabinet to a pro workflow on iPhone, install **Alcothèque**, create your bar location, and scan your bottles. Your **home bar setup** finally stays clear for you, your guests, and your next buying decision.
 
+## Related articles
+
+- [How to Build Your Whisky Collection](/en/blog/how-to-build-whisky-bourbon-collection)
+- [How to Manage Your Rum Collection](/en/blog/how-to-manage-rum-collection)
+- [Best App for Wine & Spirits](/en/blog/best-app-wine-spirits-collection-2026)
+
 *By Kevin, Founder of Alcotheque.*

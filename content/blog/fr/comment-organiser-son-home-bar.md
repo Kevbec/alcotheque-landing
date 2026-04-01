@@ -54,4 +54,10 @@ Ajoutez des liqueurs et des **amers** quand les bases sont stables : c’est là
 
 Un **home bar** réussi combine **spiritueux** de base solides, **rangement** lisible et **inventaire** à jour. Vous gagnez du temps, de l’argent et du plaisir. Pour passer du placard à l’outil pro sur iPhone, installez **Alcothèque**, créez votre emplacement bar et scannez vos flacons. Votre **bar maison** devient enfin lisible pour vous, pour vos invités et pour votre prochain choix d’achat.
 
+## Articles similaires
+
+- [Comment constituer sa collection de whisky](/fr/blog/comment-constituer-collection-whisky)
+- [Comment gérer sa collection de rhums](/fr/blog/comment-gerer-collection-rhums)
+- [Meilleure app pour gérer sa cave](/fr/blog/meilleure-app-cave-vin-spiritueux-2026)
+
 *Par Kevin, Founder of Alcotheque.*

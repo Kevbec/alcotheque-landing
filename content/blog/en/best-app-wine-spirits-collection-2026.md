@@ -111,6 +111,12 @@ The free version lets you **manage** up to 15 bottles. For larger collections, t
 
 In 2026, managing your wine and spirits **collection** with an Excel spreadsheet is like navigating without GPS. Alcotheque gives you a clear, complete view of your **spirits collection** and **wine**, with the power of AI to simplify every addition.
 
+## Related articles
+
+- [Spirits Collector's Guide](/en/blog/spirits-collector-guide)
+- [How to Build Your Whisky Collection](/en/blog/how-to-build-whisky-bourbon-collection)
+- [How to Organize Your Home Bar](/en/blog/how-to-organize-your-home-bar)
+
 **Download Alcotheque for free on the App Store and start organizing your collection today.**
 
 ---

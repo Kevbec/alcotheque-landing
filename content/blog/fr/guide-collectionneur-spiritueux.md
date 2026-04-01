@@ -92,4 +92,10 @@ Priorisez le plaisir, structurez tôt votre **inventaire**, protégez l'état de
 
 Pour passer à l'échelle sans effort, **Alcothèque** regroupe **vins et spiritueux** dans une seule app iOS : **scan IA**, emplacements, **suivi des cadeaux** et vision de la **valeur globale** de votre collection. Téléchargez l'app, scannez votre première bouteille, et votre cave devient enfin lisible en un coup d'œil.
 
+## Articles similaires
+
+- [Comment constituer sa collection de whisky](/fr/blog/comment-constituer-collection-whisky)
+- [Comment gérer sa collection de rhums](/fr/blog/comment-gerer-collection-rhums)
+- [Comment organiser son home bar](/fr/blog/comment-organiser-son-home-bar)
+
 *Par Kevin, Founder of Alcotheque.*

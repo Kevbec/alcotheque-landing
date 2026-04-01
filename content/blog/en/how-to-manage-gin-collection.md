@@ -52,6 +52,12 @@ Follow releases and **limited editions** via distilleries and specialist retaile
 
 **Collect gin** with discipline on three pillars: varied styles (including **London dry** and **botanical gin**), stable storage, and an up-to-date **inventory**. Move from spreadsheets to a mobile **gin collection app** with scanning: you save time at home and behind the bar. To centralize **gin**, **whisky**, **rum**, and **cognac**, Alcothèque fits the daily collector workflow.
 
+## Related articles
+
+- [Spirits Collector's Guide](/en/blog/spirits-collector-guide)
+- [How to Organize Your Home Bar](/en/blog/how-to-organize-your-home-bar)
+- [Best App for Wine & Spirits](/en/blog/best-app-wine-spirits-collection-2026)
+
 [Download Alcothèque on the App Store](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=BlogCTA&mt=8) and run your **gin collection** like a pro.
 
 *By Kevin, Founder of Alcotheque.*

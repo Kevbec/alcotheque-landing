@@ -50,4 +50,10 @@ Follow limited releases from distilleries and retailers you trust, yet set buyin
 
 Building and learning to **manage whisky collection** holdings starts with thoughtful first buys, careful storage, and an inventory you actually maintain. Moving from Excel to an iOS-first **whisky collection app** saves time and cuts duplicate buys. If you want one place for whisky, wine, gifts, and value, Alcotheque is a natural fit to run your home cellar like you mean it.
 
+## Related articles
+
+- [Spirits Collector's Guide](/en/blog/spirits-collector-guide)
+- [How to Organize Your Home Bar](/en/blog/how-to-organize-your-home-bar)
+- [Best App for Wine & Spirits](/en/blog/best-app-wine-spirits-collection-2026)
+
 *By Kevin, Founder of Alcotheque.*

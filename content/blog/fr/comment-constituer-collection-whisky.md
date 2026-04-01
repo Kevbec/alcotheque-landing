@@ -50,4 +50,10 @@ Suivez les sorties limitées des distilleries et des distributeurs que vous appr
 
 Constituer et gérer une **collection whisky** ou **bourbon collection** repose sur des choix de départ réfléchis, un stockage soigné et un **inventaire** à jour. En passant d’Excel à une application conçue pour les **spiritueux** et les vins, vous gagnez du temps et limitez les erreurs. Si vous voulez centraliser whiskies, vins et suivis de cadeaux sur iOS, Alcothèque est un candidat naturel pour tenir votre **cave** comme un pro.
 
+## Articles similaires
+
+- [Guide du collectionneur de spiritueux](/fr/blog/guide-collectionneur-spiritueux)
+- [Comment organiser son home bar](/fr/blog/comment-organiser-son-home-bar)
+- [Meilleure app pour gérer sa cave](/fr/blog/meilleure-app-cave-vin-spiritueux-2026)
+
 *Par Kevin, Founder of Alcotheque.*
