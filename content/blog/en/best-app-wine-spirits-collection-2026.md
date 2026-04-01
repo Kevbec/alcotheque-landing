@@ -83,14 +83,20 @@ Track the estimated value of your **collection** in real time. Clear charts show
 
 ## Alcotheque vs Competitors
 
-| Feature | Alcotheque | CellarTracker | OnlyDrams |
-|---|---|---|---|
-| Wine AND Spirits | ✅ | ❌ Wine only | ❌ Spirits only |
-| AI Scanning | ✅ | ❌ | ❌ |
-| Gift Tracking | ✅ | ❌ | ❌ |
-| iOS App | ✅ | ✅ | ✅ |
-| Available in French | ✅ | ❌ | ❌ |
-| Price | Free / $0.99/month | Free | Free / paid |
+<div class="mb-3 mt-6 flex justify-center sm:justify-start"><span class="inline-flex items-center rounded-full bg-navy/10 px-3 py-1.5 text-xs font-semibold text-navy">⭐ Recommended</span></div>
+
+| | **Alcotheque** ⭐ | OnlyDrams | Vivino | Oeni |
+|---|---|---|---|---|
+| Wine AND Spirits | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> |
+| AI Scanning | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> |
+| Gift Tracking | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> |
+| Stock Management | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | Partial | <span class="text-green-500 font-bold">✅</span> |
+| Collection Analytics | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-green-500 font-bold">✅</span> |
+| Gamification / Badges | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> |
+| Available in French | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> |
+| Price | Free / $0.99/mo | Free / paid | Free | Paid |
+
+Alcotheque is the only app covering both wine and spirits, with gift tracking and a gamification system unavailable in competing apps. Vivino excels at wine discovery and purchasing, Oeni at aging optimization, and OnlyDrams at data-driven whisky collections. Alcotheque is built for managing your entire personal cellar every day.
 
 ## How to Get Started with Alcotheque?
 

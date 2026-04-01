@@ -84,14 +84,20 @@ Suivez la valeur estimée de votre **collection** en temps réel. Des graphiques
 
 ## Alcothèque vs les concurrents
 
-| Fonctionnalité | Alcothèque | CellarTracker | OnlyDrams |
-|---|---|---|---|
-| Vins ET spiritueux | ✅ | ❌ Vins uniquement | ❌ Spiritueux uniquement |
-| Scan IA | ✅ | ❌ | ❌ |
-| Suivi cadeaux | ✅ | ❌ | ❌ |
-| Application iOS | ✅ | ✅ | ✅ |
-| Disponible en français | ✅ | ❌ | ❌ |
-| Prix | Gratuit / 0,99€/mois | Gratuit | Gratuit / payant |
+<div class="mb-3 mt-6 flex justify-center sm:justify-start"><span class="inline-flex items-center rounded-full bg-navy/10 px-3 py-1.5 text-xs font-semibold text-navy">⭐ Recommandé</span></div>
+
+| | **Alcothèque** ⭐ | OnlyDrams | Vivino | Oeni |
+|---|---|---|---|---|
+| Vins ET spiritueux | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> |
+| Scan IA | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> |
+| Suivi des cadeaux | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> |
+| Gestion des stocks | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | Partiel | <span class="text-green-500 font-bold">✅</span> |
+| Analytics collection | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-green-500 font-bold">✅</span> |
+| Gamification / badges | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> | <span class="text-red-400">❌</span> |
+| Disponible en français | <span class="text-green-500 font-bold">✅</span> | <span class="text-red-400">❌</span> | <span class="text-green-500 font-bold">✅</span> | <span class="text-green-500 font-bold">✅</span> |
+| Prix | Gratuit / 0,99€/mois | Gratuit / payant | Gratuit | Payant |
+
+Alcothèque est la seule application qui couvre à la fois les vins et les spiritueux, avec un suivi des cadeaux et un système de gamification introuvables chez les concurrents. Vivino excelle dans la découverte et l'achat de vin, Oeni dans le vieillissement, et OnlyDrams dans les collections de whisky très orientées data. Alcothèque, elle, est faite pour gérer toute votre cave personnelle au quotidien.
 
 ## Comment commencer avec Alcothèque ?
 

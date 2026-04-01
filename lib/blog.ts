@@ -33,6 +33,18 @@ function stripLeadingH1(markdown: string): string {
 }
 
 /**
+ * Enveloppe chaque tableau GFM pour le défilement horizontal sur mobile.
+ * Les classes Tailwind sont interprétées sur le conteneur article.
+ */
+function wrapTablesInScrollContainer(html: string): string {
+  return html.replace(
+    /<table(\s[^>]*)?>[\s\S]*?<\/table>/gi,
+    (table) =>
+      `<div class="blog-table-wrap mb-6 overflow-x-auto rounded-xl">${table}</div>`,
+  );
+}
+
+/**
  * Liste tous les articles d’une locale, du plus récent au plus ancien
  * (sans convertir le Markdown — plus rapide pour l’index).
  */
@@ -88,7 +100,7 @@ export async function getPostBySlug(
 
     return {
       ...fm,
-      contentHtml: String(htmlVfile),
+      contentHtml: wrapTablesInScrollContainer(String(htmlVfile)),
     };
   }
 

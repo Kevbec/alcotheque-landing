@@ -43,9 +43,12 @@ const ui = {
   },
 } satisfies Record<AppLocale, Record<string, string>>;
 
-/** Classes appliquées au HTML généré (titres, listes, tableaux, etc.). */
+/**
+ * Styles du corps d’article : tableaux GFM enveloppés par `.blog-table-wrap`
+ * (voir lib/blog.ts). La 2e colonne = Alcotheque (fond discret, en-tête mis en avant).
+ */
 const articleBodyClass =
-  "mx-auto max-w-3xl px-4 pb-16 sm:px-6 [&_a]:text-navy [&_a]:underline [&_a]:underline-offset-2 [&_h2]:mt-10 [&_h2]:mb-4 [&_h2]:border-l-4 [&_h2]:border-navy [&_h2]:pl-3 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-navy [&_h3]:mt-8 [&_h3]:mb-3 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:text-navy/80 [&_p]:mb-4 [&_p]:text-base [&_p]:leading-relaxed [&_p]:text-gray-600 [&_strong]:font-semibold [&_strong]:text-navy [&_ul]:mb-4 [&_ul]:ml-6 [&_ul]:list-disc [&_ul]:text-gray-600 [&_ol]:mb-4 [&_ol]:ml-6 [&_ol]:list-decimal [&_ol]:text-gray-600 [&_li]:mb-2 [&_table]:mb-6 [&_table]:w-full [&_table]:border-collapse [&_table]:text-left [&_th]:bg-navy [&_th]:px-3 [&_th]:py-2 [&_th]:text-sm [&_th]:font-semibold [&_th]:text-white [&_td]:border [&_td]:border-gray-200 [&_td]:px-3 [&_td]:py-2 [&_td]:text-sm [&_td]:text-gray-700 [&_hr]:my-8 [&_hr]:border-gray-200 [&_em]:text-gray-600";
+  "mx-auto max-w-3xl px-4 pb-16 sm:px-6 [&_a]:text-navy [&_a]:underline [&_a]:underline-offset-2 [&_h2]:mt-10 [&_h2]:mb-4 [&_h2]:border-l-4 [&_h2]:border-navy [&_h2]:pl-3 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-navy [&_h3]:mt-8 [&_h3]:mb-3 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:text-navy/80 [&_p]:mb-4 [&_p]:text-base [&_p]:leading-relaxed [&_p]:text-gray-600 [&_strong]:font-semibold [&_strong]:text-navy [&_ul]:mb-4 [&_ul]:ml-6 [&_ul]:list-disc [&_ul]:text-gray-600 [&_ol]:mb-4 [&_ol]:ml-6 [&_ol]:list-decimal [&_ol]:text-gray-600 [&_li]:mb-2 [&_.blog-table-wrap]:-mx-4 [&_.blog-table-wrap]:px-4 [&_.blog-table-wrap]:sm:mx-0 [&_.blog-table-wrap]:sm:px-0 [&_.blog-table-wrap]:shadow-sm [&_.blog-table-wrap]:ring-1 [&_.blog-table-wrap]:ring-gray-100 [&_table]:w-full [&_table]:border-collapse [&_table]:overflow-hidden [&_table]:rounded-xl [&_table]:text-left [&_table]:text-sm [&_thead_tr]:bg-navy [&_thead_tr]:text-white [&_th]:px-4 [&_th]:py-3 [&_th]:text-left [&_th]:text-sm [&_th]:font-semibold [&_thead_th:nth-child(2)]:bg-navy [&_thead_th:nth-child(2)]:font-bold [&_thead_th:nth-child(2)]:text-white [&_thead_th:nth-child(2)]:ring-2 [&_thead_th:nth-child(2)]:ring-inset [&_thead_th:nth-child(2)]:ring-white/25 [&_tbody_td:nth-child(2)]:font-semibold [&_tbody_td:first-child]:font-medium [&_tbody_td:first-child]:text-navy [&_tbody_tr:nth-child(even)_td]:bg-gray-50/50 [&_tbody_tr:nth-child(odd)_td:nth-child(2)]:bg-navy/5 [&_tbody_tr:nth-child(even)_td:nth-child(2)]:bg-navy/15 [&_td]:border-b [&_td]:border-gray-100 [&_td]:px-4 [&_td]:py-3 [&_td]:text-gray-700 [&_hr]:my-8 [&_hr]:border-gray-200 [&_em]:text-gray-600";
 
 export async function generateStaticParams(): Promise<
   { locale: string; slug: string }[]
