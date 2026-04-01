@@ -19,90 +19,93 @@ const copy = {
       "Contact, restauration des achats et aide pour l’app Alcothèque.",
     back: "← Retour",
     title: "Support",
-    subtitle: "Nous sommes là pour vous aider.",
-    helpHeading: "Comment pouvons-nous vous aider ?",
+    subtitle: "Nous sommes là pour vous aider. Réponse sous 48h.",
+    faqHeading: "Questions fréquentes",
     cards: [
       {
         title: "Nous contacter",
-        text: `Pour toute question, écrivez-nous à ${SUPPORT_EMAIL}. Nous répondons sous 48h.`,
+        text: "Pour toute question ou problème, écrivez-nous directement.",
         cta: "Envoyer un email",
       },
       {
         title: "Restaurer les achats",
-        text: "Si votre abonnement Premium n’est pas actif après un achat, ouvrez l’app et appuyez sur « Restaurer les achats » dans les paramètres.",
-        cta: undefined,
+        text: "Abonnement Premium non actif ? Ouvrez l'app, allez dans Paramètres et appuyez sur Restaurer les achats.",
+        cta: undefined as string | undefined,
       },
       {
         title: "Compatibilité",
-        text: "Alcothèque fonctionne sur iPhone et iPad avec iOS 17 ou version ultérieure. Assurez-vous que votre système est à jour.",
-        cta: undefined,
+        text: "Alcothèque fonctionne sur iPhone et iPad avec iOS 17 ou version ultérieure.",
+        cta: undefined as string | undefined,
       },
     ],
-    faqHeading: "Questions fréquentes",
     faq: [
       {
-        question: "Comment sauvegarder ma collection ?",
+        question: "Comment mes données sont-elles sauvegardées ?",
         answer:
-          "Votre collection est automatiquement synchronisée avec votre compte Firebase. Connectez-vous avec le même compte sur n’importe quel appareil pour retrouver vos données.",
+          "Votre collection est automatiquement synchronisée avec Firebase. Connectez-vous avec le même compte sur n'importe quel appareil pour retrouver toutes vos données.",
       },
       {
-        question: "J’ai perdu mon accès Premium, que faire ?",
-        answer: `Allez dans les paramètres de l’app et appuyez sur « Restaurer les achats ». Si le problème persiste, contactez-nous à ${SUPPORT_EMAIL}.`,
+        question: "J'ai perdu mon accès Premium, que faire ?",
+        answer:
+          "Allez dans les paramètres de l'app et appuyez sur Restaurer les achats. Si le problème persiste, contactez-nous à alcotheque.app@gmail.com",
       },
       {
         question: "Comment supprimer mon compte ?",
-        answer: `Pour supprimer votre compte et toutes vos données, contactez-nous à ${SUPPORT_EMAIL} avec votre email de connexion. Nous traiterons votre demande sous 48h.`,
+        answer:
+          "Contactez-nous à alcotheque.app@gmail.com avec votre adresse email de connexion. Nous traiterons votre demande sous 48h.",
       },
       {
         question: "Le scan IA ne fonctionne pas, que faire ?",
         answer:
-          "Assurez-vous d’avoir une bonne connexion internet et un éclairage suffisant. Si le problème persiste après avoir redémarré l’app, contactez notre support.",
+          "Vérifiez votre connexion internet et assurez-vous d'avoir un bon éclairage. Redémarrez l'app si nécessaire. Si le problème persiste, contactez notre support.",
       },
     ],
   },
   en: {
     metaTitle: "Support | Alcotheque",
-    metaDescription: "Contact, restore purchases, and help for the Alcotheque app.",
+    metaDescription:
+      "Contact, restore purchases, and help for the Alcotheque app.",
     back: "← Back",
     title: "Support",
-    subtitle: "We’re here to help.",
-    helpHeading: "How can we help you?",
+    subtitle: "We are here to help. Response within 48 hours.",
+    faqHeading: "Frequently asked questions",
     cards: [
       {
-        title: "Contact us",
-        text: `For any questions, email us at ${SUPPORT_EMAIL}. We respond within 48 hours.`,
+        title: "Contact Us",
+        text: "For any question or issue, write to us directly.",
         cta: "Send an email",
       },
       {
-        title: "Restore purchases",
-        text: 'If your Premium subscription isn’t active after a purchase, open the app and tap "Restore Purchases" in Settings.',
-        cta: undefined,
+        title: "Restore Purchases",
+        text: "Premium subscription not active? Open the app, go to Settings and tap Restore Purchases.",
+        cta: undefined as string | undefined,
       },
       {
         title: "Compatibility",
-        text: "Alcotheque runs on iPhone and iPad with iOS 17 or later. Make sure your system is up to date.",
-        cta: undefined,
+        text: "Alcotheque works on iPhone and iPad running iOS 17 or later.",
+        cta: undefined as string | undefined,
       },
     ],
-    faqHeading: "Frequently asked questions",
     faq: [
       {
-        question: "How do I back up my collection?",
+        question: "How is my data saved?",
         answer:
-          "Your collection syncs automatically with your Firebase account. Sign in with the same account on any device to access your data.",
+          "Your collection is automatically synced with Firebase. Sign in with the same account on any device to access all your data.",
       },
       {
-        question: "I lost Premium access—what should I do?",
-        answer: `Go to the app settings and tap "Restore Purchases." If the issue continues, contact us at ${SUPPORT_EMAIL}.`,
+        question: "I lost my Premium access, what should I do?",
+        answer:
+          'Go to app settings and tap Restore Purchases. If the issue persists, contact us at alcotheque.app@gmail.com',
       },
       {
         question: "How do I delete my account?",
-        answer: `To delete your account and all your data, contact us at ${SUPPORT_EMAIL} with the email you use to sign in. We’ll process your request within 48 hours.`,
+        answer:
+          "Contact us at alcotheque.app@gmail.com with your login email. We will process your request within 48 hours.",
       },
       {
-        question: "The AI scan isn’t working—what should I do?",
+        question: "The AI scan is not working, what should I do?",
         answer:
-          "Make sure you have a stable internet connection and good lighting. If it still fails after restarting the app, contact our support team.",
+          "Check your internet connection and make sure you have good lighting. Restart the app if needed. If the issue persists, contact our support.",
       },
     ],
   },
@@ -145,73 +148,62 @@ export default function SupportPage({
     <>
       <LandingNavbar />
       <main className="min-h-screen bg-white text-zinc-900">
-        <div className="mx-auto max-w-[800px] px-4 pb-16 pt-24 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-3xl px-6 pb-16 pt-24">
           <Link
             href={`/${locale}`}
-            className="mb-8 inline-block text-base font-medium text-navy underline-offset-4 transition-opacity hover:opacity-80"
+            className="mb-8 flex items-center gap-1 text-sm text-navy/60 transition-colors hover:text-navy"
           >
             {c.back}
           </Link>
 
-          <h1 className="text-[36px] font-bold leading-tight tracking-tight text-[#0D264D]">
+          <h1 className="text-[36px] font-bold leading-tight text-navy">
             {c.title}
           </h1>
-          <p className="mt-3 text-base leading-relaxed text-gray-600">
-            {c.subtitle}
-          </p>
+          <p className="mt-2 text-[18px] text-gray-500">{c.subtitle}</p>
 
-          <section className="mb-12 mt-12">
-            <h2 className="border-b-2 border-[#0D264D] pb-2 text-[22px] font-semibold text-[#0D264D]">
-              {c.helpHeading}
-            </h2>
-            <div className="mt-8 grid gap-6 sm:grid-cols-1">
-              {c.cards.map((card, i) => {
-                const Icon = icons[i];
-                return (
+          <div className="mt-10 grid gap-6 md:grid-cols-3">
+            {c.cards.map((card, i) => {
+              const Icon = icons[i];
+              return (
+                <div
+                  key={card.title}
+                  className="rounded-2xl bg-[#EEF1F7] p-6 shadow-sm"
+                >
                   <div
-                    key={card.title}
-                    className="rounded-2xl bg-[#EEF1F7] p-6 shadow-sm"
+                    className="flex h-11 w-11 items-center justify-center rounded-xl bg-navy"
+                    aria-hidden
                   >
-                    <div className="flex items-start gap-4">
-                      <div
-                        className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white shadow-sm"
-                        aria-hidden
-                      >
-                        <Icon className="h-5 w-5 text-[#0D264D]" strokeWidth={2} />
-                      </div>
-                      <div className="min-w-0 flex-1">
-                        <h3 className="text-lg font-semibold text-[#0D264D]">
-                          {card.title}
-                        </h3>
-                        <p className="mt-2 text-base leading-relaxed text-gray-600">
-                          {card.text}
-                        </p>
-                        {card.cta ? (
-                          <a
-                            href={MAILTO}
-                            className="mt-4 inline-flex rounded-full bg-[#0D264D] px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
-                          >
-                            {card.cta}
-                          </a>
-                        ) : null}
-                      </div>
-                    </div>
+                    <Icon className="h-5 w-5 text-white" strokeWidth={2} />
                   </div>
-                );
-              })}
-            </div>
-          </section>
+                  <h2 className="mt-4 border-l-4 border-navy pl-3 text-[20px] font-semibold text-navy">
+                    {card.title}
+                  </h2>
+                  <p className="mt-3 text-[16px] leading-relaxed text-gray-600">
+                    {card.text}
+                  </p>
+                  {card.cta ? (
+                    <a
+                      href={MAILTO}
+                      className="mt-4 inline-flex rounded-full bg-navy px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                    >
+                      {card.cta}
+                    </a>
+                  ) : null}
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="my-8 border-t border-gray-100" aria-hidden />
 
           <section className="mb-12">
             <h2
               id="support-faq-title"
-              className="border-b-2 border-[#0D264D] pb-2 text-[22px] font-semibold text-[#0D264D]"
+              className="mb-3 border-l-4 border-navy pl-3 text-[20px] font-semibold text-navy"
             >
               {c.faqHeading}
             </h2>
-            <div className="mt-8">
-              <SupportFaqAccordion items={[...c.faq]} headingId="support-faq-title" />
-            </div>
+            <SupportFaqAccordion items={[...c.faq]} headingId="support-faq-title" />
           </section>
         </div>
       </main>
