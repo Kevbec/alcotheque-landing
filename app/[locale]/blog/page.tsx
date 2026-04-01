@@ -33,9 +33,7 @@ const copy = {
     title: "Guides & Conseils Cave",
     subtitle:
       "Apprenez à mieux gérer, organiser et valoriser votre collection de vins et spiritueux.",
-    pillWine: "🍷 Vins",
-    pillSpirits: "🥃 Spiritueux",
-    pillApp: "📱 App iOS",
+    heroTagsLine: "Vins · Spiritueux · Scan IA · Collection",
     readCta: "Lire →",
     readTimeSuffix: "min de lecture",
     newsletterTitle: "Vous avez aimé ces guides ?",
@@ -53,9 +51,7 @@ const copy = {
     title: "Cellar Guides & Tips",
     subtitle:
       "Learn how to better manage, organize and grow your wine and spirits collection.",
-    pillWine: "🍷 Wine",
-    pillSpirits: "🥃 Spirits",
-    pillApp: "📱 iOS App",
+    heroTagsLine: "Wine · Spirits · AI Scan · Collection",
     readCta: "Read →",
     readTimeSuffix: "min read",
     newsletterTitle: "Enjoyed these guides?",
@@ -173,7 +169,7 @@ export default async function BlogIndexPage({
         </div>
 
         <section
-          className="bg-navy py-24 text-center"
+          className="bg-navy pt-20 pb-[calc(theme(spacing.20)+theme(spacing.2))] text-center"
           aria-labelledby="blog-hero-title"
         >
           <div className="mx-auto max-w-3xl px-6">
@@ -189,17 +185,9 @@ export default async function BlogIndexPage({
             <p className="mt-3 text-[16px] text-white/75 sm:text-[18px]">
               {c.subtitle}
             </p>
-            <ul className="mt-6 flex flex-wrap items-center justify-center gap-2">
-              <li className="rounded-full bg-white/20 px-3 py-1.5 text-sm text-white/95">
-                {c.pillWine}
-              </li>
-              <li className="rounded-full bg-white/20 px-3 py-1.5 text-sm text-white/95">
-                {c.pillSpirits}
-              </li>
-              <li className="rounded-full bg-white/20 px-3 py-1.5 text-sm text-white/95">
-                {c.pillApp}
-              </li>
-            </ul>
+            <p className="mt-4 text-sm tracking-[0.1em] text-white/40">
+              {c.heroTagsLine}
+            </p>
           </div>
         </section>
 
@@ -210,7 +198,13 @@ export default async function BlogIndexPage({
           <h2 id="blog-posts-heading" className="sr-only">
             {locale === "fr" ? "Articles du blog" : "Blog posts"}
           </h2>
-          <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-6 md:grid-cols-2 lg:grid-cols-2">
+          <div
+            className={`mx-auto grid grid-cols-1 gap-8 px-6 ${
+              posts.length === 1
+                ? "max-w-2xl"
+                : "max-w-6xl md:grid-cols-2"
+            }`}
+          >
             {posts.map((post) => (
               <BlogCard
                 key={post.slug}

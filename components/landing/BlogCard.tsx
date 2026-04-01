@@ -28,12 +28,14 @@ function formatPostDate(iso: string, locale: string): string {
 }
 
 /**
- * Estime un temps de lecture à partir du texte (environ 200 mots / minute).
- * Utile pour donner une fourchette sans lire tout l’article côté client.
+ * Estime le temps de lecture : titre + extrait × 8 ≈ volume d’un article complet (~800 mots),
+ * puis 200 mots/min, plafonné entre 4 et 8 minutes.
  */
-function estimateReadingMinutes(text: string): number {
-  const words = text.trim().split(/\s+/).filter(Boolean).length;
-  return Math.max(1, Math.ceil(words / 200));
+function estimateReadingMinutes(title: string, description: string): number {
+  const combined = `${title} ${description}`;
+  const wordCount = combined.trim().split(/\s+/).filter(Boolean).length;
+  const fullArticleEstimate = wordCount * 8;
+  return Math.min(8, Math.max(4, Math.ceil(fullArticleEstimate / 200)));
 }
 
 /**
@@ -52,7 +54,7 @@ export function BlogCard({
 }: BlogCardProps) {
   const href = `/${locale}/blog/${slug}`;
   const formattedDate = formatPostDate(date, locale);
-  const minutes = estimateReadingMinutes(description);
+  const minutes = estimateReadingMinutes(title, description);
 
   return (
     <Link

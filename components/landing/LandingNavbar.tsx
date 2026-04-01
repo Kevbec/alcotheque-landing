@@ -40,15 +40,15 @@ export function LandingNavbar({
 
   return (
     <motion.header
-      className={`fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,backdrop-filter] duration-300 ${
+      className={`fixed inset-x-0 top-0 z-50 h-16 transition-all duration-300 ease-in-out ${
         scrolled
-          ? "border-b border-navy/10 bg-white/75 shadow-sm backdrop-blur-md"
-          : "bg-transparent"
+          ? "border-b border-[rgba(13,38,77,0.06)] bg-white/95 shadow-[0_1px_20px_rgba(13,38,77,0.08)] backdrop-blur-md"
+          : "border-b border-transparent bg-transparent shadow-none"
       }`}
       initial={false}
       animate={{ opacity: 1 }}
     >
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex h-full max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link
           href={`/${locale}`}
           className="flex items-center gap-2 text-navy transition-opacity hover:opacity-80"
@@ -58,7 +58,7 @@ export function LandingNavbar({
             alt={tHero("logoAlt")}
             width={40}
             height={40}
-            className="h-9 w-auto sm:h-10"
+            className="h-9 w-auto rounded-xl sm:h-10"
             priority
           />
           <span className="font-semibold tracking-tight text-navy sm:text-lg">
