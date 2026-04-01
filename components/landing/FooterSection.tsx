@@ -16,6 +16,7 @@ const PRODUCT_HUNT_URL =
 
 export function FooterSection() {
   const t = useTranslations("footer");
+  // next-intl : la locale vient du segment d’URL (ex. /fr/…). Sans ce préfixe, Next.js ne trouve pas app/[locale]/….
   const locale = useLocale();
 
   const supportHref = `/${locale}/support`;
