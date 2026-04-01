@@ -64,7 +64,7 @@ export function HeroLanding() {
                 alt={t("logoAlt")}
                 width={320}
                 height={320}
-                className="mx-auto h-20 w-auto"
+                className="mx-auto h-48 sm:h-64 w-auto"
                 priority
               />
             </motion.div>
