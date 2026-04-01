@@ -1,11 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
+import { LandingNavbar } from "@/components/landing/LandingNavbar";
 
 const APP_STORE_URL =
   "https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=LandingPage&mt=8";
@@ -34,21 +33,10 @@ const fadeUp = {
 
 export function HeroLanding() {
   const t = useTranslations("hero");
-  const tNav = useTranslations("nav");
-  const tLang = useTranslations("lang");
   const locale = useLocale();
-
-  const [scrolled, setScrolled] = useState(false);
 
   const { scrollY } = useScroll();
   const parallaxY = useTransform(scrollY, [0, 600], [0, 120]);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 16);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   const badgeSrc =
     locale === "fr"
@@ -57,64 +45,7 @@ export function HeroLanding() {
 
   return (
     <div className="min-h-screen bg-white text-zinc-900">
-      {/* Barre de navigation collante : flou au scroll pour un rendu premium. */}
-      <motion.header
-        className={`fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,backdrop-filter] duration-300 ${
-          scrolled
-            ? "border-b border-navy/10 bg-white/75 shadow-sm backdrop-blur-md"
-            : "bg-transparent"
-        }`}
-        initial={false}
-        animate={{ opacity: 1 }}
-      >
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
-          <Link
-            href={`/${locale}`}
-            className="flex items-center gap-2 text-navy transition-opacity hover:opacity-80"
-          >
-            {/* Remplacez public/logo.png par votre logo final exporté depuis Figma / Sketch. */}
-            <Image
-              src="/logo.png"
-              alt={t("logoAlt")}
-              width={40}
-              height={40}
-              className="h-9 w-auto sm:h-10"
-              priority
-            />
-            <span className="font-semibold tracking-tight text-navy sm:text-lg">
-              {tNav("appName")}
-            </span>
-          </Link>
-
-          <nav
-            className="flex items-center gap-1 text-sm font-medium text-navy/80"
-            aria-label="Language"
-          >
-            <Link
-              href="/fr"
-              className={`rounded-full px-3 py-1 transition-colors hover:bg-navy/5 ${
-                locale === "fr" ? "bg-navy/10 text-navy" : ""
-              }`}
-              aria-current={locale === "fr" ? "true" : undefined}
-            >
-              FR
-              <span className="sr-only"> — {tLang("switchToFr")}</span>
-            </Link>
-            <span className="text-navy/30" aria-hidden>
-              |
-            </span>
-            <Link
-              href="/en"
-              className={`rounded-full px-3 py-1 transition-colors hover:bg-navy/5 ${
-                locale === "en" ? "bg-navy/10 text-navy" : ""
-              }`}
-              aria-current={locale === "en" ? "true" : undefined}
-            >
-              EN<span className="sr-only"> — {tLang("switchToEn")}</span>
-            </Link>
-          </nav>
-        </div>
-      </motion.header>
+      <LandingNavbar />
 
       <section className="relative flex min-h-screen flex-col overflow-hidden pt-16">
         {/* Fond : léger dégradé marine en bas + parallax très subtil (Framer Motion). */}
