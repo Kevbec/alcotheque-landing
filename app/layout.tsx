@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import localFont from "next/font/local";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 // Polices locales (voir dossier `app/fonts`).
@@ -42,6 +43,11 @@ export default function RootLayout({ children }: Props) {
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
         {children}
+        {/* Google Analytics 4 : envoie les visites (page vues, etc.) vers GA avec l'ID de mesure. */}
+        {/* TODO: Add NEXT_PUBLIC_SITE_URL=https://alcotheque.app */}
+        {/* and NEXT_PUBLIC_GA_ID=G-0XL9CX6QK7 */}
+        {/* in Vercel Dashboard → Settings → Environment Variables */}
+        <GoogleAnalytics gaId="G-0XL9CX6QK7" />
       </body>
     </html>
   );
