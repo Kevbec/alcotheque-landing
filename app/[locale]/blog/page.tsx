@@ -110,6 +110,7 @@ export default async function BlogIndexPage({
   const site = baseUrl();
   const blogUrl = `${site}/${locale}/blog`;
 
+  // Données structurées (schema.org) : aident Google et les LLM à comprendre que cette page est un blog et à lister les articles.
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Blog",
@@ -227,6 +228,7 @@ export default async function BlogIndexPage({
           </div>
         </section>
 
+        {/* Bloc final : même logique que le hero (badge Apple officiel + lien tracké BlogIndex). */}
         <section
           className="bg-white py-16 text-center"
           aria-labelledby="blog-newsletter-cta"
