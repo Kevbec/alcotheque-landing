@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import localFont from "next/font/local";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 import "./globals.css";
 
 // Polices locales (voir dossier `app/fonts`).
@@ -39,15 +39,25 @@ type Props = {
 export default function RootLayout({ children }: Props) {
   return (
     <html lang="fr" suppressHydrationWarning>
+      {/* Chargement du tag GA4 dans le head : plus fiable pour l’assistant Google Tag / la validation. */}
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-0XL9CX6QK7"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-0XL9CX6QK7');
+          `}
+        </Script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
         {children}
-        {/* Google Analytics 4 : envoie les visites (page vues, etc.) vers GA avec l'ID de mesure. */}
-        {/* TODO: Add NEXT_PUBLIC_SITE_URL=https://alcotheque.app */}
-        {/* and NEXT_PUBLIC_GA_ID=G-0XL9CX6QK7 */}
-        {/* in Vercel Dashboard → Settings → Environment Variables */}
-        <GoogleAnalytics gaId="G-0XL9CX6QK7" />
       </body>
     </html>
   );
