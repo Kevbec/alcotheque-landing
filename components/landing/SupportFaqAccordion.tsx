@@ -54,7 +54,7 @@ export function SupportFaqAccordion({ items, headingId }: Props) {
         return (
           <div
             key={buttonId}
-            className="mb-3 rounded-[12px] border border-[#E5E5EA] bg-white"
+            className="mb-3 rounded-2xl border border-gray-100 bg-white shadow-sm"
           >
             <button
               id={buttonId}

@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+// Locales prises en charge pour cette page (cohérent avec le reste du site).
 const locales = ["fr", "en"] as const;
 type AppLocale = (typeof locales)[number];
 
@@ -17,14 +18,15 @@ const copy = {
     metaTitle: "Support | Alcothèque",
     metaDescription:
       "Contact, restauration des achats et aide pour l’app Alcothèque.",
-    back: "← Retour",
-    title: "Support",
-    subtitle: "Nous sommes là pour vous aider. Réponse sous 48h.",
-    faqHeading: "Questions fréquentes",
+    breadcrumbHome: "Alcothèque",
+    breadcrumbCurrent: "Support",
+    heroEyebrow: "SUPPORT",
+    heroTitle: "Comment pouvons-nous vous aider ?",
+    heroSubtitle: "Réponse garantie sous 48h.",
     cards: [
       {
         title: "Nous contacter",
-        text: "Pour toute question ou problème, écrivez-nous directement.",
+        text: "Pour toute question ou problème, notre équipe vous répond sous 48 heures.",
         cta: "Envoyer un email",
       },
       {
@@ -38,6 +40,11 @@ const copy = {
         cta: undefined as string | undefined,
       },
     ],
+    faqEyebrow: "FAQ",
+    faqTitle: "Questions fréquentes",
+    bottomTitle: "Vous n'avez pas trouvé votre réponse ?",
+    bottomSubtitle: "Notre équipe est disponible pour vous aider.",
+    bottomCta: "Envoyer un email",
     faq: [
       {
         question: "Comment mes données sont-elles sauvegardées ?",
@@ -65,19 +72,20 @@ const copy = {
     metaTitle: "Support | Alcotheque",
     metaDescription:
       "Contact, restore purchases, and help for the Alcotheque app.",
-    back: "← Back",
-    title: "Support",
-    subtitle: "We are here to help. Response within 48 hours.",
-    faqHeading: "Frequently asked questions",
+    breadcrumbHome: "Alcotheque",
+    breadcrumbCurrent: "Support",
+    heroEyebrow: "SUPPORT",
+    heroTitle: "How can we help you?",
+    heroSubtitle: "Response guaranteed within 48h.",
     cards: [
       {
         title: "Contact Us",
-        text: "For any question or issue, write to us directly.",
+        text: "For any question or issue, our team responds within 48 hours.",
         cta: "Send an email",
       },
       {
         title: "Restore Purchases",
-        text: "Premium subscription not active? Open the app, go to Settings and tap Restore Purchases.",
+        text: "Premium not active? Open the app, go to Settings and tap Restore Purchases.",
         cta: undefined as string | undefined,
       },
       {
@@ -86,6 +94,11 @@ const copy = {
         cta: undefined as string | undefined,
       },
     ],
+    faqEyebrow: "FAQ",
+    faqTitle: "Frequently Asked Questions",
+    bottomTitle: "Didn't find your answer?",
+    bottomSubtitle: "Our team is available to help you.",
+    bottomCta: "Send an email",
     faq: [
       {
         question: "How is my data saved?",
@@ -148,43 +161,86 @@ export default function SupportPage({
     <>
       <LandingNavbar />
       <main className="min-h-screen bg-white text-zinc-900">
-        <div className="mx-auto max-w-3xl px-6 pb-16 pt-24">
-          <Link
-            href={`/${locale}`}
-            className="mb-8 flex items-center gap-1 text-sm text-navy/60 transition-colors hover:text-navy"
+        {/* Espace sous la navbar fixe + fil d’Ariane lisible sur fond clair (contraste avec la barre). */}
+        <div className="pt-16">
+          <nav
+            className="mx-auto max-w-5xl px-6 py-3 text-sm text-gray-400"
+            aria-label="Breadcrumb"
           >
-            {c.back}
-          </Link>
+            <Link
+              href={`/${locale}`}
+              className="transition-colors hover:text-gray-600"
+            >
+              {c.breadcrumbHome}
+            </Link>
+            <span className="mx-1.5" aria-hidden>
+              &gt;
+            </span>
+            <span className="text-gray-500">{c.breadcrumbCurrent}</span>
+          </nav>
+        </div>
 
-          <h1 className="text-[36px] font-bold leading-tight text-navy">
-            {c.title}
-          </h1>
-          <p className="mt-2 text-[18px] text-gray-500">{c.subtitle}</p>
+        {/* Héros pleine largeur : message principal et repère email décoratif. */}
+        <section
+          className="bg-navy py-20 text-center"
+          aria-labelledby="support-hero-title"
+        >
+          <div className="mx-auto max-w-3xl px-6">
+            <p className="text-[12px] font-semibold uppercase tracking-[0.15em] text-[#93C5FD]">
+              {c.heroEyebrow}
+            </p>
+            <h1
+              id="support-hero-title"
+              className="mt-3 text-[40px] font-bold leading-tight text-white"
+            >
+              {c.heroTitle}
+            </h1>
+            <p className="mt-3 text-[18px] text-white/70">{c.heroSubtitle}</p>
+            {/* Pilule décorative (pas de champ de recherche fonctionnel). */}
+            <div
+              className="mx-auto mt-8 inline-flex max-w-full items-center gap-3 rounded-full bg-white/10 px-5 py-3"
+              aria-hidden
+            >
+              <Mail className="h-4 w-4 shrink-0 text-white/60" strokeWidth={2} />
+              <span className="truncate text-sm text-white/60">
+                {SUPPORT_EMAIL}
+              </span>
+            </div>
+          </div>
+        </section>
 
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
+        {/* Cartes d’aide : fond lavé, cartes blanches avec élévation au survol. */}
+        <section
+          className="bg-[#F8F9FF] py-16"
+          aria-labelledby="support-cards-heading"
+        >
+          <h2 id="support-cards-heading" className="sr-only">
+            {locale === "fr" ? "Options d’aide" : "Help options"}
+          </h2>
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 px-6 md:grid-cols-3">
             {c.cards.map((card, i) => {
               const Icon = icons[i];
               return (
                 <div
                   key={card.title}
-                  className="rounded-2xl bg-[#EEF1F7] p-6 shadow-sm"
+                  className="flex flex-col gap-4 rounded-2xl border border-gray-100 bg-white p-8 shadow-md transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-lg"
                 >
                   <div
-                    className="flex h-11 w-11 items-center justify-center rounded-xl bg-navy"
+                    className="flex h-12 w-12 items-center justify-center rounded-xl bg-navy shadow-[0_8px_20px_rgba(13,38,77,0.2)]"
                     aria-hidden
                   >
-                    <Icon className="h-5 w-5 text-white" strokeWidth={2} />
+                    <Icon className="h-6 w-6 text-white" strokeWidth={2} />
                   </div>
-                  <h2 className="mt-4 border-l-4 border-navy pl-3 text-[20px] font-semibold text-navy">
+                  <h3 className="text-xl font-semibold text-navy">
                     {card.title}
-                  </h2>
-                  <p className="mt-3 text-[16px] leading-relaxed text-gray-600">
+                  </h3>
+                  <p className="flex-1 text-[16px] leading-relaxed text-gray-600">
                     {card.text}
                   </p>
                   {card.cta ? (
                     <a
                       href={MAILTO}
-                      className="mt-4 inline-flex rounded-full bg-navy px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                      className="inline-flex w-fit rounded-full bg-navy px-6 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
                     >
                       {card.cta}
                     </a>
@@ -193,19 +249,54 @@ export default function SupportPage({
               );
             })}
           </div>
+        </section>
 
-          <div className="my-8 border-t border-gray-100" aria-hidden />
-
-          <section className="mb-12">
-            <h2
-              id="support-faq-title"
-              className="mb-3 border-l-4 border-navy pl-3 text-[20px] font-semibold text-navy"
-            >
-              {c.faqHeading}
-            </h2>
+        {/* FAQ : accordéon aligné visuellement sur la section FAQ de l’accueil. */}
+        <section
+          className="bg-white py-16"
+          aria-labelledby="support-faq-title"
+        >
+          <div className="mx-auto max-w-3xl px-6">
+            <div className="mx-auto mb-12 flex max-w-[500px] flex-col items-center text-center">
+              <p className="text-[12px] font-semibold uppercase tracking-[0.15em] text-navy">
+                {c.faqEyebrow}
+              </p>
+              <h2
+                id="support-faq-title"
+                className="mt-3 text-[40px] font-bold leading-tight tracking-tight text-navy"
+              >
+                {c.faqTitle}
+              </h2>
+              <span
+                className="mt-3 block h-1 w-10 rounded-full bg-navy"
+                aria-hidden
+              />
+            </div>
             <SupportFaqAccordion items={[...c.faq]} headingId="support-faq-title" />
-          </section>
-        </div>
+          </div>
+        </section>
+
+        {/* Dernier appel à contacter le support. */}
+        <section
+          className="bg-navy py-16 text-center"
+          aria-labelledby="support-bottom-cta-title"
+        >
+          <div className="mx-auto max-w-2xl px-6">
+            <h2
+              id="support-bottom-cta-title"
+              className="text-[28px] font-bold text-white"
+            >
+              {c.bottomTitle}
+            </h2>
+            <p className="mt-2 text-base text-white/70">{c.bottomSubtitle}</p>
+            <a
+              href={MAILTO}
+              className="mt-8 inline-block rounded-full border-2 border-white px-8 py-3 text-sm font-semibold text-white transition-colors duration-300 hover:bg-white hover:text-navy"
+            >
+              {c.bottomCta}
+            </a>
+          </div>
+        </section>
       </main>
       <FooterSection />
     </>
