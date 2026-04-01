@@ -39,17 +39,17 @@
   },
   "stats": {
     "ariaLabel": "Chiffres clés Alcothèque",
-    "bottlesCollected": {
+    "bottles": {
       "label": "Bouteilles collectionnées"
     },
-    "activeUsers": {
+    "users": {
       "label": "Utilisateurs actifs"
     },
-    "scansPerformed": {
-      "label": "Scans effectués"
+    "gifts": {
+      "label": "Cadeaux suivis"
     },
-    "bottlesOpened": {
-      "label": "Bouteilles ouvertes"
+    "rating": {
+      "label": "Note App Store"
     }
   },
   "hero": {

@@ -22,20 +22,16 @@ function easeOutCubic(t: number): number {
 }
 
 type StatDef = {
-  id:
-    | "bottlesCollected"
-    | "activeUsers"
-    | "scansPerformed"
-    | "bottlesOpened";
+  id: "bottles" | "users" | "gifts" | "rating";
   value: number;
   suffix: string;
 };
 
 const STATS: StatDef[] = [
-  { id: "bottlesCollected", value: 5000, suffix: "+" },
-  { id: "activeUsers", value: 500, suffix: "+" },
-  { id: "scansPerformed", value: 2000, suffix: "+" },
-  { id: "bottlesOpened", value: 150, suffix: "+" },
+  { id: "bottles", value: 1200, suffix: "+" },
+  { id: "users", value: 200, suffix: "+" },
+  { id: "gifts", value: 150, suffix: "+" },
+  { id: "rating", value: 5, suffix: "★" },
 ];
 
 // Compteur : de 0 à `target` en ~2 s quand `active` passe à true (déclenché par la visibilité).
@@ -127,12 +123,22 @@ export function StatsSection() {
               className="relative flex flex-col items-center text-center md:border-r md:border-white/10 md:py-2 md:last:border-r-0"
             >
               <p className="flex items-baseline justify-center gap-0 tabular-nums">
-                {/* Chiffre principal : 64 px, blanc, très gras. */}
+                {/* Note App Store : "5★" statique — pas d’animation du chiffre. */}
                 <span className="text-[64px] font-extrabold leading-none tracking-tight text-white">
-                  <AnimatedCounter target={stat.value} active={isInView} />
+                  {stat.id === "rating" ? (
+                    stat.value.toLocaleString()
+                  ) : (
+                    <AnimatedCounter target={stat.value} active={isInView} />
+                  )}
                 </span>
-                {/* Suffixe en accent bleu clair, même taille visuelle. */}
-                <span className="text-[64px] font-extrabold leading-none text-[#93C5FD]">
+                {/* Suffixe : bleu clair pour +, or #FFD700 pour l’étoile note. */}
+                <span
+                  className={
+                    stat.id === "rating"
+                      ? "text-[64px] font-extrabold leading-none text-[#FFD700]"
+                      : "text-[64px] font-extrabold leading-none text-[#93C5FD]"
+                  }
+                >
                   {stat.suffix}
                 </span>
               </p>

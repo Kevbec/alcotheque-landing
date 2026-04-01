@@ -39,17 +39,17 @@
   },
   "stats": {
     "ariaLabel": "Alcotheque key figures",
-    "bottlesCollected": {
+    "bottles": {
       "label": "Bottles collected"
     },
-    "activeUsers": {
+    "users": {
       "label": "Active users"
     },
-    "scansPerformed": {
-      "label": "Scans performed"
+    "gifts": {
+      "label": "Gifts tracked"
     },
-    "bottlesOpened": {
-      "label": "Bottles opened"
+    "rating": {
+      "label": "App Store rating"
     }
   },
   "hero": {
