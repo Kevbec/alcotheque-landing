@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Apple } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
+import { AppStoreBadge } from "@/components/ui/AppStoreBadge";
 
 // Lien App Store avec suivi marketing (identique au hero).
 const APP_STORE_URL =
@@ -83,14 +84,13 @@ export function FooterSection() {
             </h2>
             <ul className="mt-4 flex flex-col gap-3 text-sm text-white/80">
               <li>
-                <a
+                <AppStoreBadge
                   href={APP_STORE_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  source="footer"
                   className="transition-colors duration-200 hover:text-white"
                 >
                   {t("links.download")}
-                </a>
+                </AppStoreBadge>
               </li>
               <li>
                 <Link
@@ -131,16 +131,15 @@ export function FooterSection() {
         {/* Barre bas de page : copyright + rappel App Store. */}
         <div className="mt-8 flex flex-col gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-[13px] text-white/50">{t("copyright")}</p>
-          <a
+          <AppStoreBadge
             href={APP_STORE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            source="footer"
             className="inline-flex items-center gap-2 text-[13px] text-white/50 transition-colors duration-200 hover:text-white/80"
-            aria-label={t("storeLinkAria")}
+            ariaLabel={t("storeLinkAria")}
           >
             <Apple className="h-4 w-4 shrink-0" aria-hidden />
             {t("storeLink")}
-          </a>
+          </AppStoreBadge>
         </div>
       </div>
     </footer>

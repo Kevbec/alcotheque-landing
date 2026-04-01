@@ -1,5 +1,6 @@
 import { FooterSection } from "@/components/landing/FooterSection";
 import { LandingNavbar } from "@/components/landing/LandingNavbar";
+import { AppStoreBadge } from "@/components/ui/AppStoreBadge";
 import { getAllPosts, getPostBySlug } from "@/lib/blog";
 import type { Metadata } from "next";
 import Image from "next/image";
@@ -183,12 +184,6 @@ export async function generateMetadata({
   };
 }
 
-function appStoreBadgeSrc(locale: AppLocale): string {
-  return locale === "fr"
-    ? "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/fr-fr?size=250x83"
-    : "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83";
-}
-
 export default async function BlogArticlePage({
   params,
 }: {
@@ -322,22 +317,15 @@ export default async function BlogArticlePage({
             >
               {t.ctaTitle}
             </h2>
-            <a
+            <AppStoreBadge
               href={APP_STORE_BLOG_CTA}
-              target="_blank"
-              rel="noopener noreferrer"
+              source="blog_cta"
               className="mt-8 inline-block transition-opacity hover:opacity-90"
-            >
-              {/* Badge Apple officiel (image distante). */}
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={appStoreBadgeSrc(locale)}
-                alt={t.ctaBadgeAlt}
-                width={250}
-                height={83}
-                className="mx-auto h-[50px] w-auto sm:h-[60px]"
-              />
-            </a>
+              ariaLabel={t.ctaBadgeAlt}
+              width={250}
+              height={83}
+              imgClassName="mx-auto h-[50px] w-auto sm:h-[60px]"
+            />
           </div>
         </section>
       </main>

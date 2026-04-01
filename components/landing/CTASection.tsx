@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
+import { AppStoreBadge } from "@/components/ui/AppStoreBadge";
 
 /** URL App Store avec paramètres de campagne (alignée sur le hero). */
 const APP_STORE_URL =
@@ -11,13 +12,6 @@ const easeOut = [0, 0, 0.2, 1] as const;
 
 export function CTASection() {
   const t = useTranslations("cta");
-  const locale = useLocale();
-
-  // Badge noir officiel : URL Apple selon la langue (comme dans HeroLanding).
-  const badgeSrc =
-    locale === "fr"
-      ? "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/fr-fr?size=250x83&releaseDate=1280544000"
-      : "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1280544000";
 
   return (
     <section
@@ -61,23 +55,13 @@ export function CTASection() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.5, delay: 0.15, ease: easeOut }}
           >
-            <a
+            <AppStoreBadge
               href={APP_STORE_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={t("ctaAria")}
+              source="cta"
+              ariaLabel={t("ctaAria")}
               className="inline-block opacity-95 transition-opacity hover:opacity-100"
-            >
-              {/* Badge Apple hébergé en externe : `img` comme dans le hero. */}
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={badgeSrc}
-                alt={t("badgeAlt")}
-                width={180}
-                height={60}
-                className="h-14 w-auto"
-              />
-            </a>
+              imgClassName="h-14 w-auto"
+            />
           </motion.div>
 
           <p className="mt-4 text-[12px] text-navy/50">{t("footnote")}</p>

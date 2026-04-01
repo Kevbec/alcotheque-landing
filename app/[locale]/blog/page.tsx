@@ -3,8 +3,8 @@ import { FooterSection } from "@/components/landing/FooterSection";
 import { LandingNavbar } from "@/components/landing/LandingNavbar";
 import { getAllPosts } from "@/lib/blog";
 import type { Metadata } from "next";
+import { AppStoreBadge } from "@/components/ui/AppStoreBadge";
 import { BookOpen } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -137,11 +137,6 @@ export default async function BlogIndexPage({
     })),
   };
 
-  const badgeSrc =
-    locale === "fr"
-      ? "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/fr-fr?size=250x83&releaseDate=1280544000"
-      : "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1280544000";
-
   return (
     <>
       <script
@@ -243,19 +238,14 @@ export default async function BlogIndexPage({
             <p className="mt-3 text-base leading-relaxed text-gray-600">
               {c.newsletterText}
             </p>
-            <a
+            <AppStoreBadge
               href={APP_STORE_BLOG_INDEX}
+              source="blog_index"
               className="mx-auto mt-6 inline-block transition-opacity hover:opacity-90"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src={badgeSrc}
-                alt={c.ctaBadgeAlt}
-                width={250}
-                height={83}
-              />
-            </a>
+              ariaLabel={c.ctaBadgeAlt}
+              width={250}
+              height={83}
+            />
           </div>
         </section>
       </main>
