@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 
@@ -22,83 +21,68 @@ export function CTASection() {
 
   return (
     <section
-      className="relative overflow-hidden py-16 sm:py-24"
+      className="relative overflow-hidden border-b border-navy/10 bg-gradient-to-b from-[#F8F9FF] to-white py-16 sm:py-24"
       aria-labelledby="cta-heading"
     >
-      {/* Dégradé diagonal marine → marine un peu plus clair. */}
-      <div
-        className="absolute inset-0 bg-gradient-to-br from-[#0D264D] to-[#1a3a6b]"
-        aria-hidden
-      />
-
-      {/* Logo décoratif très discret au centre (pas cliquable). */}
-      <div
-        className="pointer-events-none absolute left-1/2 top-1/2 z-0 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 opacity-[0.05]"
-        aria-hidden
-      >
-        <Image
-          src="/logo.png"
-          alt=""
-          width={400}
-          height={400}
-          className="h-full w-full object-contain"
-        />
-      </div>
-
-      <motion.div
-        className="relative z-10 mx-auto max-w-[600px] px-4 text-center sm:px-6"
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-80px" }}
-        transition={{ duration: 0.6, ease: easeOut }}
-      >
-        <p className="text-[12px] font-semibold uppercase tracking-[0.15em] text-[#93C5FD]">
-          {t("eyebrow")}
-        </p>
-
-        <motion.h2
-          id="cta-heading"
-          className="mt-4 text-balance text-[28px] font-extrabold leading-tight text-white sm:text-[40px]"
-          initial={{ opacity: 0, y: 16 }}
+      {/* Même largeur que le reste du site : sur mobile le bloc est centré, sur md+ aligné à gauche. */}
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <motion.div
+          className="mx-auto max-w-[600px] text-center md:mx-0 md:text-left"
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.55, delay: 0.08, ease: easeOut }}
+          transition={{ duration: 0.6, ease: easeOut }}
         >
-          {t("title")}
-        </motion.h2>
+          {/* Sur-ligne : même style que la section Features (lisible sur fond clair). */}
+          <p className="text-[12px] font-semibold uppercase tracking-[0.15em] text-navy">
+            {t("eyebrow")}
+          </p>
 
-        <p className="mt-4 text-balance text-[18px] text-white/70">
-          {t("subtitle")}
-        </p>
-
-        <motion.div
-          className="mt-8 flex flex-col items-center"
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.5, delay: 0.15, ease: easeOut }}
-        >
-          <a
-            href={APP_STORE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={t("ctaAria")}
-            className="inline-block opacity-95 transition-opacity hover:opacity-100"
+          {/* Accent éditorial : barre marine à gauche du titre (desktop seulement). */}
+          <motion.h2
+            id="cta-heading"
+            className="mt-4 text-balance text-[28px] font-extrabold leading-tight text-navy sm:text-[40px] md:border-l-4 md:border-navy md:pl-5 md:rounded-l-sm"
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            transition={{ duration: 0.55, delay: 0.08, ease: easeOut }}
           >
-            {/* Badge Apple hébergé en externe : `img` comme dans le hero. */}
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={badgeSrc}
-              alt={t("badgeAlt")}
-              width={180}
-              height={60}
-              className="h-14 w-auto"
-            />
-          </a>
-        </motion.div>
+            {t("title")}
+          </motion.h2>
 
-        <p className="mt-4 text-[12px] text-white/50">{t("footnote")}</p>
-      </motion.div>
+          <p className="mt-4 text-balance text-[18px] text-navy/70">
+            {t("subtitle")}
+          </p>
+
+          <motion.div
+            className="mt-8 flex flex-col items-center md:items-start"
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, margin: "-80px" }}
+            transition={{ duration: 0.5, delay: 0.15, ease: easeOut }}
+          >
+            <a
+              href={APP_STORE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={t("ctaAria")}
+              className="inline-block opacity-95 transition-opacity hover:opacity-100"
+            >
+              {/* Badge Apple hébergé en externe : `img` comme dans le hero. */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={badgeSrc}
+                alt={t("badgeAlt")}
+                width={180}
+                height={60}
+                className="h-14 w-auto"
+              />
+            </a>
+          </motion.div>
+
+          <p className="mt-4 text-[12px] text-navy/50">{t("footnote")}</p>
+        </motion.div>
+      </div>
     </section>
   );
 }

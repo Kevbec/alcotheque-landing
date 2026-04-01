@@ -35,6 +35,10 @@
     "languages": {
       "title": "7 Languages",
       "text": "French, English, German, Spanish, Italian, Dutch, Portuguese."
+    },
+    "history": {
+      "title": "Complete History",
+      "text": "Track the full story of each bottle, from purchase to the last drop."
     }
   },
   "stats": {
@@ -110,21 +114,17 @@
     "appName": "Alcotheque",
     "logoAlt": "Alcotheque logo",
     "tagline": "Your wine & spirits collection, always with you.",
+    "madeBy": "Made with ❤️ by Kevin",
     "productHuntAlt": "Alcotheque on Product Hunt",
     "productHuntAria": "View Alcotheque on Product Hunt",
     "columns": {
-      "app": "App",
-      "social": "Follow us"
+      "app": "App"
     },
     "links": {
       "download": "Download",
       "support": "Support",
       "privacy": "Privacy",
       "terms": "Terms"
-    },
-    "social": {
-      "facebook": "Facebook",
-      "reddit": "Reddit"
     },
     "copyright": "© 2026 Alcotheque. All rights reserved.",
     "storeLink": "Download on the App Store",

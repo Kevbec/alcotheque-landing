@@ -35,6 +35,10 @@
     "languages": {
       "title": "7 langues disponibles",
       "text": "Français, anglais, allemand, espagnol, italien, néerlandais, portugais."
+    },
+    "history": {
+      "title": "Historique complet",
+      "text": "Suivez toute l'histoire de chaque bouteille, de l'achat à la dernière goutte."
     }
   },
   "stats": {
@@ -110,21 +114,17 @@
     "appName": "Alcothèque",
     "logoAlt": "Logo Alcothèque",
     "tagline": "Toute votre cave, dans votre poche.",
+    "madeBy": "Fait avec ❤️ par Kevin",
     "productHuntAlt": "Alcothèque sur Product Hunt",
     "productHuntAria": "Voir Alcothèque sur Product Hunt",
     "columns": {
-      "app": "Application",
-      "social": "Suivez-nous"
+      "app": "Application"
     },
     "links": {
       "download": "Télécharger",
       "support": "Support",
       "privacy": "Confidentialité",
       "terms": "Conditions"
-    },
-    "social": {
-      "facebook": "Facebook",
-      "reddit": "Reddit"
     },
     "copyright": "© 2026 Alcothèque. Tous droits réservés.",
     "storeLink": "Télécharger sur l'App Store",

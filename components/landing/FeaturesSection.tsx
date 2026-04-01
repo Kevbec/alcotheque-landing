@@ -5,6 +5,7 @@ import {
   Camera,
   ChartNoAxesCombined,
   Gift,
+  History,
   Languages,
   Navigation,
   Wine,
@@ -56,7 +57,14 @@ const iconVariants = {
 };
 
 type FeatureDef = {
-  id: "scan" | "wineSpirits" | "gifts" | "value" | "locations" | "languages";
+  id:
+    | "scan"
+    | "wineSpirits"
+    | "gifts"
+    | "value"
+    | "locations"
+    | "languages"
+    | "history";
   Icon: LucideIcon;
 };
 
@@ -67,6 +75,7 @@ const FEATURES: FeatureDef[] = [
   { id: "value", Icon: ChartNoAxesCombined },
   { id: "locations", Icon: Navigation },
   { id: "languages", Icon: Languages },
+  { id: "history", Icon: History },
 ];
 
 export function FeaturesSection() {
@@ -113,7 +122,7 @@ export function FeaturesSection() {
           </p>
         </motion.div>
 
-        {/* Grille responsive : 1 col → 2 → 3 ; espacement plus large au desktop. */}
+        {/* Grille : 7 cartes ; au lg 3 colonnes, dernière carte centrée sur sa ligne. */}
         <motion.div
           ref={gridRef}
           className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8"
@@ -123,14 +132,15 @@ export function FeaturesSection() {
         >
           {FEATURES.map(({ id, Icon }, index) => {
             const num = String(index + 1).padStart(2, "0");
+            const isLast = index === FEATURES.length - 1;
             return (
               <motion.article
                 key={id}
                 variants={cardVariants}
-                className="h-full"
+                className={`h-full ${isLast ? "lg:col-span-3 lg:flex lg:justify-center" : ""}`}
               >
                 <div
-                  className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[#E5E5EA] bg-white shadow-[0_4px_24px_rgba(13,38,77,0.06)] transition-all duration-300 ease-in-out group-hover:-translate-y-1 group-hover:border-navy/20 group-hover:shadow-[0_12px_40px_rgba(13,38,77,0.12)]"
+                  className={`group flex h-full w-full flex-col overflow-hidden rounded-2xl border border-[#E5E5EA] bg-white shadow-[0_4px_24px_rgba(13,38,77,0.06)] transition-all duration-300 ease-in-out group-hover:-translate-y-1 group-hover:border-navy/20 group-hover:shadow-[0_12px_40px_rgba(13,38,77,0.12)] ${isLast ? "lg:max-w-[calc((100%-4rem)/3)]" : ""}`}
                 >
                   {/* Accent premium en haut de carte : dégradé navy, halo au survol. */}
                   <div
