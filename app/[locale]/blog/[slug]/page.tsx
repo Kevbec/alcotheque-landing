@@ -2,6 +2,7 @@ import { FooterSection } from "@/components/landing/FooterSection";
 import { LandingNavbar } from "@/components/landing/LandingNavbar";
 import { getAllPosts, getPostBySlug } from "@/lib/blog";
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -26,6 +27,22 @@ function formatPostDate(iso: string, locale: AppLocale): string {
     month: "long",
     day: "numeric",
   }).format(new Date(iso));
+}
+
+/**
+ * Insère le logo devant le titre de la colonne Alcothèque (2ᵉ cellule du thead),
+ * car le tableau vient du HTML Markdown et non d’un composant React.
+ */
+function injectAlcothequeLogoInTableHeaders(html: string): string {
+  const logo =
+    '<img src="/logo.png" alt="Alcothèque" class="w-6 h-6 rounded-lg object-contain inline-block mr-2 align-middle" />';
+  return html.replace(/<thead\b[^>]*>[\s\S]*?<\/thead>/gi, (thead) => {
+    let thIndex = 0;
+    return thead.replace(/<th\b[^>]*>/gi, (openTag) => {
+      thIndex += 1;
+      return thIndex === 2 ? `${openTag}${logo}` : openTag;
+    });
+  });
 }
 
 const ui = {
@@ -269,10 +286,28 @@ export default async function BlogArticlePage({
           <div className="mx-auto mt-8 max-w-xl border-b border-gray-200" />
         </header>
 
+        {post.coverImage ? (
+          <div className="mx-auto max-w-3xl px-4 sm:px-6">
+            {/* Bloc image pleine largeur (dans max-w-3xl), ombre légère pour le relief. */}
+            <div className="relative w-full h-64 md:h-80 rounded-2xl overflow-hidden mb-10 shadow-[0_4px_24px_rgba(13,38,77,0.10)]">
+              <Image
+                src={post.coverImage}
+                alt={post.title}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 48rem"
+                priority
+              />
+            </div>
+          </div>
+        ) : null}
+
         <article>
           <div
             className={articleBodyClass(locale)}
-            dangerouslySetInnerHTML={{ __html: post.contentHtml }}
+            dangerouslySetInnerHTML={{
+              __html: injectAlcothequeLogoInTableHeaders(post.contentHtml),
+            }}
           />
         </article>
 
