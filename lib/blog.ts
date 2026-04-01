@@ -45,6 +45,34 @@ function wrapTablesInScrollContainer(html: string): string {
 }
 
 /**
+ * Sur les liens App Store générés en Markdown : ajoute le même événement GA4 que
+ * `AppStoreBadge`, ouvre dans un nouvel onglet, et renforce rel pour la sécurité.
+ */
+function injectAppStoreLinkTracking(html: string, articleSlug: string): string {
+  // Échappe \ et ' pour que le slug reste une chaîne JS valide entre quotes simples.
+  const slugForJs = articleSlug.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+  const onclickJs = `gtag('event','app_store_click',{source:'blog_article', article_slug:'${slugForJs}'})`;
+  const onclickEscaped = onclickJs.replace(/"/g, "&quot;");
+
+  return html.replace(
+    /<a(\s[^>]*href=["'][^"']*id6755549562[^"']*["'][^>]*)>/gi,
+    (_full, attrs: string) => {
+      let next = attrs;
+      if (!/\sonclick\s*=/i.test(next)) {
+        next += ` onclick="${onclickEscaped}"`;
+      }
+      if (!/\starget\s*=/i.test(next)) {
+        next += ' target="_blank"';
+      }
+      if (!/\srel\s*=/i.test(next)) {
+        next += ' rel="noopener noreferrer"';
+      }
+      return `<a${next}>`;
+    },
+  );
+}
+
+/**
  * Liste tous les articles d’une locale, du plus récent au plus ancien
  * (sans convertir le Markdown — plus rapide pour l’index).
  */
@@ -100,7 +128,10 @@ export async function getPostBySlug(
 
     return {
       ...fm,
-      contentHtml: wrapTablesInScrollContainer(String(htmlVfile)),
+      contentHtml: injectAppStoreLinkTracking(
+        wrapTablesInScrollContainer(String(htmlVfile)),
+        slug,
+      ),
     };
   }
 
