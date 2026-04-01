@@ -26,7 +26,7 @@ keywords:
     "rum collection",
     "spirits collection",
   ]
-author: "Kevin Beckers"
+author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80"
 ---
 
@@ -110,6 +110,6 @@ In 2026, managing your wine and spirits **collection** with an Excel spreadsheet
 **Download Alcotheque for free on the App Store and start organizing your collection today.**
 
 ---
-*Article written by Kevin Beckers, creator of Alcotheque.*
+*By Kevin, Founder of Alcotheque.*
 
 ---

@@ -27,7 +27,7 @@ keywords:
     "cognac collection",
     "whisky collection",
   ]
-author: "Kevin Beckers"
+author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80"
 ---
 
@@ -111,6 +111,6 @@ En 2026, gérer sa cave à vins et spiritueux avec un tableur Excel, c'est comme
 **Téléchargez Alcothèque gratuitement sur l'App Store et commencez à organiser votre collection dès aujourd'hui.**
 
 ---
-*Article rédigé par Kevin Beckers, créateur d'Alcothèque.*
+*Par Kevin, Founder of Alcothèque.*
 
 ---
