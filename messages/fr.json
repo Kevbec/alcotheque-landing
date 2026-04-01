@@ -68,5 +68,29 @@
   },
   "schema": {
     "description": "Application iOS premium pour gérer vos collections de vins et spiritueux : scan, organisation et suivi avec l'IA."
+  },
+  "footer": {
+    "appName": "Alcothèque",
+    "logoAlt": "Logo Alcothèque",
+    "tagline": "Toute votre cave, dans votre poche.",
+    "productHuntAlt": "Alcothèque sur Product Hunt",
+    "productHuntAria": "Voir Alcothèque sur Product Hunt",
+    "columns": {
+      "app": "Application",
+      "social": "Suivez-nous"
+    },
+    "links": {
+      "download": "Télécharger",
+      "support": "Support",
+      "privacy": "Confidentialité",
+      "terms": "Conditions"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "reddit": "Reddit"
+    },
+    "copyright": "© 2026 Alcothèque. Tous droits réservés.",
+    "storeLink": "Télécharger sur l'App Store",
+    "storeLinkAria": "Télécharger Alcothèque sur l'App Store"
   }
 }

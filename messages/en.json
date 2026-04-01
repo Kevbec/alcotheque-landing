@@ -68,5 +68,29 @@
   },
   "schema": {
     "description": "Premium iOS app to manage wine and spirits collections: scanning, organizing, and AI-powered tracking."
+  },
+  "footer": {
+    "appName": "Alcotheque",
+    "logoAlt": "Alcotheque logo",
+    "tagline": "Your wine & spirits collection, always with you.",
+    "productHuntAlt": "Alcotheque on Product Hunt",
+    "productHuntAria": "View Alcotheque on Product Hunt",
+    "columns": {
+      "app": "App",
+      "social": "Follow us"
+    },
+    "links": {
+      "download": "Download",
+      "support": "Support",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "reddit": "Reddit"
+    },
+    "copyright": "© 2026 Alcotheque. All rights reserved.",
+    "storeLink": "Download on the App Store",
+    "storeLinkAria": "Download Alcotheque on the App Store"
   }
 }
