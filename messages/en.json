@@ -69,6 +69,35 @@
   "schema": {
     "description": "Premium iOS app to manage wine and spirits collections: scanning, organizing, and AI-powered tracking."
   },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Alcotheque.",
+    "q1": {
+      "question": "What is Alcotheque?",
+      "answer": "Alcotheque is an iOS app to manage your wine and spirits collection. Scan your bottles with AI, organize your cellar by location, track your collection value and keep a history of every gift received."
+    },
+    "q2": {
+      "question": "Is Alcotheque free?",
+      "answer": "Yes, Alcotheque is free to download. The free version lets you manage up to 15 bottles. The Premium subscription at $0.99/month gives you unlimited bottles, locations and scans."
+    },
+    "q3": {
+      "question": "What devices does Alcotheque work on?",
+      "answer": "Alcotheque is available on iPhone and iPad running iOS 17 or later. iCloud sync keeps your collection up to date across all your Apple devices."
+    },
+    "q4": {
+      "question": "How does the AI bottle scanning work?",
+      "answer": "Simply take a photo of your bottle label. The AI automatically recognizes the name, type, vintage and estimated value. You can then edit the information before saving."
+    },
+    "q5": {
+      "question": "Does Alcotheque manage both wine AND spirits?",
+      "answer": "Yes, that is what sets Alcotheque apart from competitors. The app manages over 30 drink types: red, white and rosé wines, champagnes, whiskies, rums, gins, cognacs, vodkas and much more."
+    },
+    "q6": {
+      "question": "Is my data secure?",
+      "answer": "Yes. All your data is securely stored on Firebase (Google Cloud) and synchronized in real time. Your collection is protected and accessible only from your account."
+    }
+  },
   "footer": {
     "appName": "Alcotheque",
     "logoAlt": "Alcotheque logo",

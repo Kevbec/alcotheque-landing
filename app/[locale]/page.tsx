@@ -1,3 +1,4 @@
+import { FAQSection } from "@/components/landing/FAQSection";
 import { FeaturesSection } from "@/components/landing/FeaturesSection";
 import { FooterSection } from "@/components/landing/FooterSection";
 import { HeroLanding } from "@/components/landing/HeroLanding";
@@ -9,6 +10,7 @@ export default function LocaleHomePage() {
       <HeroLanding />
       <FeaturesSection />
       <StatsSection />
+      <FAQSection />
       <FooterSection />
     </>
   );

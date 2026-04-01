@@ -69,6 +69,35 @@
   "schema": {
     "description": "Application iOS premium pour gérer vos collections de vins et spiritueux : scan, organisation et suivi avec l'IA."
   },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur Alcothèque.",
+    "q1": {
+      "question": "Qu'est-ce qu'Alcothèque ?",
+      "answer": "Alcothèque est une application iOS pour gérer votre collection de vins et spiritueux. Scannez vos bouteilles avec l'IA, organisez votre cave par emplacement, suivez la valeur de votre collection et retrouvez l'historique de chaque cadeau reçu."
+    },
+    "q2": {
+      "question": "Alcothèque est-elle gratuite ?",
+      "answer": "Oui, Alcothèque est gratuite à télécharger. La version gratuite vous permet de gérer jusqu'à 15 bouteilles. L'abonnement Premium à 0,99€/mois donne accès à des bouteilles, emplacements et scans illimités."
+    },
+    "q3": {
+      "question": "Sur quels appareils fonctionne Alcothèque ?",
+      "answer": "Alcothèque est disponible sur iPhone et iPad avec iOS 17 ou version ultérieure. Une synchronisation iCloud assure que votre collection est toujours à jour sur tous vos appareils Apple."
+    },
+    "q4": {
+      "question": "Comment fonctionne le scan IA de bouteilles ?",
+      "answer": "Prenez simplement une photo de l'étiquette de votre bouteille. L'intelligence artificielle reconnaît automatiquement le nom, le type, le millésime et la valeur estimée. Vous pouvez ensuite modifier les informations avant de les sauvegarder."
+    },
+    "q5": {
+      "question": "Alcothèque gère-t-elle les vins ET les spiritueux ?",
+      "answer": "Oui, c'est ce qui distingue Alcothèque de la concurrence. L'application gère plus de 30 types de boissons : vins rouges, blancs, rosés, champagnes, whiskies, rhums, gins, cognacs, vodkas et bien plus encore."
+    },
+    "q6": {
+      "question": "Mes données sont-elles sécurisées ?",
+      "answer": "Oui. Toutes vos données sont stockées de manière sécurisée sur Firebase (Google Cloud) et synchronisées en temps réel. Votre collection est protégée et accessible uniquement depuis votre compte."
+    }
+  },
   "footer": {
     "appName": "Alcothèque",
     "logoAlt": "Logo Alcothèque",
