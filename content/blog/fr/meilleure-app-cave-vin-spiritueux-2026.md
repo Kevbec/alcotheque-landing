@@ -28,7 +28,7 @@ keywords:
     "whisky collection",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80"
+coverImage: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80"
 ---
 
 # Meilleure application pour gérer sa cave à vins et spiritueux en 2026
