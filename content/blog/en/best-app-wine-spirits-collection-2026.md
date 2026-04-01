@@ -27,6 +27,7 @@ keywords:
     "spirits collection",
   ]
 author: "Kevin Beckers"
+coverImage: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80"
 ---
 
 # Best App to Manage Your Wine and Spirits Collection in 2026

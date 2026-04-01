@@ -3,34 +3,65 @@ import { FooterSection } from "@/components/landing/FooterSection";
 import { LandingNavbar } from "@/components/landing/LandingNavbar";
 import { getAllPosts } from "@/lib/blog";
 import type { Metadata } from "next";
+import { BookOpen } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
 const locales = ["fr", "en"] as const;
 type AppLocale = (typeof locales)[number];
 
+const APP_STORE_BLOG_INDEX =
+  "https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=BlogIndex&mt=8";
+
+function baseUrl(): string {
+  const env = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "");
+  if (env) return env;
+  if (process.env.VERCEL_URL)
+    return `https://${process.env.VERCEL_URL.replace(/\/$/, "")}`;
+  return "http://localhost:3000";
+}
+
 const copy = {
   fr: {
-    metaTitle: "Blog | Alcothèque",
+    metaTitle: "Blog Alcothèque – Guides Cave à Vins et Spiritueux",
     metaDescription:
-      "Conseils et guides pour gérer votre cave à vins et spiritueux avec Alcothèque.",
+      "Guides pratiques pour gérer votre cave à vins et spiritueux. Conseils sur le scan IA, la gestion de collection, le suivi des cadeaux et plus encore.",
     breadcrumbHome: "Alcothèque",
     breadcrumbCurrent: "Blog",
     eyebrow: "BLOG",
-    title: "Conseils & guides",
-    subtitle: "Tout savoir sur la gestion de votre collection.",
-    readMore: "Lire l’article",
+    title: "Guides & Conseils Cave",
+    subtitle:
+      "Apprenez à mieux gérer, organiser et valoriser votre collection de vins et spiritueux.",
+    pillWine: "🍷 Vins",
+    pillSpirits: "🥃 Spiritueux",
+    pillApp: "📱 App iOS",
+    readCta: "Lire →",
+    readTimeSuffix: "min de lecture",
+    newsletterTitle: "Vous avez aimé ces guides ?",
+    newsletterText:
+      "Téléchargez Alcothèque et commencez à gérer votre collection dès aujourd'hui.",
+    ctaBadgeAlt: "Télécharger sur l’App Store",
   },
   en: {
-    metaTitle: "Blog | Alcotheque",
+    metaTitle: "Alcotheque Blog – Wine and Spirits Cellar Guides",
     metaDescription:
-      "Tips and guides to manage your wine and spirits collection with Alcotheque.",
+      "Practical guides to manage your wine and spirits cellar. Tips on AI scanning, collection management, gift tracking and more.",
     breadcrumbHome: "Alcotheque",
     breadcrumbCurrent: "Blog",
     eyebrow: "BLOG",
-    title: "Tips & Guides",
-    subtitle: "Everything about managing your collection.",
-    readMore: "Read more",
+    title: "Cellar Guides & Tips",
+    subtitle:
+      "Learn how to better manage, organize and grow your wine and spirits collection.",
+    pillWine: "🍷 Wine",
+    pillSpirits: "🥃 Spirits",
+    pillApp: "📱 iOS App",
+    readCta: "Read →",
+    readTimeSuffix: "min read",
+    newsletterTitle: "Enjoyed these guides?",
+    newsletterText:
+      "Download Alcotheque and start managing your collection today.",
+    ctaBadgeAlt: "Download on the App Store",
   },
 } satisfies Record<AppLocale, Record<string, string>>;
 
@@ -76,14 +107,55 @@ export default async function BlogIndexPage({
   const locale = localeParam as AppLocale;
   const c = copy[locale];
   const posts = await getAllPosts(locale);
+  const site = baseUrl();
+  const blogUrl = `${site}/${locale}/blog`;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: locale === "fr" ? "Blog Alcothèque" : "Alcotheque Blog",
+    description: c.metaDescription,
+    url: blogUrl,
+    inLanguage: locale === "fr" ? "fr-FR" : "en-US",
+    publisher: {
+      "@type": "Organization",
+      name: locale === "fr" ? "Alcothèque" : "Alcotheque",
+      url: site,
+      logo: {
+        "@type": "ImageObject",
+        url: `${site}/logo.png`,
+      },
+    },
+    blogPost: posts.map((post) => ({
+      "@type": "BlogPosting",
+      headline: post.title,
+      description: post.description,
+      datePublished: post.date,
+      url: `${site}/${locale}/blog/${post.slug}`,
+      author: {
+        "@type": "Person",
+        name: post.author,
+      },
+      image: post.coverImage,
+    })),
+  };
+
+  const badgeSrc =
+    locale === "fr"
+      ? "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/fr-fr?size=250x83&releaseDate=1280544000"
+      : "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1280544000";
 
   return (
     <>
-      <LandingNavbar />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <LandingNavbar transparentOver="dark" />
       <main className="min-h-screen bg-white text-zinc-900">
         <div className="pt-16">
           <nav
-            className="mx-auto max-w-5xl px-4 py-3 text-sm text-gray-400 sm:px-6"
+            className="mx-auto max-w-6xl px-6 py-3 text-sm text-gray-400"
             aria-label="Breadcrumb"
           >
             <Link
@@ -100,10 +172,10 @@ export default async function BlogIndexPage({
         </div>
 
         <section
-          className="bg-navy py-16 text-center sm:py-20"
+          className="bg-navy py-24 text-center"
           aria-labelledby="blog-hero-title"
         >
-          <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <div className="mx-auto max-w-3xl px-6">
             <p className="text-[12px] font-semibold uppercase tracking-[0.15em] text-[#93C5FD]">
               {c.eyebrow}
             </p>
@@ -116,17 +188,28 @@ export default async function BlogIndexPage({
             <p className="mt-3 text-[16px] text-white/75 sm:text-[18px]">
               {c.subtitle}
             </p>
+            <ul className="mt-6 flex flex-wrap items-center justify-center gap-2">
+              <li className="rounded-full bg-white/20 px-3 py-1.5 text-sm text-white/95">
+                {c.pillWine}
+              </li>
+              <li className="rounded-full bg-white/20 px-3 py-1.5 text-sm text-white/95">
+                {c.pillSpirits}
+              </li>
+              <li className="rounded-full bg-white/20 px-3 py-1.5 text-sm text-white/95">
+                {c.pillApp}
+              </li>
+            </ul>
           </div>
         </section>
 
         <section
-          className="py-16"
+          className="bg-[#F8F9FF] py-16"
           aria-labelledby="blog-posts-heading"
         >
           <h2 id="blog-posts-heading" className="sr-only">
             {locale === "fr" ? "Articles du blog" : "Blog posts"}
           </h2>
-          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 sm:px-6 md:grid-cols-2">
+          <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-6 md:grid-cols-2 lg:grid-cols-2">
             {posts.map((post) => (
               <BlogCard
                 key={post.slug}
@@ -135,9 +218,48 @@ export default async function BlogIndexPage({
                 description={post.description}
                 date={post.date}
                 slug={post.slug}
-                readMoreLabel={c.readMore}
+                readCta={c.readCta}
+                author={post.author}
+                coverImage={post.coverImage}
+                readTimeSuffix={c.readTimeSuffix}
               />
             ))}
+          </div>
+        </section>
+
+        <section
+          className="bg-white py-16 text-center"
+          aria-labelledby="blog-newsletter-cta"
+        >
+          <div className="mx-auto max-w-2xl px-6">
+            <BookOpen
+              className="mx-auto text-navy"
+              strokeWidth={1.25}
+              size={40}
+              aria-hidden
+            />
+            <h2
+              id="blog-newsletter-cta"
+              className="mt-6 text-2xl font-bold text-navy sm:text-[28px]"
+            >
+              {c.newsletterTitle}
+            </h2>
+            <p className="mt-3 text-base leading-relaxed text-gray-600">
+              {c.newsletterText}
+            </p>
+            <a
+              href={APP_STORE_BLOG_INDEX}
+              className="mx-auto mt-6 inline-block transition-opacity hover:opacity-90"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={badgeSrc}
+                alt={c.ctaBadgeAlt}
+                width={250}
+                height={83}
+              />
+            </a>
           </div>
         </section>
       </main>
