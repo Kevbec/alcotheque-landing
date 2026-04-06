@@ -42,7 +42,7 @@ L’erreur classique : les bouteilles s’accumulent sans **inventaire** fiable.
 
 ## Quelles bouteilles de rhum privilégier pour débuter ?
 
-Sans citer de marques, cinq approches utiles pour démarrer. Un blanc frais ou traditionnel pour les cocktails et l’apéritif. Un **rhum agricole** jeune ou élevé pour ancrer le style français. Un **rhum vieux** avec au moins quelques années de fût pour goûter le bois et le temps. Un style jamaïcain typé pour les notes intenses. Un rum plus doux des îles pour équilhrer les dégustations. Côté budget, répartissez entre entrée de gamme, milieu et quelques bouteilles plus haut de gamme : les éditions limitées et millésimées valent souvent le détour si vous documentez date d’achat et conditionnement. **Collecter du rhum** avec une feuille de route évite dix fois le même profil.
+Sans citer de marques, cinq approches utiles pour démarrer. Un blanc frais ou traditionnel pour les cocktails et l’apéritif. Un **rhum agricole** jeune ou élevé pour ancrer le style français. Un **rhum vieux** avec au moins quelques années de fût pour goûter le bois et le temps. Un style jamaïcain typé pour les notes intenses. Un rum plus doux des îles pour équilibrer les dégustations. Côté budget, répartissez entre entrée de gamme, milieu et quelques bouteilles plus haut de gamme : les éditions limitées et millésimées valent souvent le détour si vous documentez date d’achat et conditionnement. **Collecter du rhum** avec une feuille de route évite dix fois le même profil.
 
 ## Comment faire grandir sa collection de rhums ?
 
@@ -51,6 +51,58 @@ Clubs et réseaux révèlent les sorties et les **spiritueux** voisins comme le 
 ## Conclusion
 
 **Gérer collection spiritueux** autour du rhum repose sur trois piliers : choix variés (dont **rhum agricole** et **rhum vieux**), stockage stable et **inventaire** à jour. Passez du tableur à une **app iOS** avec **scanner bouteille** : vous gagnez du temps et limitez les erreurs. Pour centraliser rhums, **whisky**, cognac et **gin**, Alcothèque couvre l’usage quotidien du collectionneur.
+
+## Le rhum par région : la carte du collectionneur
+
+La géographie est tout dans le rhum. Contrairement au whisky, qui se concentre autour de quelques pays, le rhum s'étend dans le monde tropical entier. Comprendre l'identité régionale fait de toi un acheteur plus avisé.
+
+**La Martinique et la Guadeloupe** produisent du rhum agricole sous AOC, distillé directement à partir du jus de canne fraîche. Le résultat est herbacé, végétal et résolument orienté canne. Le système AOC de Martinique est l'un des plus stricts du monde des spiritueux — une véritable garantie de qualité.
+
+**La Jamaïque** est célèbre pour ses rhums à haut estérage : fruités, funky et d'une complexité aromatique intense. Les distilleries jamaïcaines utilisent des alambics traditionnels et de longues fermentations pour produire certains des rhums les plus complexes au monde. Un incontournable de toute collection sérieuse.
+
+**La Barbade** produit des rhums élégants et équilibrés, issus à la fois d'alambics à pot et à colonne. Souvent considérée comme le berceau du rhum, elle reste une référence pour un style accessible et raffiné.
+
+**Cuba** a donné au monde le style Havana : léger, net et idéal pour les cocktails. Le rhum cubain est essentiel pour comprendre la portée mondiale de la catégorie.
+
+**La Réunion** est l'autre territoire AOC français du rhum agricole, produisant des expressions qui rivalisent avec la Martinique en qualité mais restent moins connues — ce qui en fait des trouvailles intéressantes pour les collectionneurs.
+
+**Trinidad et le Guyana** produisent des rhums riches, orientés mélasse, avec une couleur profonde et une grande complexité. Les rhums Demerara du Guyana, distillés dans des alambics en bois historiques, comptent parmi les bouteilles les plus collectionnées de toute la catégorie.
+
+**L'Amérique centrale** — Guatemala, Panama, Nicaragua — produit des rhums à colonne qui plaisent aux collectionneurs qui apprécient les profils plus doux, sucrés et orientés bois.
+
+## Construire une collection de rhums qui te ressemble
+
+Le rhum est personnel. Plus que presque n'importe quelle autre catégorie, ta collection finit par refléter ton goût, ta géographie et ta philosophie de ce qui fait un grand spiritueux.
+
+**Commence par un ancrage régional.** Choisis une origine que tu aimes vraiment et explore-la en profondeur avant de t'élargir. Si tu aimes le rhum agricole, parcours l'éventail complet des expressions martiniquaises avant de passer à la Jamaïque. La profondeur prime sur la largeur au début.
+
+**Mélange millésimes et sorties actuelles.** Certaines des bouteilles de rhum les plus intéressantes sont des expressions plus anciennes, distillées il y a des décennies et commercialisées par des embouteilleurs indépendants. Ces rhums millésimés racontent une histoire différente des sorties actuelles et ajoutent une profondeur historique à toute collection.
+
+**Pense ouvert versus fermé.** Pour les bouteilles que tu prévois de boire, documente la date d'ouverture et observe comment le rhum évolue au fil des semaines. Pour les bouteilles que tu veux garder comme pièces de collection, l'état scellé et l'emballage d'origine comptent énormément.
+
+**Documente soigneusement les cadeaux.** Le rhum est un excellent cadeau. Quand quelqu'un t'en offre une bouteille, enregistre qui te l'a donnée, quand et à quelle occasion. Cette information transforme une bouteille en souvenir — et la fonctionnalité de suivi des cadeaux d'Alcothèque a été conçue exactement pour ça.
+
+**Fixe-toi un objectif de valeur.** Connaître la valeur estimée totale de ta collection de rhums est vraiment utile — pour l'assurance, la satisfaction personnelle et pour prendre de meilleures décisions d'achat. Une application qui suit la valeur automatiquement supprime les approximations.
+
+## Questions fréquentes
+
+**Quelle est la différence entre rhum agricole et rhum traditionnel ?**
+Le rhum agricole est distillé à partir de jus de canne fraîche, lui donnant un caractère herbacé, végétal et résolument orienté canne. Le rhum traditionnel ou industriel est distillé à partir de mélasse, un sous-produit de la production de sucre, produisant un profil plus riche, plus doux et plus arrondi. Les deux styles méritent une place dans une collection.
+
+**Le rhum vieillit-il bien en bouteille une fois acheté ?**
+Non. Comme les autres spiritueux, le rhum n'évolue pas une fois mis en bouteille. La mention d'âge sur une bouteille fait référence au temps passé en fût, pas sur ton étagère. Les bouteilles scellées restent stables pendant de nombreuses années si elles sont conservées correctement, mais ne s'améliorent pas au-delà de leur état à la mise en bouteille.
+
+**Quelle région de rhum un nouveau collectionneur devrait-il privilégier ?**
+Le rhum agricole de Martinique est un excellent point de départ pour les collectionneurs européens — réglementé, distinctif et largement disponible. Le rhum jamaïcain est la meilleure entrée pour les collectionneurs qui veulent de l'intensité et de la complexité dès la première bouteille.
+
+**Comment éviter d'acheter des bouteilles en double ?**
+Un inventaire digital consultable est la seule solution fiable. Avec une application de collection de rhums sur ton téléphone, tu peux vérifier tes bouteilles existantes en quelques secondes avant d'acheter — que tu sois dans une boutique spécialisée ou lors d'une dégustation.
+
+**Les éditions limitées de rhum valent-elles le prix premium ?**
+Parfois. Les sorties limitées de distilleries respectées ou d'embouteilleurs indépendants avec une provenance documentée peuvent maintenir ou augmenter leur valeur. Cependant, la plupart des éditions limitées valent la peine d'être achetées principalement parce que tu veux les boire — pas comme investissement financier.
+
+**Puis-je gérer une collection de rhums internationale sur plusieurs emplacements de stockage ?**
+Oui. La fonctionnalité de gestion des emplacements d'Alcothèque te permet d'organiser les bouteilles par endroit de stockage spécifique — cave, bar, salon ou tout emplacement personnalisé que tu définis. Ta collection complète reste visible sur tous les emplacements dans une seule interface.
 
 ## Articles similaires
 

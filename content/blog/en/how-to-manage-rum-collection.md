@@ -52,6 +52,58 @@ Join clubs and tasting groups: peers surface releases you would miss alone, incl
 
 To **manage spirits collection** around rum, focus on three habits: varied buying (including **agricultural rum** and **aged rum**), stable storage, and an inventory you actually maintain. Move from spreadsheets to a **rum collection app** with a real **bottle tracker** workflow and you save time, cut duplicates, and see your **rum collection** whole. Alcothèque unifies rum, **whisky**, cognac, and **gin** for daily collector use.
 
+## Rum by Region: A Collector's Map
+
+Geography is everything in rum. Unlike whisky, which clusters around a handful of countries, rum spans the entire tropical world. Understanding regional identity makes you a sharper buyer.
+
+**Martinique and Guadeloupe** produce AOC-regulated agricultural rum made directly from fresh sugarcane juice. The result is grassy, vegetal, and distinctly cane-forward. Martinique's AOC system is one of the strictest in the spirits world — a genuine quality guarantee.
+
+**Jamaica** is famous for high-ester rums with funky, fruity, and intensely aromatic profiles. Distilleries here use traditional pot stills and long fermentation to produce some of the most complex rums in the world. Jamaican rum is a must in any serious collection.
+
+**Barbados** produces elegant, balanced rums with both pot and column still distillation. It is often considered the birthplace of rum and remains a benchmark for approachable, refined style.
+
+**Cuba** gave the world the Havana style: light, clean, and cocktail-friendly. Cuban rum is essential for understanding the category's global reach.
+
+**Réunion Island** is France's other AOC rum territory, producing agricultural rums that rival Martinique in quality but remain less well known — making them interesting collector finds.
+
+**Trinidad and Guyana** produce rich, molasses-forward rums with deep color and complexity. Demerara rums from Guyana, distilled on historic wooden stills, are among the most collectible bottles in the entire category.
+
+**Central America** — Guatemala, Panama, Nicaragua — produces column-still rums that appeal to collectors who enjoy softer, sweeter, and wood-driven profiles.
+
+## Building a Rum Collection That Reflects You
+
+Rum is personal. More than almost any other category, your collection ends up reflecting your taste, your geography, and your philosophy about what makes a great spirit.
+
+**Start with a regional anchor.** Pick one origin you genuinely love and go deep before expanding. If you enjoy agricultural rum, explore the full range of Martinique expressions before jumping to Jamaica. Depth beats breadth in the early stages.
+
+**Mix vintage and current releases.** Some of the most interesting rum bottles are older expressions — distilled decades ago and released by independent bottlers. These vintage rums tell a different story than current releases and add historical depth to any collection.
+
+**Think about opened versus sealed.** For bottles you plan to eventually drink, document the opening date and track how the rum evolves over weeks. For bottles you want to keep as collector pieces, sealed condition and original packaging matter enormously.
+
+**Log gifts carefully.** Rum makes an excellent gift. When someone gives you a bottle, record who gave it, when, and the occasion. That information turns a bottle into a memory — and Alcotheque's gift tracking feature was built exactly for this.
+
+**Set a value target.** Knowing the estimated total value of your rum collection is genuinely useful — for insurance, for personal satisfaction, and for making smarter buying decisions. An app that tracks value automatically removes the guesswork.
+
+## Frequently Asked Questions
+
+**What is the difference between agricultural rum and traditional rum?**
+Agricultural rum (rhum agricole) is distilled from fresh sugarcane juice, giving it a grassy, vegetal, and cane-forward character. Traditional or industrial rum is distilled from molasses, a byproduct of sugar production, producing a richer, sweeter, and more rounded profile. Both styles are worth collecting.
+
+**Does rum age well in the bottle once purchased?**
+No. Like other spirits, rum does not evolve once bottled. The age statement on a bottle refers to time in the cask, not on your shelf. Sealed bottles remain stable for many years if stored correctly, but do not improve beyond their bottling condition.
+
+**Which rum region should a new collector start with?**
+Martinique agricultural rum is an excellent starting point for European collectors — regulated, distinctive, and widely available. Jamaican rum is the best entry point for collectors who want intensity and complexity from the first bottle.
+
+**How do I avoid buying duplicate bottles?**
+A searchable digital inventory is the only reliable solution. With a rum collection app on your phone, you can check your existing bottles in seconds before buying — whether you are in a specialist shop or at a tasting event.
+
+**Are limited edition rums worth the premium price?**
+Sometimes. Limited releases from respected distilleries or independent bottlers with documented provenance can hold or increase in value. However, most limited editions are worth buying primarily because you want to drink them — not as a financial investment.
+
+**Can I manage an international rum collection across multiple storage locations?**
+Yes. Alcotheque's location management feature lets you organize bottles by specific storage spots — cellar, home bar, living room, or any custom location you define. Your full rum collection stays visible across all locations in one interface.
+
 ## Related articles
 
 - [Spirits Collector's Guide](/en/blog/spirits-collector-guide)
