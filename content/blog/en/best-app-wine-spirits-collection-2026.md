@@ -111,6 +111,58 @@ The free version lets you **manage** up to 15 bottles. For larger collections, t
 
 In 2026, managing your wine and spirits **collection** with an Excel spreadsheet is like navigating without GPS. Alcotheque gives you a clear, complete view of your **spirits collection** and **wine**, with the power of AI to simplify every addition.
 
+---
+
+## Common Mistakes Collectors Make Without an App
+
+Many enthusiasts underestimate how quickly a collection grows. After 30 or 40 bottles, memory alone is no longer enough. Here are the most common mistakes collectors make before switching to a dedicated app:
+
+**Buying duplicates.** Without an inventory, it is easy to purchase a bottle you already own — especially gifts received over the years. Alcotheque prevents this by giving you a searchable list at your fingertips.
+
+**Forgetting gift origins.** Who gave you that 18-year-old Scotch two Christmases ago? Without a record, these memories fade. The gift tracking feature in Alcotheque captures the giver's name, date, and occasion automatically.
+
+**Losing track of value.** A collection of 50 bottles can represent significant financial value. Without analytics, most collectors have no idea what their cellar is worth. Alcotheque calculates estimated value in real time.
+
+**Storing bottles in the wrong conditions.** When you do not know what you have or where it is stored, bottles end up in suboptimal conditions. Location management in Alcotheque maps every bottle to its exact storage spot.
+
+---
+
+## Is Alcotheque Right for You?
+
+Alcotheque is designed for a specific type of collector. You will love it if:
+
+- You own more than 15 bottles across wine and spirits
+- You receive bottles as gifts and want to remember who gave them
+- You have multiple storage locations (cellar, home bar, living room)
+- You want to know the estimated value of your collection
+- You enjoy tracking your collecting habits over time with analytics
+
+It may not be the right fit if you are looking for a wine community or social discovery platform — for that, Vivino is a better choice. Alcotheque is built for **personal collection management**, not social sharing.
+
+---
+
+## Frequently Asked Questions
+
+**Is there a free app to track my wine and spirits collection?**
+Yes. Alcotheque is free to download and lets you manage up to 15 bottles at no cost. A Premium subscription at $0.99/month unlocks unlimited bottles, locations, and scans.
+
+**Can I use Alcotheque for both wine and whisky?**
+Absolutely. Alcotheque is the only app designed to manage both wine and spirits in a single interface — including whisky, rum, gin, cognac, bourbon, and more.
+
+**Does Alcotheque work without internet?**
+The app requires an internet connection for AI scanning and cloud sync. Your collection data is stored securely in the cloud and accessible across devices.
+
+**How does the AI bottle scanner work?**
+Simply point your camera at the bottle label. The AI identifies the bottle name, type, vintage, and estimated value automatically. No manual typing required.
+
+**Can I track bottles I received as gifts?**
+Yes. Alcotheque includes a dedicated gift tracking feature. You can record the giver's name, date, and occasion for every bottle you receive — a feature no other collection app offers.
+
+**Is my collection data private?**
+Yes. Your collection is private and linked only to your account. Alcotheque does not share your data with other users or third parties.
+
+---
+
 ## Related articles
 
 - [Spirits Collector's Guide](/en/blog/spirits-collector-guide)

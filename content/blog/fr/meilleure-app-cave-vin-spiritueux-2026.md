@@ -112,6 +112,58 @@ La version gratuite vous permet de gérer jusqu'à 15 bouteilles. Pour une colle
 
 En 2026, gérer sa cave à vins et spiritueux avec un tableur Excel, c'est comme naviguer sans GPS. Alcothèque vous offre une vue claire et complète de votre collection, avec la puissance de l'IA pour simplifier chaque ajout.
 
+---
+
+## Les erreurs fréquentes sans application de gestion
+
+Beaucoup de collectionneurs sous-estiment la rapidité à laquelle une cave grandit. Au-delà de 30 ou 40 bouteilles, la mémoire seule ne suffit plus. Voici les erreurs les plus courantes avant de passer à une application dédiée :
+
+**Acheter des doublons.** Sans inventaire, il est facile d'acheter une bouteille déjà possédée — surtout parmi les cadeaux reçus au fil des années. Alcothèque évite cela grâce à une liste consultable en quelques secondes.
+
+**Oublier l'origine des cadeaux.** Qui t'a offert ce single malt 18 ans il y a deux Noëls ? Sans trace écrite, ces souvenirs s'effacent. La fonctionnalité de suivi des cadeaux dans Alcothèque enregistre le nom du donateur, la date et l'occasion.
+
+**Ne pas connaître la valeur de sa cave.** Une collection de 50 bouteilles peut représenter une valeur significative. Sans analytics, la plupart des collectionneurs n'ont aucune idée de ce que vaut leur cave. Alcothèque calcule la valeur estimée en temps réel.
+
+**Stocker sans organisation.** Quand on ne sait pas précisément ce qu'on possède ni où c'est rangé, certaines bouteilles finissent dans de mauvaises conditions. La gestion par emplacement dans Alcothèque situe chaque bouteille avec précision.
+
+---
+
+## Alcothèque est-elle faite pour toi ?
+
+Alcothèque est conçue pour un profil précis de collectionneur. Tu vas l'adorer si :
+
+- Tu possèdes plus de 15 bouteilles entre vins et spiritueux
+- Tu reçois des bouteilles en cadeau et veux te souvenir de qui te les a offertes
+- Tu as plusieurs emplacements de stockage (cave, bar, salon)
+- Tu veux connaître la valeur estimée de ta collection
+- Tu aimes suivre l'évolution de ta collection dans le temps
+
+Elle n'est peut-être pas adaptée si tu cherches une communauté ou une plateforme de découverte sociale — Vivino est mieux adapté pour cela. Alcothèque est conçue pour la **gestion personnelle de collection**, pas pour le partage social.
+
+---
+
+## Questions fréquentes
+
+**Existe-t-il une application gratuite pour gérer sa cave à vins et spiritueux ?**
+Oui. Alcothèque est gratuite au téléchargement et permet de gérer jusqu'à 15 bouteilles sans frais. L'abonnement Premium à 0,99 $/mois débloque les bouteilles, emplacements et scans illimités.
+
+**Puis-je utiliser Alcothèque pour le vin ET le whisky ?**
+Absolument. Alcothèque est la seule application conçue pour gérer vins et spiritueux dans une interface unifiée — whisky, rhum, gin, cognac, bourbon, et bien d'autres.
+
+**Alcothèque fonctionne-t-elle sans connexion internet ?**
+L'application nécessite une connexion pour le scan IA et la synchronisation cloud. Les données de ta collection sont stockées de façon sécurisée et accessibles sur tous tes appareils.
+
+**Comment fonctionne le scan IA de bouteilles ?**
+Pointe simplement l'appareil photo vers l'étiquette. L'IA identifie automatiquement le nom, le type, le millésime et la valeur estimée de la bouteille. Aucune saisie manuelle nécessaire.
+
+**Puis-je suivre les bouteilles reçues en cadeau ?**
+Oui. Alcothèque inclut une fonctionnalité dédiée au suivi des cadeaux. Tu peux enregistrer le nom du donateur, la date et l'occasion pour chaque bouteille reçue — une fonctionnalité absente de toutes les autres applications.
+
+**Mes données de collection sont-elles privées ?**
+Oui. Ta collection est privée et liée uniquement à ton compte. Alcothèque ne partage tes données ni avec d'autres utilisateurs ni avec des tiers.
+
+---
+
 ## Articles similaires
 
 - [Guide du collectionneur de spiritueux](/fr/blog/guide-collectionneur-spiritueux)
