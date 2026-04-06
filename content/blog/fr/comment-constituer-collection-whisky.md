@@ -50,6 +50,56 @@ Suivez les sorties limitées des distilleries et des distributeurs que vous appr
 
 Constituer et gérer une **collection whisky** ou **bourbon collection** repose sur des choix de départ réfléchis, un stockage soigné et un **inventaire** à jour. En passant d’Excel à une application conçue pour les **spiritueux** et les vins, vous gagnez du temps et limitez les erreurs. Si vous voulez centraliser whiskies, vins et suivis de cadeaux sur iOS, Alcothèque est un candidat naturel pour tenir votre **cave** comme un pro.
 
+## Les erreurs classiques des collectionneurs de whisky
+
+Même les collectionneurs expérimentés tombent dans ces pièges. Les connaître à l'avance économise de l'argent et de la frustration.
+
+**Courir après le hype avant de construire son palais.** Les éditions limitées et les bouteilles très médiatisées attirent l'attention, mais acheter uniquement sur la base des notes et des réseaux sociaux donne une collection qui ne te ressemble pas. Goûte largement d'abord, achète délibérément ensuite.
+
+**Ignorer les embouteilleurs indépendants.** Les grandes distilleries monopolisent l'attention, mais les embouteilleurs indépendants — des sociétés qui achètent des fûts et les mettent en bouteille sous leur propre marque — offrent souvent une qualité remarquable à des prix que les sorties officielles ne peuvent pas concurrencer. Gordon & MacPhail, Signatory et Cadenhead's sont des points de départ classiques.
+
+**Négliger la documentation.** Une bouteille sans historique d'achat, sans prix payé et sans source est plus difficile à valoriser, à assurer et à raconter. Dix secondes de saisie en rentrant chez soi évitent des années d'incertitude.
+
+**Stocker les bouteilles sur le côté.** Contrairement au vin, les spiritueux doivent être conservés debout. Le taux d'alcool élevé peut dégrader les bouchons naturels sur le long terme au contact du liquide. Gardez les bouteilles verticales, à l'abri de la lumière et à température stable.
+
+**Acheter trop vite, trop large.** Une collection concentrée de trente bouteilles que tu comprends bien est plus satisfaisante — et souvent plus précieuse — que cent bouteilles achetées impulsivement dans toutes les directions.
+
+## Whisky et bourbon : comprendre ce que tu possèdes
+
+Avant de faire grandir intelligemment une collection, il est utile de comprendre le paysage de base.
+
+**Le single malt scotch** provient d'une seule distillerie et utilise uniquement de l'orge maltée. La région compte : les whiskies d'Islay tendent vers la tourbe et le sel marin ; le Speyside vers les fruits et le miel ; les Highlands vers une palette très large. Les mentions d'âge donnent un signal, mais le type de fût compte souvent davantage.
+
+**Le blended scotch** assemble des malts et des whiskies de grain provenant de plusieurs distilleries. Les blends premium comme Johnnie Walker Blue ou Compass Box méritent l'attention sérieuse des collectionneurs.
+
+**Le bourbon** doit être produit aux États-Unis à partir d'au moins 51 % de maïs, vieilli en fûts de chêne neufs carbonisés. Le Kentucky domine, mais les distilleries artisanales à travers le pays produisent des bouteilles à suivre. Les small batch et single barrel sont le point d'entrée du collectionneur.
+
+**Le whisky japonais** a explosé en demande mondiale depuis dix ans. L'authenticité et la provenance comptent énormément — renseigne-toi sérieusement sur les producteurs avant d'acheter à des prix premium.
+
+**Le whiskey irlandais** est distillé trois fois et typiquement plus léger en style. Les expressions single pot still de Redbreast, Green Spot et Midleton sont le focus du collectionneur sérieux.
+
+Savoir ce que tu possèdes rend chaque conversation, chaque dégustation et chaque décision d'achat plus pertinente.
+
+## Questions fréquentes
+
+**Quel whisky choisir pour commencer une collection ?**
+Commence avec trois à cinq bouteilles représentant des styles différents : un single malt de Speyside, un Islay très tourbé et un bourbon américain. Cela te donne des repères sur les principaux profils aromatiques sans sur-investir d'emblée.
+
+**Comment savoir si une bouteille vaut la peine d'être gardée fermée ?**
+Consulte les prix récents sur le marché secondaire pour cet embouteillage précis. Si la bouteille dépasse significativement le prix de détail et que la distillerie ne la produit plus, la garder fermée a du sens. Sinon, ouvre-la et profites-en.
+
+**Le whisky s'améliore-t-il dans la bouteille avec le temps ?**
+Non. Contrairement au vin, les spiritueux n'évoluent pas dans une bouteille scellée. La mention d'âge fait référence au temps passé en fût, pas sur ta étagère. Une fois mis en bouteille, le whisky est stable — ni meilleur ni moins bon si conservé correctement.
+
+**Quel budget prévoir pour commencer une collection de whisky ?**
+Tu peux construire une collection vraiment intéressante à partir de 30 à 50 € par bouteille. Un ensemble concentré de dix à quinze bouteilles de différents styles te donne une base solide avant de passer au territoire premium.
+
+**Quelle est la différence entre whisky et whiskey ?**
+La convention orthographique varie selon les pays. L'Écosse, le Japon et la plupart du monde utilisent "whisky". L'Irlande et les États-Unis utilisent "whiskey". La différence est purement géographique, pas un indicateur de qualité.
+
+**Comment suivre la valeur de ma collection de whisky ?**
+Une application dédiée comme Alcothèque te permet d'enregistrer chaque bouteille avec son prix d'achat et sa valeur estimée actuelle. Au fur et à mesure que tu ajoutes des bouteilles, la valeur totale de ta collection se met à jour automatiquement — bien plus fiable que d'essayer de se souvenir de ce qu'on a payé il y a deux ans.
+
 ## Articles similaires
 
 - [Guide du collectionneur de spiritueux](/fr/blog/guide-collectionneur-spiritueux)

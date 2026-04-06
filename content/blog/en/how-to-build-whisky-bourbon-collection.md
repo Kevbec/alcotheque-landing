@@ -50,6 +50,56 @@ Follow limited releases from distilleries and retailers you trust, yet set buyin
 
 Building and learning to **manage whisky collection** holdings starts with thoughtful first buys, careful storage, and an inventory you actually maintain. Moving from Excel to an iOS-first **whisky collection app** saves time and cuts duplicate buys. If you want one place for whisky, wine, gifts, and value, Alcotheque is a natural fit to run your home cellar like you mean it.
 
+## The Most Common Whisky Collecting Mistakes
+
+Even experienced collectors make these mistakes. Knowing them in advance saves money and frustration.
+
+**Chasing hype before building taste.** Limited releases and high-profile bottlings attract attention, but buying based on scores and social media buzz alone is a recipe for a collection that does not reflect you. Drink widely first, buy deliberately second.
+
+**Ignoring independent bottlers.** The major distillery releases get all the attention, but independent bottlers — companies that buy casks and bottle under their own label — often offer extraordinary quality at prices the official releases cannot match. Gordon & MacPhail, Signatory, and Cadenhead's are classic starting points.
+
+**Neglecting documentation.** A bottle without purchase history, price paid, and source is harder to value, harder to insure, and harder to tell a story about. Ten seconds of logging when you get home prevents years of uncertainty.
+
+**Storing bottles on their side.** Unlike wine, spirits should be stored upright. High alcohol content can degrade natural corks over time if left in contact. Keep bottles standing, away from light, at stable temperature.
+
+**Buying too fast, too wide.** A focused collection of thirty bottles you understand deeply is more satisfying — and more valuable — than a hundred bottles bought impulsively across every category.
+
+## Whisky and Bourbon: Understanding What You Own
+
+Before you can grow a collection intelligently, it helps to understand the basic landscape.
+
+**Single malt Scotch** comes from one distillery using malted barley. Region matters: Islay whiskies tend toward smoke and sea salt; Speyside toward fruit and honey; Highland toward a wide range of styles. Age statements give one signal, but cask type often matters more.
+
+**Blended Scotch** combines malts and grain whiskies from multiple distilleries. Premium blends like Johnnie Walker Blue or Compass Box deserve serious attention from collectors, not just beginners.
+
+**Bourbon** must be made in the US from at least 51% corn, aged in new charred oak barrels. Kentucky dominates, but craft distilleries across the country are producing bottles worth tracking. Small batch and single barrel releases are the collector's entry point.
+
+**Japanese whisky** has exploded in global demand over the past decade. Authenticity and provenance matter enormously — research producers carefully before buying at premium prices.
+
+**Irish whiskey** is triple-distilled and typically lighter in style. Single pot still expressions from Redbreast, Green Spot, and Midleton are the serious collector's focus.
+
+Knowing what you own makes every conversation, every tasting, and every purchase decision sharper.
+
+## Frequently Asked Questions
+
+**What is the best whisky to start a collection with?**
+Start with three to five bottles that represent different styles: a Speyside single malt, a heavily peated Islay, and an American bourbon. This gives you reference points across the main flavor profiles without overcommitting budget.
+
+**How do I know if a whisky bottle is worth keeping sealed?**
+Check recent secondary market prices for that specific bottling. If the bottle is significantly above retail on the secondary market and the distillery no longer produces it, keeping it sealed makes sense. Otherwise, drink and enjoy it.
+
+**Does whisky improve in the bottle over time?**
+No. Unlike wine, spirits do not evolve in a sealed bottle. Age statements refer to time spent in the cask, not on your shelf. Once bottled, the whisky is stable — neither improving nor degrading if stored correctly.
+
+**How much should I budget to start a whisky collection?**
+You can build a genuinely interesting collection starting at $30 to $50 per bottle. A focused set of ten to fifteen bottles across styles gives you a solid foundation before moving into premium territory.
+
+**What is the difference between whisky and whiskey?**
+Spelling convention varies by country. Scotland, Japan, and most of the world use "whisky." Ireland and the United States use "whiskey." The difference is purely geographic convention, not a quality indicator.
+
+**How do I track the value of my whisky collection?**
+A dedicated app like Alcotheque lets you log each bottle with purchase price and estimated current value. As you add bottles, your total collection value updates automatically — far more reliable than trying to remember what you paid two years ago.
+
 ## Related articles
 
 - [Spirits Collector's Guide](/en/blog/spirits-collector-guide)
