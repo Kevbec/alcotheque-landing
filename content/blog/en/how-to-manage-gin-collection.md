@@ -52,6 +52,58 @@ Follow releases and **limited editions** via distilleries and specialist retaile
 
 **Collect gin** with discipline on three pillars: varied styles (including **London dry** and **botanical gin**), stable storage, and an up-to-date **inventory**. Move from spreadsheets to a mobile **gin collection app** with scanning: you save time at home and behind the bar. To centralize **gin**, **whisky**, **rum**, and **cognac**, Alcothèque fits the daily collector workflow.
 
+## The World of Gin: Styles Every Collector Should Know
+
+Gin is one of the most diverse spirits categories in the world. Understanding the main styles makes you a sharper buyer and a better taster.
+
+**London Dry** is the benchmark. Dry, juniper-forward, and clean, it works in any cocktail and ages well on the shelf. Every serious collection starts here.
+
+**Contemporary or New Western gin** pulls back on juniper and pushes other botanicals to the front: citrus, floral, and fruit notes dominate. These bottles are polarizing and interesting.
+
+**Sloe gin** is a liqueur style made by infusing sloe berries in gin. Lower alcohol, sweeter, and distinctly British. Worth one or two bottles in any serious collection.
+
+**Old Tom gin** sits historically between London Dry and genever: slightly sweetened, rounder, and essential for classic cocktail recipes like the Tom Collins.
+
+**Genever** is the Dutch ancestor of modern gin. Malt-forward and spirit-heavy, it drinks more like a whisky-gin hybrid. A single bottle adds real category depth.
+
+**Navy Strength gin** is bottled at 57% ABV or higher. The alcohol carries botanicals more intensely. A small selection adds punch and range.
+
+**Craft and regional gins** are where the category gets exciting. Local distilleries across France, Belgium, Japan, and beyond produce small-batch gins using local botanicals that no large producer can replicate.
+
+## Gin Collecting: Practical Principles That Actually Work
+
+Most guides tell you what to buy. Here is how to think about building a collection that grows intelligently over time.
+
+**Anchor before you explore.** Pick two or three London Dry gins you genuinely enjoy and understand them deeply before chasing new releases. Anchors give you reference points that make every new bottle more meaningful.
+
+**Document opens, not just purchases.** Logging when you opened a bottle and what you thought matters as much as when you bought it. A bottle you opened eighteen months ago and barely touched tells you something important about your actual preferences.
+
+**Rotate your collection seasonally.** Lighter, floral gins work beautifully in summer cocktails. Heavier, spiced expressions suit winter. A collection that flows with seasons gets used, not just displayed.
+
+**Set a geographic goal.** Try to have at least one gin from each of three or four different countries or regions. It forces you to explore beyond the familiar and builds real category knowledge faster than buying randomly.
+
+**Do not overlook packaging.** Some gin producers invest heavily in distinctive bottles and presentation. For a collection that looks as good as it tastes, packaging condition matters — especially for bottles you plan to keep sealed.
+
+## Frequently Asked Questions
+
+**What makes gin different from other spirits to collect?**
+Gin is the most botanically diverse spirits category. No two craft gins taste alike the way two bourbons from the same region might. That variety makes collecting genuinely exploratory and keeps the hobby interesting even after hundreds of bottles.
+
+**How long does an open bottle of gin last?**
+An open gin bottle is generally best within twelve months. The high alcohol preserves it well, but delicate botanical notes — especially floral and citrus — fade over time once exposed to air. Keep the cap tight and store away from light.
+
+**Is gin a good investment compared to whisky?**
+Rarely. Most gin does not appreciate on the secondary market the way rare whisky does. Collect gin primarily for enjoyment and exploration, not financial return. Occasional limited releases from cult distilleries can hold or increase value, but these are exceptions.
+
+**What is the best way to taste gin properly?**
+Neat at room temperature first, then with a small amount of water, then in a simple serve like a gin and tonic. Each method reveals different aspects of the botanical profile. Avoid tasting straight from the fridge — cold numbs the aromatics.
+
+**How many gins do I need before I need an app to track them?**
+Ten to fifteen bottles is the typical tipping point. Below that, a simple list works. Above that, photos, locations, purchase dates, and tasting notes become genuinely useful and a dedicated app saves real time.
+
+**Can I track gin and wine in the same app?**
+Yes. Alcotheque manages both spirits and wine in a single unified inventory. If you collect gin alongside wine or other spirits, everything lives in one searchable place rather than scattered across multiple lists.
+
 ## Related articles
 
 - [Spirits Collector's Guide](/en/blog/spirits-collector-guide)

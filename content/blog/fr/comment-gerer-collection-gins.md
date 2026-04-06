@@ -52,6 +52,59 @@ Suivez les sorties et **éditions limitées** via distilleries et revendeurs sp�
 
 **Collecter gin** avec méthode repose sur trois piliers : styles variés (dont **London dry** et **gin botanique**), stockage stable et **inventaire** à jour. Passez du tableur à une **application** mobile avec **scanner** : vous gagnez du temps en cave et au bar. Pour centraliser **gin**, **whisky**, **rhum** et **cognac**, Alcothèque couvre l’usage quotidien du collectionneur.
 
+## Le monde du gin : les styles que chaque collectionneur doit connaître
+
+Le gin est l'une des catégories de spiritueux les plus diverses au monde. Comprendre les principaux styles fait de toi un acheteur plus avisé et un meilleur dégustateur.
+
+**Le London Dry** est la référence absolue. Sec, dominé par le genévrier et très net en bouche, il fonctionne dans n'importe quel cocktail et se conserve parfaitement. Toute collection sérieuse commence ici.
+
+**Le gin contemporain ou New Western** met en retrait le genévrier pour pousser d'autres botaniques au premier plan : notes d'agrumes, florales et fruitées dominent. Ces bouteilles sont polarisantes et passionnantes.
+
+**Le sloe gin** est un style de liqueur obtenu par macération de prunelles sauvages dans du gin. Plus doux, moins alcoolisé, résolument britannique. Une ou deux bouteilles enrichissent n'importe quelle collection sérieuse.
+
+**L'Old Tom gin** se situe historiquement entre le London Dry et le genever : légèrement sucré, plus rond, indispensable pour les recettes de cocktails classiques comme le Tom Collins.
+
+**Le genever** est l'ancêtre néerlandais du gin moderne. Orienté malt et plus chargé en alcool de grain, il se boit davantage comme un hybride whisky-gin. Une seule bouteille ajoute une vraie profondeur à la collection.
+
+**Le Navy Strength gin** est embouteillé à 57 % ABV ou plus. L'alcool porte les botaniques avec plus d'intensité. Un petit choix de ces bouteilles ajoute de la puissance et de la diversité.
+
+**Les gins artisanaux et régionaux** sont là où la catégorie devient vraiment excitante. Les distilleries locales de France, Belgique, Japon et d'ailleurs produisent des gins en petites séries avec des botaniques locaux qu'aucun grand producteur ne peut reproduire.
+
+## Collectionner le gin : principes pratiques qui fonctionnent vraiment
+
+La plupart des guides te disent quoi acheter. Voici comment penser la construction d'une collection qui grandit intelligemment.
+
+**Ancre-toi avant d'explorer.** Choisis deux ou trois London Dry que tu aimes vraiment et comprends-les en profondeur avant de chasser les nouvelles sorties. Ces références donnent des points de comparaison qui rendent chaque nouvelle bouteille plus significative.
+
+**Documente les ouvertures, pas seulement les achats.** Noter quand tu as ouvert une bouteille et ce que tu en as pensé compte autant que la date d'achat. Une bouteille ouverte il y a dix-huit mois et à peine entamée te dit quelque chose d'important sur tes préférences réelles.
+
+**Fais tourner ta collection selon les saisons.** Les gins légers et floraux sont parfaits dans les cocktails d'été. Les expressions plus épicées et corsées conviennent à l'hiver. Une collection qui évolue avec les saisons s'utilise vraiment, elle ne fait pas que décorer.
+
+**Fixe-toi un objectif géographique.** Essaie d'avoir au moins un gin de trois ou quatre pays ou régions différents. Cela te force à explorer au-delà du familier et construit une vraie connaissance de la catégorie plus vite qu'en achetant au hasard.
+
+**Ne néglige pas le packaging.** Certains producteurs de gin investissent beaucoup dans des bouteilles et présentations distinctives. Pour une collection aussi belle que bonne, l'état du packaging compte, surtout pour les bouteilles que tu prévois de garder fermées.
+
+## Questions fréquentes
+
+**Qu'est-ce qui distingue le gin des autres spiritueux à collectionner ?**
+Le gin est la catégorie de spiritueux la plus diverse sur le plan botanique. Deux gins artisanaux ne se ressemblent pas de la même façon que deux bourbons d'une même région. Cette variété rend la collection vraiment exploratoire et maintient l'intérêt même après des centaines de bouteilles.
+
+**Combien de temps dure une bouteille de gin ouverte ?**
+Une bouteille de gin ouverte est généralement meilleure dans les douze mois. Le taux d'alcool élevé la préserve bien, mais les notes botaniques délicates — surtout florales et citronnées — s'estompent avec le temps une fois exposées à l'air. Garde le bouchon bien fermé et conserve à l'abri de la lumière.
+
+**Le gin est-il un bon investissement comparé au whisky ?**
+Rarement. La plupart des gins ne prennent pas de valeur sur le marché secondaire comme peut le faire un whisky rare. Collecte le gin principalement pour le plaisir et l'exploration, pas pour un retour financier. Quelques éditions limitées de distilleries cultes peuvent maintenir ou augmenter leur valeur, mais ce sont des exceptions.
+
+**Quelle est la meilleure façon de déguster le gin ?**
+Nature à température ambiante d'abord, puis avec un peu d'eau, ensuite dans un service simple comme un gin tonic. Chaque méthode révèle des aspects différents du profil botanique. Évite de goûter directement sorti du réfrigérateur — le froid engourdit les arômes.
+
+**À partir de combien de gins ai-je besoin d'une application pour les tracker ?**
+Dix à quinze bouteilles est le seuil habituel. En dessous, une liste simple suffit. Au-delà, les photos, emplacements, dates d'achat et notes de dégustation deviennent vraiment utiles et une application dédiée fait gagner un temps réel.
+
+**Puis-je tracker gin et vin dans la même application ?**
+Oui. Alcothèque gère spiritueux et vins dans un seul inventaire unifié. Si tu collectionnes le gin à côté du vin ou d'autres spiritueux, tout se retrouve au même endroit consultable plutôt que dispersé sur plusieurs listes.
+
+
 ## Articles similaires
 
 - [Guide du collectionneur de spiritueux](/fr/blog/guide-collectionneur-spiritueux)
