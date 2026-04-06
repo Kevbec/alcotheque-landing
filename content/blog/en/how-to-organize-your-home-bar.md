@@ -54,6 +54,54 @@ Add liqueurs and **bitters** once your base spirits are stable: that is where cl
 
 A winning **home bar** blends solid base **spirits**, readable **storage**, and a current **inventory**. You save time, money, and friction. To move from a messy cabinet to a pro workflow on iPhone, install **Alcothèque**, create your bar location, and scan your bottles. Your **home bar setup** finally stays clear for you, your guests, and your next buying decision.
 
+## Home Bar Mistakes That Are Easy to Avoid
+
+Setting up a home bar is exciting. These common mistakes slow collectors down — knowing them in advance saves money and frustration.
+
+**Buying everything at once.** The impulse to stock a complete bar immediately leads to bottles that sit unopened for years. Start with five to eight core spirits and expand deliberately as you learn what you actually use.
+
+**Ignoring vermouth and mixers.** A home bar without fresh vermouth, quality bitters, and good mixers is incomplete. These ingredients transform spirits into cocktails. Replace vermouth regularly — it is a wine and goes stale once opened.
+
+**No inventory system.** Without a record of what you own, you buy duplicates, forget about bottles in the back of a cabinet, and lose track of what you have already opened. A simple app solves this completely.
+
+**Poor lighting.** A home bar that nobody can see is a missed opportunity. Good lighting makes bottles look beautiful and makes finding what you need effortless. Even inexpensive LED strip lighting transforms a shelf.
+
+**Storing wine and spirits the same way.** Wine needs to lie on its side to keep corks moist. Spirits should stand upright — the high alcohol content degrades natural corks over time if left in contact with liquid. Two different storage philosophies for two different product types.
+
+**Forgetting about glassware.** The right glass genuinely changes the experience. A whisky rocks glass, a coupe for cocktails, a highball for long drinks — each serves a specific purpose. Invest in a small, quality set rather than a large, mediocre one.
+
+## Stocking Your Home Bar by Budget
+
+You do not need to spend thousands to build a great home bar. Here is how to think about it by budget level.
+
+**Starter bar (under €200 total):** One quality gin, one blended Scotch or bourbon, one rum, one bottle of vermouth, basic bitters, quality tonic water. This covers gin and tonics, whisky highballs, simple cocktails, and neat pours for guests.
+
+**Intermediate bar (€200-500):** Add a single malt Scotch, an aged rum, a mezcal or tequila, Campari or Aperol for aperitivo cocktails, and a wider range of bitters. You can now make the classics confidently.
+
+**Serious bar (€500+):** This is where personal taste takes over. Japanese whisky, vintage spirits, limited releases, a full range of liqueurs, specialty syrups, fresh citrus always on hand. At this level, an inventory app becomes essential — not optional.
+
+The key insight at every budget level: quality over quantity. Three excellent bottles outperform ten mediocre ones every time.
+
+## Frequently Asked Questions
+
+**What are the must-have spirits for a home bar?**
+Start with a quality gin, a whisky or bourbon, and a rum. These three cover the vast majority of classic cocktails and work well for guests with different preferences. Add vermouth and bitters immediately — they unlock dozens of recipes.
+
+**How do I keep track of what I have in my home bar?**
+A dedicated app is the most reliable solution. Alcotheque lets you scan bottle labels with AI, organize by location, and see your full inventory at a glance. It tracks both spirits and wine in the same interface, making it ideal for a complete home bar.
+
+**How often should I replace open bottles?**
+Spirits are stable for years once opened if stored correctly — upright, away from light, with the cap tight. Vermouth and liqueurs are more fragile: replace vermouth within one to two months of opening, and store it in the fridge.
+
+**Is it worth buying premium spirits for cocktails?**
+For most cocktails, a good mid-range spirit delivers better results than a budget bottle and nearly identical results to a premium one. Save your finest bottles for neat pours where the spirit is the entire experience.
+
+**How much space do I actually need for a home bar?**
+Less than you think. A single dedicated shelf or a small cabinet with good organization can hold fifteen to twenty bottles comfortably. Vertical space is your friend — tall bottles on lower shelves, smaller bottles and accessories above.
+
+**Can I manage my home bar and wine collection in the same app?**
+Yes. Alcotheque manages both spirits and wine in a single unified inventory. If your home bar includes wine alongside spirits, everything lives in one searchable place with location management, so you always know exactly what you have and where it is stored.
+
 ## Related articles
 
 - [How to Build Your Whisky Collection](/en/blog/how-to-build-whisky-bourbon-collection)

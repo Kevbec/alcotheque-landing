@@ -54,6 +54,54 @@ Ajoutez des liqueurs et des **amers** quand les bases sont stables : c’est là
 
 Un **home bar** réussi combine **spiritueux** de base solides, **rangement** lisible et **inventaire** à jour. Vous gagnez du temps, de l’argent et du plaisir. Pour passer du placard à l’outil pro sur iPhone, installez **Alcothèque**, créez votre emplacement bar et scannez vos flacons. Votre **bar maison** devient enfin lisible pour vous, pour vos invités et pour votre prochain choix d’achat.
 
+## Les erreurs classiques du home bar à éviter
+
+Créer un home bar est excitant. Ces erreurs courantes ralentissent les collectionneurs — les connaître à l'avance économise de l'argent et de la frustration.
+
+**Tout acheter d'un coup.** L'envie de constituer un bar complet immédiatement mène à des bouteilles qui restent fermées pendant des années. Commence par cinq à huit spiritueux essentiels et élargis délibérément au fur et à mesure que tu apprends ce que tu utilises vraiment.
+
+**Ignorer le vermouth et les mixers.** Un home bar sans vermouth frais, bitters de qualité et bons mixers est incomplet. Ces ingrédients transforment les spiritueux en cocktails. Remplace le vermouth régulièrement — c'est un vin et il se périme une fois ouvert.
+
+**Pas de système d'inventaire.** Sans trace de ce que tu possèdes, tu achètes des doublons, tu oublies des bouteilles au fond d'un placard et tu perds le fil de ce que tu as déjà ouvert. Une application simple résout complètement ce problème.
+
+**Un mauvais éclairage.** Un home bar que personne ne peut voir est une occasion manquée. Un bon éclairage rend les bouteilles belles et facilite la recherche de ce dont tu as besoin. Même un simple ruban LED peu coûteux transforme une étagère.
+
+**Stocker vin et spiritueux de la même façon.** Le vin doit reposer sur le côté pour garder les bouchons humides. Les spiritueux doivent être debout — le taux d'alcool élevé dégrade les bouchons naturels sur le long terme s'ils restent en contact avec le liquide. Deux philosophies de stockage différentes pour deux types de produits différents.
+
+**Oublier les verres.** Le bon verre change vraiment l'expérience. Un verre à whisky on the rocks, une coupe pour les cocktails, un highball pour les boissons longues — chacun sert un objectif précis. Investis dans un petit ensemble de qualité plutôt qu'un grand ensemble médiocre.
+
+## Constituer son home bar selon son budget
+
+Tu n'as pas besoin de dépenser des milliers d'euros pour créer un excellent home bar. Voici comment y penser par niveau de budget.
+
+**Bar de départ (moins de 200 € au total) :** Un gin de qualité, un Scotch blended ou un bourbon, un rhum, une bouteille de vermouth, des bitters de base, un tonic de qualité. Cela couvre gin tonics, whisky highballs, cocktails simples et verres nature pour les invités.
+
+**Bar intermédiaire (200-500 €) :** Ajoute un single malt scotch, un rhum vieux, un mezcal ou tequila, du Campari ou Aperol pour les cocktails apéritifs, et une gamme plus large de bitters. Tu peux maintenant préparer les classiques avec confiance.
+
+**Bar sérieux (500 € et plus) :** C'est là que le goût personnel prend le dessus. Whisky japonais, spiritueux millésimés, éditions limitées, gamme complète de liqueurs, sirops spéciaux, agrumes frais toujours disponibles. À ce niveau, une application d'inventaire devient indispensable — pas optionnelle.
+
+L'insight clé à chaque niveau de budget : la qualité prime sur la quantité. Trois excellentes bouteilles surpassent dix bouteilles médiocres à chaque fois.
+
+## Questions fréquentes
+
+**Quels sont les spiritueux indispensables pour un home bar ?**
+Commence par un gin de qualité, un whisky ou bourbon, et un rhum. Ces trois-là couvrent la grande majorité des cocktails classiques et conviennent aux invités aux préférences différentes. Ajoute immédiatement du vermouth et des bitters — ils débloquent des dizaines de recettes.
+
+**Comment suivre ce que j'ai dans mon home bar ?**
+Une application dédiée est la solution la plus fiable. Alcothèque te permet de scanner les étiquettes des bouteilles avec l'IA, d'organiser par emplacement et de voir ton inventaire complet en un coup d'œil. Elle gère spiritueux et vin dans la même interface, ce qui en fait l'outil idéal pour un home bar complet.
+
+**À quelle fréquence dois-je remplacer les bouteilles ouvertes ?**
+Les spiritueux sont stables pendant des années une fois ouverts s'ils sont conservés correctement — debout, à l'abri de la lumière, avec le bouchon bien fermé. Le vermouth et les liqueurs sont plus fragiles : remplace le vermouth dans un à deux mois après ouverture et conserve-le au réfrigérateur.
+
+**Vaut-il la peine d'acheter des spiritueux premium pour les cocktails ?**
+Pour la plupart des cocktails, un spiritueux de milieu de gamme de qualité donne de meilleurs résultats qu'une bouteille bas de gamme et des résultats quasi identiques à une bouteille premium. Garde tes meilleures bouteilles pour les verres nature où le spiritueux est toute l'expérience.
+
+**De combien d'espace ai-je vraiment besoin pour un home bar ?**
+Moins que tu ne le penses. Une seule étagère dédiée ou un petit meuble bien organisé peut accueillir confortablement quinze à vingt bouteilles. L'espace vertical est ton allié — grandes bouteilles sur les étagères du bas, petites bouteilles et accessoires au-dessus.
+
+**Puis-je gérer mon home bar et ma cave à vin dans la même application ?**
+Oui. Alcothèque gère spiritueux et vin dans un seul inventaire unifié. Si ton home bar inclut du vin à côté des spiritueux, tout se retrouve au même endroit consultable avec la gestion des emplacements, pour que tu saches toujours exactement ce que tu as et où c'est stocké.
+
 ## Articles similaires
 
 - [Comment constituer sa collection de whisky](/fr/blog/comment-constituer-collection-whisky)
