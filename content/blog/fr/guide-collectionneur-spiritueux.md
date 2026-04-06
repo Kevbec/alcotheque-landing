@@ -92,6 +92,56 @@ Priorisez le plaisir, structurez tôt votre **inventaire**, protégez l'état de
 
 Pour passer à l'échelle sans effort, **Alcothèque** regroupe **vins et spiritueux** dans une seule app iOS : **scan IA**, emplacements, **suivi des cadeaux** et vision de la **valeur globale** de votre collection. Téléchargez l'app, scannez votre première bouteille, et votre cave devient enfin lisible en un coup d'œil.
 
+## Suivre sa collection sans se perdre
+
+La plupart des collectionneurs commencent avec de bonnes intentions : un carnet, un tableur, quelques notes. Puis la collection dépasse une vingtaine de bouteilles et le système s'effondre.
+
+Le problème n'est pas la discipline — c'est que le suivi manuel ne passe pas à l'échelle. Une application dédiée résout quatre problèmes concrets que les notes et tableurs ne peuvent pas régler :
+
+**Les doublons.** Sans inventaire consultable, vous achèterez une bouteille que vous possédez déjà. Cela arrive à tous les collectionneurs. Une recherche rapide sur votre téléphone en boutique évite une erreur coûteuse.
+
+**Les cadeaux reçus.** Qui vous a offert ce rhum nicaraguayen il y a trois ans ? Sans trace, le souvenir s'efface. Enregistrer le nom du donateur et l'occasion prend dix secondes et devient précieux des années plus tard.
+
+**La confusion des emplacements.** Quand vous avez une cave, un home bar et quelques bouteilles au salon, savoir exactement où se trouve chaque référence compte. Un inventaire par emplacement répond en un coup d'œil.
+
+**La valeur réelle.** La plupart des collectionneurs ignorent ce que vaut leur cave jusqu'au jour où ils font le calcul. La valeur estimée en temps réel dans une application transforme une impression vague en chiffre concret — utile pour l'assurance, les décisions d'achat, la motivation.
+
+---
+
+## Bâtir une collection qui dure : principes pratiques
+
+Après l'enthousiasme des premiers achats, beaucoup de collectionneurs atteignent un plateau. Voici ce qui distingue les collections qui progressent vraiment de celles qui stagnent :
+
+**Achète ce que tu ouvrirais.** Une collection bâtie uniquement sur la spéculation est épuisante. Les meilleures caves mélangent des bouteilles que tu as envie de boire avec un nombre plus limité de gardes long terme.
+
+**Documente dès le premier jour.** La bouteille achetée aujourd'hui est plus difficile à documenter dans deux ans. Scanne-la en rentrant, note le prix d'achat et l'endroit où tu l'as trouvée. Cinq minutes maintenant évitent beaucoup de frustrations plus tard.
+
+**Creuse avant de t'éparpiller.** Se spécialiser dans une catégorie — les embouteilleurs indépendants de Speyside, les rhums agricoles français, les gins de la côte atlantique — construit une vraie connaissance plus vite qu'acheter dans tous les styles à la fois. L'expertise fait de toi un meilleur acheteur.
+
+**Accepte que les goûts changent.** Une collection n'est pas un monument. Les bouteilles que tu n'apprécies plus peuvent être échangées, partagées ou ouvertes sans culpabilité. L'objectif est un inventaire vivant qui reflète qui tu es comme collectionneur aujourd'hui.
+
+---
+
+## Questions fréquentes
+
+**Par où commencer si je n'ai jamais collectionné de spiritueux ?**
+Choisis une catégorie que tu aimes déjà boire — whisky, rhum, gin ou cognac — et achète trois à cinq bouteilles de styles ou régions différents. Apprends ces références avant d'élargir. Commencer étroit construit une vraie mémoire gustative plus rapidement qu'acheter au hasard.
+
+**À partir de combien de bouteilles ai-je besoin d'une application ?**
+La plupart des collectionneurs trouvent que quinze à vingt bouteilles est le seuil critique. En dessous, une liste suffit. Au-delà, un inventaire digital consultable avec photos et emplacements fait gagner du temps et évite de vraies erreurs.
+
+**Vaut-il la peine d'acheter des éditions limitées comme investissement ?**
+Parfois, mais rarement comme stratégie principale. La plupart des éditions limitées ne prennent pas significativement de valeur. Achète des bouteilles que tu serais heureux d'ouvrir si le marché de revente te déçoit — comme ça tu gagnes toujours.
+
+**Quelle est la meilleure façon de stocker des spiritueux sur le long terme ?**
+Conserve les bouteilles debout, à l'abri de la lumière directe, à une température stable entre 15 et 20 °C environ. Évite les emplacements près des fenêtres, radiateurs ou zones à fortes variations thermiques. Les bouteilles scellées dans leur emballage d'origine conservent mieux leur valeur.
+
+**Comment savoir si une bouteille que je possède est rare ou précieuse ?**
+Consulte les ventes récentes sur les sites de vente aux enchères spécialisés. Les agrégateurs de prix donnent une fourchette utile. L'état, l'emballage d'origine et la documentation d'authenticité influencent significativement la valeur réelle.
+
+**Puis-je gérer vins et spiritueux dans la même application ?**
+Oui — Alcothèque est conçue spécifiquement pour les collectionneurs qui possèdent les deux. Vins et spiritueux cohabitent dans le même inventaire, scannés avec le même système IA, organisés par le même système d'emplacements.
+
 ## Articles similaires
 
 - [Comment constituer sa collection de whisky](/fr/blog/comment-constituer-collection-whisky)

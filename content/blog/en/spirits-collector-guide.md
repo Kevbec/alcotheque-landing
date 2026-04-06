@@ -92,6 +92,56 @@ Lead with enjoyment. Build your **inventory** early. Protect **bottle** conditio
 
 When you are ready to scale without friction, **Alcotheque** unites **wine and spirits** in one iOS experience: **AI scanning**, locations, **gift tracking**, and a live view of total collection **value**. Download the app, scan your first bottle, and your cellar finally becomes legible at a glance.
 
+## How to Track Your Collection Without Losing Your Mind
+
+Most collectors start with good intentions: a notebook, a spreadsheet, maybe a few sticky notes. Then the collection grows past twenty bottles and the system breaks down.
+
+The problem is not discipline — it is that manual tracking does not scale. A dedicated app solves four specific problems that notes and spreadsheets cannot:
+
+**Duplicates.** Without a searchable inventory, you will buy a bottle you already own. It happens to every collector eventually. A quick search on your phone at the shop prevents an embarrassing and expensive mistake.
+
+**Gift records.** Who gave you that Nicaraguan rum three birthdays ago? Without a record, the memory fades. Logging the giver's name and occasion takes ten seconds and becomes genuinely useful years later.
+
+**Location confusion.** Once you have a cellar, a home bar, and a few bottles in the living room, knowing exactly where something is stored matters. A location-based inventory tells you at a glance.
+
+**Value awareness.** Most collectors have no idea what their collection is worth until they sit down and add it up. Real-time estimated value in an app turns a vague feeling into a concrete number you can actually use — for insurance, for decisions, for motivation.
+
+---
+
+## Building a Collection That Lasts: Practical Principles
+
+After the first rush of buying, most collectors hit a plateau. Here is what separates collections that grow meaningfully from those that stagnate or shrink:
+
+**Buy what you would open.** A collection built entirely around resale speculation is exhausting. The best collections mix bottles you genuinely want to drink with a smaller number of long-term holds.
+
+**Document from day one.** The bottle you buy today is harder to document in two years. Scan it when you get home, add the purchase price, note where you found it. Five minutes now saves significant frustration later.
+
+**Focus before you diversify.** Going deep on one category — say, independent bottlers of Speyside whisky, or French agricole rum — builds real knowledge faster than buying randomly across every style. Expertise makes you a better buyer.
+
+**Accept that tastes change.** A collection is not a monument. Bottles you no longer want can be traded, shared, or enjoyed without guilt. The goal is a living inventory that reflects who you are as a collector right now.
+
+---
+
+## Frequently Asked Questions
+
+**Where do I start if I have never collected spirits before?**
+Pick one category you already enjoy drinking — whisky, rum, gin, or cognac — and buy three to five bottles across different styles or regions. Learn those before expanding. Starting narrow builds genuine taste memory faster than buying randomly.
+
+**How many bottles do I need before I need an app?**
+Most collectors find that fifteen to twenty bottles is the tipping point. Below that, a list works fine. Above that, a searchable digital inventory with photos and locations saves real time and prevents real mistakes.
+
+**Is it worth buying limited edition bottles purely as an investment?**
+Occasionally, but rarely as a primary strategy. Most limited releases do not appreciate significantly. Buy bottles you would be happy to open if the resale market disappoints — that way you always win.
+
+**What is the best way to store spirits long term?**
+Keep bottles upright, away from direct light, at a stable temperature roughly between 15 and 20 °C. Avoid storing near windows, radiators, or anywhere that experiences wide temperature swings. Sealed bottles in original packaging retain value best.
+
+**How do I know if a bottle I own is rare or valuable?**
+Check recent secondary market sales on specialist auction sites. Price aggregators give a useful range. Condition, original packaging, and authenticity documentation all affect real-world value significantly.
+
+**Can I manage wine and spirits in the same app?**
+Yes — Alcotheque is built specifically for collectors who own both. Wine and spirits live in the same inventory, scanned with the same AI, organized by the same location system.
+
 ## Related articles
 
 - [How to Build Your Whisky Collection](/en/blog/how-to-build-whisky-bourbon-collection)
