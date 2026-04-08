@@ -27,6 +27,7 @@ export function LandingNavbar({
   const tHero = useTranslations("hero");
   const locale = useLocale();
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 16);
@@ -66,7 +67,17 @@ export function LandingNavbar({
           </span>
         </Link>
 
-        <div className="flex items-center gap-3">
+        <button
+          type="button"
+          className="rounded-md px-2 py-1 text-2xl leading-none text-navy transition-colors hover:bg-navy/5 md:hidden"
+          aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={mobileMenuOpen}
+          onClick={() => setMobileMenuOpen((prev) => !prev)}
+        >
+          {mobileMenuOpen ? "✕" : "☰"}
+        </button>
+
+        <div className="hidden items-center gap-3 md:flex">
           <Link
             href={`/${locale}/blog`}
             className={`text-sm font-medium transition-colors ${
@@ -124,6 +135,46 @@ export function LandingNavbar({
           </nav>
         </div>
       </div>
+      {mobileMenuOpen ? (
+        <div className="absolute inset-x-0 top-16 bg-white px-4 py-3 shadow-[0_8px_24px_rgba(13,38,77,0.12)] md:hidden">
+          <div className="mx-auto flex max-w-6xl flex-col items-start gap-3">
+            <Link
+              href={`/${locale}/blog`}
+              className="text-sm font-medium text-navy/80 transition-colors hover:text-navy"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              {tFooter("links.blog")}
+            </Link>
+            <nav
+              className="flex w-full flex-col gap-2 text-sm font-medium text-navy/80"
+              aria-label="Language"
+            >
+              <Link
+                href="/fr"
+                className={`rounded-full px-3 py-1 transition-colors hover:bg-navy/5 ${
+                  locale === "fr" ? "bg-navy/10 text-navy" : ""
+                }`}
+                aria-current={locale === "fr" ? "true" : undefined}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                FR
+                <span className="sr-only"> — {tLang("switchToFr")}</span>
+              </Link>
+              <Link
+                href="/en"
+                className={`rounded-full px-3 py-1 transition-colors hover:bg-navy/5 ${
+                  locale === "en" ? "bg-navy/10 text-navy" : ""
+                }`}
+                aria-current={locale === "en" ? "true" : undefined}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                EN
+                <span className="sr-only"> — {tLang("switchToEn")}</span>
+              </Link>
+            </nav>
+          </div>
+        </div>
+      ) : null}
     </motion.header>
   );
 }
