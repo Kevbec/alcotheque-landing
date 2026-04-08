@@ -50,8 +50,17 @@ export function ScreenshotsSection() {
     if (!el) return;
     const maxScroll = el.scrollWidth - el.clientWidth;
     if (maxScroll <= 0) return;
-    const ratio = el.scrollLeft / maxScroll;
-    const index = Math.round(ratio * (screenshots.length - 1));
+    const firstCard = el.querySelector('.snap-center') as HTMLElement | null;
+    const cardWidth = firstCard ? firstCard.getBoundingClientRect().width : 0;
+    const gap = 24;
+    const step = cardWidth + gap;
+    const visibleCards = Math.round(el.clientWidth / step);
+    let index: number;
+    if (visibleCards <= 1) {
+      index = Math.round(el.scrollLeft / step);
+    } else {
+      index = Math.round((el.scrollLeft / maxScroll) * (screenshots.length - 1));
+    }
     setActiveIndex(Math.min(Math.max(index, 0), screenshots.length - 1));
   }, [screenshots.length]);
 
@@ -70,7 +79,7 @@ export function ScreenshotsSection() {
         <div className="relative">
           <motion.div
             ref={scrollRef}
-            className="relative scrollbar-hide flex snap-x snap-mandatory flex-row gap-6 overflow-x-auto scroll-smooth px-6 py-8 md:px-16"
+            className="relative scrollbar-hide flex snap-x snap-mandatory flex-row gap-6 overflow-x-auto scroll-smooth px-6 md:px-16 scroll-p-6 py-8"
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -99,6 +108,10 @@ export function ScreenshotsSection() {
                 </div>
               </motion.div>
             ))}
+            <div
+              className="w-6 flex-shrink-0 md:w-16"
+              aria-hidden="true"
+            />
             {/* Indication « glisser » : une fois au chargement, puis disparition. */}
             <motion.div
               className="pointer-events-none absolute bottom-4 left-1/2 z-10 flex -translate-x-1/2 items-center gap-2 rounded-full bg-white/20 px-3 py-1.5 text-xs font-medium text-white/80 backdrop-blur-sm"
@@ -113,7 +126,7 @@ export function ScreenshotsSection() {
           </motion.div>
           {/* Indication visuelle : fondu à droite pour suggérer le défilement. */}
           <div
-            className="pointer-events-none absolute right-0 top-0 h-full w-16 bg-gradient-to-l from-[#0D264D] to-transparent"
+            className="absolute right-0 top-0 h-full w-8 bg-gradient-to-l from-[#0D264D] to-transparent md:w-16 pointer-events-none"
             aria-hidden
           />
         </div>
