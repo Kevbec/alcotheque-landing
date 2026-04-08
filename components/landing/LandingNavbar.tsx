@@ -78,6 +78,60 @@ export function LandingNavbar({
         </button>
 
         <div className="hidden items-center gap-3 md:flex">
+          <a
+            href="#screenshots"
+            className={`text-sm font-medium transition-colors hover:opacity-80 ${
+              useLightText
+                ? "text-white/80 hover:text-white"
+                : "text-navy/70 hover:text-navy"
+            }`}
+          >
+            {tNav("features")}
+          </a>
+          <span
+            className={`select-none text-sm ${
+              useLightText ? "text-white/25" : "text-navy/25"
+            }`}
+            aria-hidden
+          >
+            |
+          </span>
+          <a
+            href="#pricing"
+            className={`text-sm font-medium transition-colors hover:opacity-80 ${
+              useLightText
+                ? "text-white/80 hover:text-white"
+                : "text-navy/70 hover:text-navy"
+            }`}
+          >
+            {tNav("pricing")}
+          </a>
+          <span
+            className={`select-none text-sm ${
+              useLightText ? "text-white/25" : "text-navy/25"
+            }`}
+            aria-hidden
+          >
+            |
+          </span>
+          <a
+            href="#faq"
+            className={`text-sm font-medium transition-colors hover:opacity-80 ${
+              useLightText
+                ? "text-white/80 hover:text-white"
+                : "text-navy/70 hover:text-navy"
+            }`}
+          >
+            {tNav("faq")}
+          </a>
+          <span
+            className={`select-none text-sm ${
+              useLightText ? "text-white/25" : "text-navy/25"
+            }`}
+            aria-hidden
+          >
+            |
+          </span>
           <Link
             href={`/${locale}/blog`}
             className={`text-sm font-medium transition-colors ${
@@ -138,6 +192,27 @@ export function LandingNavbar({
       {mobileMenuOpen ? (
         <div className="absolute inset-x-0 top-16 bg-white px-4 py-3 shadow-[0_8px_24px_rgba(13,38,77,0.12)] md:hidden">
           <div className="mx-auto flex max-w-6xl flex-col items-start gap-3">
+            <a
+              href="#screenshots"
+              className="block py-2 text-base font-medium text-navy/80 hover:text-navy"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              {tNav("features")}
+            </a>
+            <a
+              href="#pricing"
+              className="block py-2 text-base font-medium text-navy/80 hover:text-navy"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              {tNav("pricing")}
+            </a>
+            <a
+              href="#faq"
+              className="block py-2 text-base font-medium text-navy/80 hover:text-navy"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              {tNav("faq")}
+            </a>
             <Link
               href={`/${locale}/blog`}
               className="text-sm font-medium text-navy/80 transition-colors hover:text-navy"

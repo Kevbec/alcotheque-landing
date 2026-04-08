@@ -6,7 +6,10 @@
     "ogDescription": "Scannez vos bouteilles, organisez votre collection et suivez chaque cadeau avec l'intelligence artificielle."
   },
   "nav": {
-    "appName": "Alcothèque"
+    "appName": "Alcothèque",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "faq": "FAQ"
   },
   "features": {
     "eyebrow": "FONCTIONNALITÉS",

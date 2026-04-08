@@ -6,7 +6,10 @@
     "ogDescription": "Scan your bottles, organize your collection, and track every gift with artificial intelligence."
   },
   "nav": {
-    "appName": "Alcotheque"
+    "appName": "Alcotheque",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ"
   },
   "features": {
     "eyebrow": "FEATURES",

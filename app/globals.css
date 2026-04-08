@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Défilement fluide pour les ancres (#screenshots, #pricing, #faq) depuis la navbar. */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
