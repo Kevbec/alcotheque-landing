@@ -63,17 +63,17 @@
     "free": {
       "period": "pour toujours",
       "f1": "Jusqu'à 15 bouteilles",
-      "f2": "Scan IA des étiquettes",
-      "f3": "Gestion par emplacement",
+      "f2": "Scan IA (10 scans/mois)",
+      "f3": "Jusqu'à 2 emplacements",
       "f4": "Suivi des cadeaux",
       "cta": "Télécharger gratuitement"
     },
     "premium": {
       "period": "par mois",
       "f1": "Bouteilles illimitées",
-      "f2": "Tout ce qui est inclus dans Gratuit",
-      "f3": "Suivi de la valeur de collection",
-      "f4": "Analytiques & statistiques",
+      "f2": "Scan IA illimité",
+      "f3": "Emplacements illimités",
+      "f4": "Suivi des cadeaux illimité",
       "f5": "Support prioritaire",
       "cancel": "Annulez à tout moment"
     }

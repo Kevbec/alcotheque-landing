@@ -63,17 +63,17 @@
     "free": {
       "period": "forever",
       "f1": "Up to 15 bottles",
-      "f2": "AI label scanning",
-      "f3": "Location management",
+      "f2": "AI scanning (10 scans/month)",
+      "f3": "Up to 2 locations",
       "f4": "Gift tracking",
       "cta": "Download for free"
     },
     "premium": {
       "period": "per month",
       "f1": "Unlimited bottles",
-      "f2": "Everything in Free",
-      "f3": "Collection value tracking",
-      "f4": "Analytics & insights",
+      "f2": "Unlimited AI scanning",
+      "f3": "Unlimited locations",
+      "f4": "Unlimited gift tracking",
       "f5": "Priority support",
       "cancel": "Cancel anytime"
     }

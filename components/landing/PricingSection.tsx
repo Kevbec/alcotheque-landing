@@ -19,7 +19,7 @@ export function PricingSection() {
     {
       kind: "free" as const,
       content: (
-        <div className="rounded-2xl border border-navy/10 bg-[#F8F9FF] p-8">
+        <div className="flex h-full flex-col rounded-2xl border border-navy/10 bg-[#F8F9FF] p-8">
           <span className="mb-4 inline-block rounded-full bg-navy/10 px-3 py-1 text-xs font-bold text-navy">
             FREE
           </span>
@@ -35,14 +35,16 @@ export function PricingSection() {
               </li>
             ))}
           </ul>
-          <a
-            href={APP_STORE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-8 block w-full rounded-xl border border-navy px-6 py-3 text-center text-sm font-semibold text-navy transition-colors hover:bg-navy hover:text-white"
-          >
-            {t("free.cta")}
-          </a>
+          {/* mt-auto : badge aligné en bas comme la carte Premium (grille même hauteur). */}
+          <div className="mt-auto pt-6 flex justify-center">
+            <AppStoreBadge
+              href={APP_STORE_URL}
+              source="pricing-free"
+              ariaLabel={tCta("ctaAria")}
+              className="inline-block opacity-95 transition-opacity hover:opacity-100"
+              imgClassName="h-14 w-auto"
+            />
+          </div>
         </div>
       ),
     },
