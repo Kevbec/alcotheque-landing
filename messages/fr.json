@@ -52,6 +52,32 @@
       "label": "Note App Store"
     }
   },
+  "reviews": {
+    "eyebrow": "Avis App Store",
+    "title": "Ce que disent les collectionneurs"
+  },
+  "pricing": {
+    "eyebrow": "Tarifs simples",
+    "title": "Gratuit pour commencer, premium quand vous voulez",
+    "subtitle": "Sans frais cachés. Annulez à tout moment.",
+    "free": {
+      "period": "pour toujours",
+      "f1": "Jusqu'à 15 bouteilles",
+      "f2": "Scan IA des étiquettes",
+      "f3": "Gestion par emplacement",
+      "f4": "Suivi des cadeaux",
+      "cta": "Télécharger gratuitement"
+    },
+    "premium": {
+      "period": "par mois",
+      "f1": "Bouteilles illimitées",
+      "f2": "Tout ce qui est inclus dans Gratuit",
+      "f3": "Suivi de la valeur de collection",
+      "f4": "Analytiques & statistiques",
+      "f5": "Support prioritaire",
+      "cancel": "Annulez à tout moment"
+    }
+  },
   "hero": {
     "appName": "Alcothèque",
     "tagline": "Toute votre cave, dans votre poche.",

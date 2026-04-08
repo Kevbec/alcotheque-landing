@@ -52,6 +52,32 @@
       "label": "App Store rating"
     }
   },
+  "reviews": {
+    "eyebrow": "App Store Reviews",
+    "title": "What collectors are saying"
+  },
+  "pricing": {
+    "eyebrow": "Simple Pricing",
+    "title": "Start free, upgrade when ready",
+    "subtitle": "No hidden fees. Cancel anytime.",
+    "free": {
+      "period": "forever",
+      "f1": "Up to 15 bottles",
+      "f2": "AI label scanning",
+      "f3": "Location management",
+      "f4": "Gift tracking",
+      "cta": "Download for free"
+    },
+    "premium": {
+      "period": "per month",
+      "f1": "Unlimited bottles",
+      "f2": "Everything in Free",
+      "f3": "Collection value tracking",
+      "f4": "Analytics & insights",
+      "f5": "Priority support",
+      "cancel": "Cancel anytime"
+    }
+  },
   "hero": {
     "appName": "Alcotheque",
     "tagline": "Your wine & spirits collection, always with you.",

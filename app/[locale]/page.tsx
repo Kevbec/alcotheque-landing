@@ -1,3 +1,5 @@
+import { ReviewsSection } from "@/components/landing/ReviewsSection";
+import { PricingSection } from "@/components/landing/PricingSection";
 import { CTASection } from "@/components/landing/CTASection";
 import { FAQSection } from "@/components/landing/FAQSection";
 import { FeaturesSection } from "@/components/landing/FeaturesSection";
@@ -13,6 +15,8 @@ export default function LocaleHomePage() {
       <ScreenshotsSection />
       <FeaturesSection />
       <StatsSection />
+      <ReviewsSection />
+      <PricingSection />
       <FAQSection />
       <CTASection />
       <FooterSection />
