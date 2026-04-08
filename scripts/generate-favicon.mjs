@@ -5,7 +5,7 @@ const input = "public/logo.png";
 async function generateFavicon(size, outputPath) {
   const padding = Math.round(size * 0.1);
   const logoSize = size - padding * 2;
-  const radius = Math.round(size * 0.2);
+  const radius = Math.round(size * 0.22);
 
   // Create rounded white background mask
   const roundedMask = Buffer.from(
