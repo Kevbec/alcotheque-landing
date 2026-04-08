@@ -20,7 +20,8 @@ export function PricingSection() {
       kind: "free" as const,
       content: (
         <div className="flex h-full flex-col rounded-2xl border border-navy/10 bg-[#F8F9FF] p-8">
-          <span className="inline-block text-xs font-bold px-3 py-1 rounded-full mb-4 bg-navy/10 text-navy">
+          {/* w-fit : largeur du badge = texte uniquement, comme PREMIUM */}
+          <span className="inline-block w-fit text-xs font-bold px-3 py-1 rounded-full mb-4 bg-navy/10 text-navy">
             FREE
           </span>
           <p className="text-5xl font-extrabold text-navy">€0</p>
@@ -83,7 +84,7 @@ export function PricingSection() {
   ];
 
   return (
-    <section id="pricing" className="bg-white py-20">
+    <section id="pricing" className="bg-white pt-20 pb-8">
       <p className="mb-3 text-center text-xs font-semibold uppercase tracking-widest text-navy/50">
         {t("eyebrow")}
       </p>
