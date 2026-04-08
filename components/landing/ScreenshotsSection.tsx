@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useCallback, useRef, useState } from "react";
 import { useLocale } from "next-intl";
 
 /** Légendes affichées sous chaque capture (anglais). */
@@ -41,6 +42,17 @@ export function ScreenshotsSection() {
       : `/screenshots/en/EN${n}.png`;
   });
 
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const handleScroll = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const cardWidth = el.scrollWidth / screenshots.length;
+    const index = Math.round(el.scrollLeft / cardWidth);
+    setActiveIndex(Math.min(index, screenshots.length - 1));
+  }, [screenshots.length]);
+
   return (
     <section id="screenshots" className="bg-[#0D264D]">
       <div className="px-6 pt-10 text-center md:pt-14">
@@ -55,12 +67,14 @@ export function ScreenshotsSection() {
       <div>
         <div className="relative">
           <motion.div
+            ref={scrollRef}
             className="relative scrollbar-hide flex snap-x snap-mandatory flex-row gap-6 overflow-x-auto scroll-smooth px-6 py-8 md:px-16"
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
             aria-label="App screenshots carousel"
+            onScroll={handleScroll}
           >
             {screenshots.map((src, index) => (
               <motion.div
@@ -106,7 +120,11 @@ export function ScreenshotsSection() {
             {Array.from({ length: 8 }, (_, i) => (
               <div
                 key={i}
-                className={`h-2 w-2 rounded-full ${i === 0 ? "bg-white/80" : "bg-white/30"}`}
+                className={`rounded-full transition-all duration-300 ${
+                  i === activeIndex
+                    ? "h-2 w-4 bg-white"
+                    : "h-2 w-2 bg-white/30"
+                }`}
                 aria-hidden
               />
             ))}
