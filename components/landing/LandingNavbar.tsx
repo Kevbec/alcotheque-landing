@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
+import { AppStoreBadge } from "@/components/ui/AppStoreBadge";
 
 type LandingNavbarProps = {
   /**
@@ -191,62 +192,70 @@ export function LandingNavbar({
       </div>
       {mobileMenuOpen ? (
         <div className="absolute inset-x-0 top-16 bg-white px-4 py-3 shadow-[0_8px_24px_rgba(13,38,77,0.12)] md:hidden">
+          {/* Menu mobile : liens même taille, langue en pastilles, badge App Store en bas */}
           <div className="mx-auto flex max-w-6xl flex-col items-start gap-3">
             <a
               href="#screenshots"
-              className="block py-2 text-base font-medium text-navy/80 hover:text-navy"
+              className="block py-3 text-base font-medium text-navy/80 hover:text-navy border-b border-navy/5"
               onClick={() => setMobileMenuOpen(false)}
             >
               {tNav("features")}
             </a>
             <a
               href="#pricing"
-              className="block py-2 text-base font-medium text-navy/80 hover:text-navy"
+              className="block py-3 text-base font-medium text-navy/80 hover:text-navy border-b border-navy/5"
               onClick={() => setMobileMenuOpen(false)}
             >
               {tNav("pricing")}
             </a>
             <a
               href="#faq"
-              className="block py-2 text-base font-medium text-navy/80 hover:text-navy"
+              className="block py-3 text-base font-medium text-navy/80 hover:text-navy border-b border-navy/5"
               onClick={() => setMobileMenuOpen(false)}
             >
               {tNav("faq")}
             </a>
             <Link
               href={`/${locale}/blog`}
-              className="text-sm font-medium text-navy/80 transition-colors hover:text-navy"
+              className="block py-3 text-base font-medium text-navy/80 hover:text-navy border-b border-navy/5"
               onClick={() => setMobileMenuOpen(false)}
             >
               {tFooter("links.blog")}
             </Link>
-            <nav
-              className="flex w-full flex-col gap-2 text-sm font-medium text-navy/80"
-              aria-label="Language"
-            >
+            <div className="flex items-center gap-3 pt-4 pb-2">
+              <span className="text-sm text-navy/40 font-medium">Language</span>
               <Link
                 href="/fr"
-                className={`rounded-full px-3 py-1 transition-colors hover:bg-navy/5 ${
-                  locale === "fr" ? "bg-navy/10 text-navy" : ""
-                }`}
-                aria-current={locale === "fr" ? "true" : undefined}
                 onClick={() => setMobileMenuOpen(false)}
+                className={`text-sm font-semibold px-3 py-1 rounded-full transition-colors ${
+                  locale === "fr"
+                    ? "bg-navy text-white"
+                    : "text-navy/60 hover:text-navy"
+                }`}
               >
                 FR
-                <span className="sr-only"> — {tLang("switchToFr")}</span>
               </Link>
               <Link
                 href="/en"
-                className={`rounded-full px-3 py-1 transition-colors hover:bg-navy/5 ${
-                  locale === "en" ? "bg-navy/10 text-navy" : ""
-                }`}
-                aria-current={locale === "en" ? "true" : undefined}
                 onClick={() => setMobileMenuOpen(false)}
+                className={`text-sm font-semibold px-3 py-1 rounded-full transition-colors ${
+                  locale === "en"
+                    ? "bg-navy text-white"
+                    : "text-navy/60 hover:text-navy"
+                }`}
               >
                 EN
-                <span className="sr-only"> — {tLang("switchToEn")}</span>
               </Link>
-            </nav>
+            </div>
+            <div className="pt-2 pb-4">
+              <AppStoreBadge
+                href="https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=MobileNav&mt=8"
+                source="mobile_nav"
+                className="flex justify-center"
+                imgClassName="h-12 w-auto"
+                ariaLabel="Download Alcotheque on the App Store"
+              />
+            </div>
           </div>
         </div>
       ) : null}
