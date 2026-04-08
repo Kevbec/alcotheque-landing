@@ -8,8 +8,6 @@ author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80"
 ---
 
-![A wine and spirits collection — CellarTracker alternative on iPhone](https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80)
-
 If you collect wine, chances are you have heard of CellarTracker. It has been one of the most widely used cellar management platforms for years, and many collectors still rely on it. It is a serious tool built by serious wine lovers.
 
 But a growing number of collectors are now searching for a **CellarTracker alternative**, especially on iPhone. The reasons are varied: some want a simpler mobile experience, others want to track their spirits alongside their wine, and some just feel ready for something designed for 2026 rather than 2003.
@@ -96,17 +94,17 @@ Instead of tiered pricing based on collection size, Alcotheque uses a single fla
 
 ## Side-by-Side Comparison
 
-| Feature | CellarTracker | Alcotheque |
+| Feature | Alcotheque | CellarTracker |
 |---|---|---|
-| Wine tracking | Yes | Yes |
-| Spirits tracking | No | Yes (30+ categories) |
-| iPhone-native design | Partial | Yes |
-| AI label scanning | No | Yes |
-| Gift tracking | No | Yes |
-| Location management | Yes | Yes |
-| Community tasting notes | 13M+ | No |
-| Languages | English only | 7 languages |
-| Pricing | $4.99–$44.99/month | Free / €0.99/month flat |
+| Wine tracking | **Yes** | Yes |
+| Spirits tracking | **Yes (30+ categories)** | No |
+| iPhone-native design | **Yes** | Partial |
+| AI label scanning | **Yes** | No |
+| Gift tracking | **Yes** | No |
+| Location management | **Yes** | Yes |
+| Community tasting notes | No | 13M+ |
+| Languages | **7 languages** | English only |
+| Pricing | **Free / €0.99/month flat** | $4.99–$44.99/month |
 
 ## Who Should Keep Using CellarTracker
 

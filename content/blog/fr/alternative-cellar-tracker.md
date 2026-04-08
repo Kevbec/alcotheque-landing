@@ -8,8 +8,6 @@ author: "Kevin, Fondateur d'Alcothèque"
 coverImage: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80"
 ---
 
-![Une collection de vins et spiritueux gérée sur iPhone avec Alcothèque](https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80)
-
 Si vous collectionnez du vin depuis quelques années, le nom CellarTracker vous est probablement familier. C'est l'une des plateformes de gestion de cave les plus utilisées au monde, construite par de vrais passionnés. Son ancienneté, sa profondeur et sa communauté en font une référence difficile à ignorer.
 
 Pourtant, de plus en plus de collectionneurs cherchent aujourd'hui une **alternative à CellarTracker**, notamment sur iPhone. Certains veulent une expérience mobile plus fluide. D'autres veulent pouvoir gérer leurs spiritueux au même endroit que leurs vins. D'autres encore cherchent simplement un outil pensé pour aujourd'hui plutôt que pour 2003.
@@ -92,17 +90,17 @@ Contrairement au modèle par paliers de taille, Alcothèque propose un abonnemen
 
 ## Comparaison côte à côte
 
-| Fonctionnalité | CellarTracker | Alcothèque |
+| Fonctionnalité | Alcothèque | CellarTracker |
 |---|---|---|
-| Suivi des vins | Oui | Oui |
-| Suivi des spiritueux | Non | Oui (30+ catégories) |
-| Design natif iPhone | Partiel | Oui |
-| Scanner IA d'étiquette | Non | Oui |
-| Suivi des cadeaux | Non | Oui |
-| Gestion des emplacements | Oui | Oui |
-| Notes de dégustation communautaires | 13M+ | Non |
-| Langues disponibles | Anglais uniquement | 7 langues |
-| Tarif | $4,99–$44,99/mois | Gratuit / €0,99/mois fixe |
+| Suivi des vins | **Oui** | Oui |
+| Suivi des spiritueux | **Oui (30+ catégories)** | Non |
+| Design natif iPhone | **Oui** | Partiel |
+| Scanner IA d'étiquette | **Oui** | Non |
+| Suivi des cadeaux | **Oui** | Non |
+| Gestion des emplacements | **Oui** | Oui |
+| Notes de dégustation communautaires | Non | 13M+ |
+| Langues disponibles | **7 langues** | Anglais uniquement |
+| Tarif | **Gratuit / €0,99/mois fixe** | $4,99–$44,99/mois |
 
 ## Pour qui CellarTracker reste le bon choix
 
