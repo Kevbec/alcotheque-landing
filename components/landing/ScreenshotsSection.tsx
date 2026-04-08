@@ -48,12 +48,10 @@ export function ScreenshotsSection() {
   const handleScroll = useCallback(() => {
     const el = scrollRef.current;
     if (!el) return;
-    const firstCard = el.querySelector('.snap-center') as HTMLElement | null;
-    if (!firstCard) return;
-    const cardWidth = firstCard.getBoundingClientRect().width;
-    const gap = 24; // matches gap-6 in Tailwind (6 * 4px = 24px)
-    const step = cardWidth + gap;
-    const index = Math.round(el.scrollLeft / step);
+    const maxScroll = el.scrollWidth - el.clientWidth;
+    if (maxScroll <= 0) return;
+    const ratio = el.scrollLeft / maxScroll;
+    const index = Math.round(ratio * (screenshots.length - 1));
     setActiveIndex(Math.min(Math.max(index, 0), screenshots.length - 1));
   }, [screenshots.length]);
 
