@@ -5,7 +5,6 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
-import { AppStoreBadge } from "@/components/ui/AppStoreBadge";
 
 type LandingNavbarProps = {
   /**
@@ -246,15 +245,6 @@ export function LandingNavbar({
               >
                 EN
               </Link>
-            </div>
-            <div className="pt-2 pb-4">
-              <AppStoreBadge
-                href="https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=MobileNav&mt=8"
-                source="mobile_nav"
-                className="flex justify-center"
-                imgClassName="h-12 w-auto"
-                ariaLabel="Download Alcotheque on the App Store"
-              />
             </div>
           </div>
         </div>
