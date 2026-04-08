@@ -84,7 +84,7 @@ export function PricingSection() {
   ];
 
   return (
-    <section id="pricing" className="bg-white pt-20 pb-8">
+    <section id="pricing" className="bg-white pt-20 pb-6">
       <p className="mb-3 text-center text-xs font-semibold uppercase tracking-widest text-navy/50">
         {t("eyebrow")}
       </p>
