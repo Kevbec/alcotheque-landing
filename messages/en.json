@@ -61,6 +61,7 @@
     "title": "Start free, upgrade when ready",
     "subtitle": "No hidden fees. Cancel anytime.",
     "free": {
+      "price": "$0",
       "period": "forever",
       "f1": "Up to 15 bottles",
       "f2": "AI scanning (10 scans/month)",
@@ -69,6 +70,7 @@
       "cta": "Download for free"
     },
     "premium": {
+      "price": "$0.99",
       "period": "per month",
       "f1": "Unlimited bottles",
       "f2": "Unlimited AI scanning",

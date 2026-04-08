@@ -23,7 +23,7 @@ export function PricingSection() {
           <span className="w-fit inline-block text-xs font-bold px-3 py-1 rounded-full mb-4 bg-[#0D264D]/10 text-[#0D264D]">
             FREE
           </span>
-          <p className="text-5xl font-extrabold text-navy">€0</p>
+          <p className="text-5xl font-extrabold text-navy">{t("free.price")}</p>
           <p className="mb-6 mt-1 text-sm text-navy/50">{t("free.period")}</p>
           <ul className="space-y-2">
             {FREE_FEATURE_KEYS.map((key) => (
@@ -55,7 +55,7 @@ export function PricingSection() {
           <span className="w-fit inline-block text-xs font-bold px-3 py-1 rounded-full mb-4 bg-white/10 text-white">
             PREMIUM
           </span>
-          <p className="text-5xl font-extrabold text-white">€0.99</p>
+          <p className="text-5xl font-extrabold text-white">{t("premium.price")}</p>
           <p className="mb-6 mt-1 text-sm text-white/60">{t("premium.period")}</p>
           <ul className="space-y-2">
             {PREMIUM_FEATURE_KEYS.map((key) => (

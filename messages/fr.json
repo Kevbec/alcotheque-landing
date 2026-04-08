@@ -61,6 +61,7 @@
     "title": "Gratuit pour commencer, premium quand vous voulez",
     "subtitle": "Sans frais cachés. Annulez à tout moment.",
     "free": {
+      "price": "€0",
       "period": "pour toujours",
       "f1": "Jusqu'à 15 bouteilles",
       "f2": "Scan IA (10 scans/mois)",
@@ -69,6 +70,7 @@
       "cta": "Télécharger gratuitement"
     },
     "premium": {
+      "price": "€0.99",
       "period": "par mois",
       "f1": "Bouteilles illimitées",
       "f2": "Scan IA illimité",
