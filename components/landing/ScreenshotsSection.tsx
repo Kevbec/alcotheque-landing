@@ -52,45 +52,66 @@ export function ScreenshotsSection() {
         </h2>
       </div>
 
-      <div className="relative">
-        <motion.div
-          className="scrollbar-hide flex snap-x snap-mandatory flex-row gap-6 overflow-x-auto scroll-smooth px-6 py-8 md:px-16"
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          aria-label="App screenshots carousel"
-        >
-          {screenshots.map((src, index) => (
+      <div>
+        <div className="relative">
+          <motion.div
+            className="relative scrollbar-hide flex snap-x snap-mandatory flex-row gap-6 overflow-x-auto scroll-smooth px-6 py-8 md:px-16"
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            aria-label="App screenshots carousel"
+          >
+            {screenshots.map((src, index) => (
+              <motion.div
+                key={src}
+                className="flex w-[220px] flex-shrink-0 snap-center flex-col items-center md:w-[260px]"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.08 }}
+                viewport={{ once: true }}
+                whileHover={{ scale: 1.03 }}
+              >
+                <div className="overflow-hidden rounded-2xl shadow-xl">
+                  <Image
+                    src={src}
+                    alt={captions[index]}
+                    width={260}
+                    height={540}
+                    className="h-auto w-full object-contain"
+                  />
+                </div>
+              </motion.div>
+            ))}
+            {/* Indication « glisser » : une fois au chargement, puis disparition. */}
             <motion.div
-              key={src}
-              className="flex w-[220px] flex-shrink-0 snap-center flex-col items-center md:w-[260px]"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.08 }}
-              viewport={{ once: true }}
-              whileHover={{ scale: 1.03 }}
+              className="pointer-events-none absolute bottom-4 left-1/2 z-10 flex -translate-x-1/2 items-center gap-2 rounded-full bg-white/20 px-3 py-1.5 text-xs font-medium text-white/80 backdrop-blur-sm"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: [0, 1, 1, 0], x: [0, 6, -6, 0] }}
+              transition={{ duration: 2.5, delay: 0.8, ease: "easeInOut" }}
+              aria-hidden
             >
-              <div className="overflow-hidden rounded-2xl shadow-xl">
-                <Image
-                  src={src}
-                  alt={captions[index]}
-                  width={260}
-                  height={540}
-                  className="h-auto w-full object-contain"
-                />
-              </div>
-              <p className="mt-3 text-center text-sm text-gray-500">
-                {captions[index]}
-              </p>
+              <span aria-hidden>←→</span>
+              {isFr ? "Glissez" : "Swipe"}
             </motion.div>
-          ))}
-        </motion.div>
-        {/* Indication visuelle : fondu à droite pour suggérer le défilement. */}
-        <div
-          className="pointer-events-none absolute right-0 top-0 h-full w-16 bg-gradient-to-l from-[#0D264D] to-transparent"
-          aria-hidden
-        />
+          </motion.div>
+          {/* Indication visuelle : fondu à droite pour suggérer le défilement. */}
+          <div
+            className="pointer-events-none absolute right-0 top-0 h-full w-16 bg-gradient-to-l from-[#0D264D] to-transparent"
+            aria-hidden
+          />
+        </div>
+        <div className="pb-6">
+          <div className="mt-4 flex justify-center gap-2">
+            {Array.from({ length: 8 }, (_, i) => (
+              <div
+                key={i}
+                className={`h-2 w-2 rounded-full ${i === 0 ? "bg-white/80" : "bg-white/30"}`}
+                aria-hidden
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
