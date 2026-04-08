@@ -41,7 +41,7 @@ export function ReviewsSection() {
         {reviews.map((review, index) => (
           <motion.div
             key={review.author + review.title}
-            className="rounded-2xl border border-navy/5 bg-white p-6 shadow-sm"
+            className="flex flex-col rounded-2xl border border-navy/5 bg-white p-6 shadow-sm"
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1, duration: 0.5 }}
@@ -50,7 +50,7 @@ export function ReviewsSection() {
             <p className="mb-3 text-sm text-yellow-400">★★★★★</p>
             <h3 className="mb-2 text-[15px] font-bold text-navy">{review.title}</h3>
             <p className="mb-4 text-sm leading-relaxed text-navy/70">{review.body}</p>
-            <div className="flex items-center justify-between">
+            <div className="mt-auto flex items-center justify-between border-t border-navy/5 pt-4">
               <span className="text-xs font-semibold text-navy/50">{review.author}</span>
               <span className="text-xs text-navy/40">{review.country}</span>
             </div>
