@@ -5,7 +5,7 @@ date: "2026-04-08"
 slug: "comment-suivre-cadeaux-vin"
 keywords: ["cadeau vin application", "suivi cadeaux vin", "tracker cadeaux bouteilles", "application cadeau vin iphone", "gérer cadeaux cave"]
 author: "Kevin, Fondateur d'Alcothèque"
-coverImage: "https://images.unsplash.com/photo-1549740425-5e9ed4d8cd34?w=1200&q=80"
+coverImage: "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=1200&q=80"
 ---
 
 Le vin est l'un des cadeaux les plus personnels qui soient. Une bouteille bien choisie porte avec elle une vraie réflexion — l'occasion, la personne, l'histoire. Mais la plupart des collectionneurs n'ont aucun système pour s'en souvenir.

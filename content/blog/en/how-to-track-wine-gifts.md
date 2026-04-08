@@ -5,7 +5,7 @@ date: "2026-04-08"
 slug: "how-to-track-wine-gifts"
 keywords: ["track wine gifts app", "wine gift tracker", "wine gift app iphone", "track bottle gifts", "wine gifting app"]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1549740425-5e9ed4d8cd34?w=1200&q=80"
+coverImage: "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=1200&q=80"
 ---
 
 Wine is one of the most personal gifts you can give or receive. A well-chosen bottle carries real thought behind it — the occasion, the person, the story. But most collectors have no system to remember any of it.
