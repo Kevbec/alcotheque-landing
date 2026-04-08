@@ -1,7 +1,6 @@
 import sharp from "sharp";
 
 const input = "public/logo.png";
-const sizes = [16, 32, 180, 192, 512];
 
 async function generateFavicon(size, outputPath) {
   const padding = Math.round(size * 0.1);
