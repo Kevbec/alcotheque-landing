@@ -20,7 +20,7 @@ export function PricingSection() {
       kind: "free" as const,
       content: (
         <div className="flex h-full flex-col rounded-2xl border border-navy/10 bg-[#F8F9FF] p-8">
-          <span className="mb-4 inline-block rounded-full bg-navy/10 px-3 py-1 text-xs font-bold text-navy">
+          <span className="inline-block text-xs font-bold px-3 py-1 rounded-full mb-4 bg-navy/10 text-navy">
             FREE
           </span>
           <p className="text-5xl font-extrabold text-navy">€0</p>
@@ -41,7 +41,7 @@ export function PricingSection() {
               href={APP_STORE_URL}
               source="pricing-free"
               ariaLabel={tCta("ctaAria")}
-              className="inline-block opacity-95 transition-opacity hover:opacity-100"
+              className="inline-block"
               imgClassName="h-14 w-auto"
             />
           </div>
@@ -51,8 +51,8 @@ export function PricingSection() {
     {
       kind: "premium" as const,
       content: (
-        <div className="rounded-2xl border border-navy bg-[#0D264D] p-8">
-          <span className="mb-4 inline-block rounded-full bg-white/20 px-3 py-1 text-xs font-bold text-white">
+        <div className="flex h-full flex-col rounded-2xl border border-navy bg-[#0D264D] p-8">
+          <span className="inline-block text-xs font-bold px-3 py-1 rounded-full mb-4 bg-white/20 text-white">
             PREMIUM
           </span>
           <p className="text-5xl font-extrabold text-white">€0.99</p>
@@ -68,12 +68,12 @@ export function PricingSection() {
             ))}
           </ul>
           <p className="mt-2 text-xs text-white/40">{t("premium.cancel")}</p>
-          <div className="mt-8 flex justify-center">
+          <div className="mt-auto pt-6 flex justify-center">
             <AppStoreBadge
               href={APP_STORE_URL}
               source="pricing"
               ariaLabel={tCta("ctaAria")}
-              className="inline-block opacity-95 transition-opacity hover:opacity-100"
+              className="inline-block"
               imgClassName="h-14 w-auto"
             />
           </div>
