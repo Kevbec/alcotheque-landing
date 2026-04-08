@@ -20,8 +20,7 @@ export function PricingSection() {
       kind: "free" as const,
       content: (
         <div className="flex h-full flex-col rounded-2xl border border-navy/10 bg-[#F8F9FF] p-8">
-          {/* w-fit : largeur du badge = texte uniquement, comme PREMIUM */}
-          <span className="inline-block w-fit text-xs font-bold px-3 py-1 rounded-full mb-4 bg-navy/10 text-navy">
+          <span className="w-fit inline-block text-xs font-bold px-3 py-1 rounded-full mb-4 bg-[#0D264D]/10 text-[#0D264D]">
             FREE
           </span>
           <p className="text-5xl font-extrabold text-navy">€0</p>
@@ -53,7 +52,7 @@ export function PricingSection() {
       kind: "premium" as const,
       content: (
         <div className="flex h-full flex-col rounded-2xl border border-navy bg-[#0D264D] p-8">
-          <span className="inline-block text-xs font-bold px-3 py-1 rounded-full mb-4 bg-white/20 text-white">
+          <span className="w-fit inline-block text-xs font-bold px-3 py-1 rounded-full mb-4 bg-white/10 text-white">
             PREMIUM
           </span>
           <p className="text-5xl font-extrabold text-white">€0.99</p>
@@ -75,7 +74,7 @@ export function PricingSection() {
               source="pricing"
               ariaLabel={tCta("ctaAria")}
               className="inline-block"
-              imgClassName="h-14 w-auto"
+              imgClassName="h-14 w-auto rounded-xl"
             />
           </div>
         </div>
