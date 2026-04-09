@@ -18,6 +18,18 @@ keywords:
   ]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=800&q=80"
+slugFr: "comment-gerer-collection-gins"
+faq:
+  - question: "What makes a gin worth collecting?"
+    answer: "The huge variety of botanicals means almost no two gins taste alike, which makes gin collecting particularly interesting."
+  - question: "How long does an opened gin last?"
+    answer: "An opened gin is generally best within 12 months. Store it with a tight stopper, away from light."
+  - question: "Is gin a good investment like whisky?"
+    answer: "Rarely. Gin collecting is primarily about enjoyment, with very few exceptions that hold investment value."
+  - question: "What is the best way to taste a collectible gin?"
+    answer: "Start neat, then add a little water, before moving to a gin and tonic. Avoid serving it too cold to preserve the botanicals."
+  - question: "How many gins before a collection app becomes useful?"
+    answer: "Generally around 10 to 15 bottles is when an app like Alcotheque helps you better organize and track your collection."
 ---
 
 # How to Start and Manage Your Gin Collection: Complete Guide

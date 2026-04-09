@@ -18,6 +18,18 @@ keywords:
   ]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80"
+slugEn: "how-to-organize-your-home-bar"
+faq:
+  - question: "Quels sont les spiritueux indispensables pour un home bar ?"
+    answer: "Les essentiels sont le gin, le whisky ou bourbon, le rhum, accompagnés de vermouth et de bitters pour les cocktails classiques."
+  - question: "Comment suivre ce que j'ai dans mon home bar ?"
+    answer: "Une application dédiée comme Alcothèque permet de scanner les étiquettes, gérer les emplacements et suivre vins et spiritueux dans un seul endroit."
+  - question: "À quelle fréquence remplacer les bouteilles ouvertes ?"
+    answer: "Les spiritueux sont stables pendant des années. Le vermouth et les liqueurs sont plus fragiles : le vermouth se conserve 1 à 2 mois au réfrigérateur."
+  - question: "Vaut-il la peine d'acheter du premium pour les cocktails ?"
+    answer: "Le milieu de gamme suffit souvent pour les cocktails. Le premium est surtout justifié pour la dégustation pure."
+  - question: "De combien d'espace ai-je besoin pour un home bar ?"
+    answer: "Une étagère ou un meuble peut contenir 15 à 20 bouteilles. Exploiter la hauteur permet d'optimiser l'espace disponible."
 ---
 
 # Comment organiser son home bar : guide complet 2026

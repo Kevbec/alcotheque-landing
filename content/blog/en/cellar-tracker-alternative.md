@@ -6,6 +6,18 @@ slug: "cellar-tracker-alternative"
 keywords: ["cellar tracker alternative", "wine collection tracker iphone", "track wine cellar app", "wine and spirits inventory app", "wine tracker iphone", "spirits collection app"]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80"
+slugFr: "alternative-cellar-tracker"
+faq:
+  - question: "Does Alcotheque fully replace CellarTracker?"
+    answer: "No. CellarTracker focuses on the wine community. Alcotheque focuses on personal inventory management for both wine and spirits."
+  - question: "Can I manage whisky, rum and other spirits in Alcotheque?"
+    answer: "Yes, Alcotheque supports more than 30 categories of spirits within the same inventory as your wines."
+  - question: "How does Alcotheque's AI scanner work?"
+    answer: "Take a photo of the label. The AI automatically extracts the information and asks for your confirmation before saving the bottle."
+  - question: "What happens after the 15 free bottles?"
+    answer: "A premium invitation appears. The subscription costs around 0.99 euros per month and removes all collection limits."
+  - question: "Can I track multiple storage locations?"
+    answer: "Yes, Alcotheque lets you manage multiple distinct storage locations to organize your collection."
 ---
 
 If you collect wine, chances are you have heard of CellarTracker. It has been one of the most widely used cellar management platforms for years, and many collectors still rely on it. It is a serious tool built by serious wine lovers.

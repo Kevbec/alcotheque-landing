@@ -6,6 +6,18 @@ slug: "how-to-track-wine-gifts"
 keywords: ["track wine gifts app", "wine gift tracker", "wine gift app iphone", "track bottle gifts", "wine gifting app"]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=1200&q=80"
+slugFr: "comment-suivre-cadeaux-vin"
+faq:
+  - question: "Do I need a dedicated app to track wine gifts?"
+    answer: "No, a spreadsheet or notes work if kept up to date. An app simply puts everything in one place more conveniently."
+  - question: "What is the minimum information to record for a gift?"
+    answer: "The essentials are the bottle, the person involved, the date or occasion, and whether the gift was received or given."
+  - question: "Does the same logic apply to spirit gifts?"
+    answer: "Yes, exactly the same principles apply whether you are tracking wine or spirits received or given as gifts."
+  - question: "How do I catch up on past gifts I never recorded?"
+    answer: "Start from today and fill in past entries over time based on your memories and photos."
+  - question: "Can an app track the value of my gifts?"
+    answer: "Yes, if the app manages estimated values, it also helps refine the total value of your entire collection."
 ---
 
 Wine is one of the most personal gifts you can give or receive. A well-chosen bottle carries real thought behind it — the occasion, the person, the story. But most collectors have no system to remember any of it.

@@ -6,6 +6,18 @@ slug: "alternative-cellar-tracker"
 keywords: ["alternative cellar tracker", "application cave à vin iphone", "suivi cave vin app", "application collection vin et spiritueux", "tracker vin iphone", "application spiritueux collection"]
 author: "Kevin, Fondateur d'Alcothèque"
 coverImage: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80"
+slugEn: "cellar-tracker-alternative"
+faq:
+  - question: "Alcothèque remplace-t-elle complètement CellarTracker ?"
+    answer: "Non. CellarTracker est centré sur la communauté vin. Alcothèque se concentre sur la gestion d'inventaire personnel pour les vins ET les spiritueux."
+  - question: "Puis-je gérer whisky, rhum et autres spiritueux dans Alcothèque ?"
+    answer: "Oui, Alcothèque supporte plus de 30 catégories de spiritueux dans le même inventaire que vos vins."
+  - question: "Comment fonctionne le scanner IA d'Alcothèque ?"
+    answer: "Prenez une photo de l'étiquette. L'IA extrait automatiquement les informations et vous demande confirmation avant d'enregistrer la bouteille."
+  - question: "Que se passe-t-il après 15 bouteilles gratuites ?"
+    answer: "Une invitation au premium apparaît. L'abonnement coûte environ 0,99 euro par mois et lève toutes les limites de la collection."
+  - question: "Puis-je suivre plusieurs emplacements de stockage ?"
+    answer: "Oui, Alcothèque permet de gérer plusieurs lieux de stockage distincts pour organiser votre collection."
 ---
 
 Si vous collectionnez du vin depuis quelques années, le nom CellarTracker vous est probablement familier. C'est l'une des plateformes de gestion de cave les plus utilisées au monde, construite par de vrais passionnés. Son ancienneté, sa profondeur et sa communauté en font une référence difficile à ignorer.

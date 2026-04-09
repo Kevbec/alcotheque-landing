@@ -18,6 +18,18 @@ keywords:
   ]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80"
+slugEn: "spirits-collector-guide"
+faq:
+  - question: "Par où commencer si je n'ai jamais collectionné de spiritueux ?"
+    answer: "Commencez par une catégorie que vous aimez, achetez 3 à 5 bouteilles variées et prenez le temps d'apprendre avant d'élargir votre collection."
+  - question: "À partir de combien de bouteilles une application devient-elle utile ?"
+    answer: "En général, à partir de 15 à 20 bouteilles, une application de gestion de collection devient vraiment utile pour suivre votre inventaire."
+  - question: "Les éditions limitées sont-elles un bon investissement ?"
+    answer: "Rarement comme stratégie principale. Il vaut mieux acheter uniquement ce que vous accepteriez d'ouvrir et de déguster."
+  - question: "Quel est le meilleur stockage pour une collection long terme ?"
+    answer: "Stockez les bouteilles debout, à l'abri de la lumière directe, entre 15 et 20 degrés Celsius, dans leur emballage d'origine si elles sont scellées."
+  - question: "Comment savoir si une bouteille est rare ou précieuse ?"
+    answer: "Consultez les ventes secondaires et les agrégateurs spécialisés. L'état de la bouteille, le coffret et l'authenticité sont des critères déterminants."
 ---
 
 # Guide du collectionneur de spiritueux : par où commencer ?

@@ -29,6 +29,18 @@ keywords:
   ]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80"
+slugEn: "best-app-wine-spirits-collection-2026"
+faq:
+  - question: "Alcothèque est-elle gratuite pour gérer une cave à vins et spiritueux ?"
+    answer: "Oui, Alcothèque est gratuite jusqu'à 15 bouteilles. Au-delà, un abonnement premium est disponible à environ 0,99 euro par mois."
+  - question: "Puis-je gérer à la fois du vin et du whisky dans la même application ?"
+    answer: "Oui, Alcothèque propose une interface unifiée pour gérer vins et plusieurs types de spiritueux dans le même inventaire."
+  - question: "Alcothèque fonctionne-t-elle sans connexion internet ?"
+    answer: "Une connexion internet est nécessaire pour le scan IA et la synchronisation cloud. La navigation de base reste accessible hors ligne."
+  - question: "Comment fonctionne le scan IA d'Alcothèque ?"
+    answer: "Pointez votre caméra sur l'étiquette. L'IA extrait automatiquement le nom, le type, le millésime et la valeur estimée de la bouteille."
+  - question: "Puis-je suivre les bouteilles reçues en cadeau dans Alcothèque ?"
+    answer: "Oui, Alcothèque intègre un suivi des cadeaux dédié avec le nom du donateur, la date et l'occasion."
 ---
 
 # Meilleure application pour gérer sa cave à vins et spiritueux en 2026

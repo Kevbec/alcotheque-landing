@@ -6,6 +6,18 @@ slug: "comment-suivre-cadeaux-vin"
 keywords: ["cadeau vin application", "suivi cadeaux vin", "tracker cadeaux bouteilles", "application cadeau vin iphone", "gérer cadeaux cave"]
 author: "Kevin, Fondateur d'Alcothèque"
 coverImage: "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=1200&q=80"
+slugEn: "how-to-track-wine-gifts"
+faq:
+  - question: "Faut-il obligatoirement une application pour suivre ses cadeaux de vin ?"
+    answer: "Non, un tableur ou des notes fonctionnent si le système est tenu à jour. Une application met simplement tout au même endroit de façon plus pratique."
+  - question: "Quelles informations minimales enregistrer pour un cadeau ?"
+    answer: "L'essentiel : la bouteille, la personne concernée, la date ou l'occasion, et si le cadeau a été reçu ou offert."
+  - question: "La même logique s'applique-t-elle aux spiritueux offerts ?"
+    answer: "Oui, exactement les mêmes principes s'appliquent que ce soit pour du vin ou des spiritueux reçus ou offerts."
+  - question: "Comment rattraper le suivi des cadeaux passés non enregistrés ?"
+    answer: "Commencez à partir d'aujourd'hui et complétez les entrées passées au fil du temps selon vos souvenirs et vos photos."
+  - question: "Une application peut-elle suivre la valeur de mes cadeaux ?"
+    answer: "Oui, si l'application gère les valeurs estimées, cela permet aussi d'affiner la valeur totale de votre collection."
 ---
 
 Le vin est l'un des cadeaux les plus personnels qui soient. Une bouteille bien choisie porte avec elle une vraie réflexion — l'occasion, la personne, l'histoire. Mais la plupart des collectionneurs n'ont aucun système pour s'en souvenir.

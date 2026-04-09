@@ -18,6 +18,18 @@ keywords:
   ]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1607622750671-6cd9a99eabd1?w=800&q=80"
+slugFr: "comment-gerer-collection-rhums"
+faq:
+  - question: "What is the difference between agricole rum and traditional rum?"
+    answer: "Agricole rum is distilled from fresh sugarcane juice with a grassy profile. Traditional rum comes from molasses and has a rounder, sweeter taste."
+  - question: "Does rum age in the bottle?"
+    answer: "No. The age stated refers to time spent in the barrel. Once bottled, rum remains stable if stored correctly."
+  - question: "Which region do you recommend for starting a rum collection?"
+    answer: "Martinique is ideal for agricole rum in Europe. Jamaica offers intense and complex profiles highly regarded by collectors."
+  - question: "How do I avoid duplicates in my rum collection?"
+    answer: "A digital inventory you can check before each purchase helps avoid duplicates and plan your next acquisitions."
+  - question: "Are limited edition rums worth buying?"
+    answer: "Sometimes, if the provenance is solid. Most of the time, limited editions are best enjoyed rather than stored."
 ---
 
 # How to Manage Your Rum Collection: The Collector's Guide

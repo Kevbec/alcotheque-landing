@@ -18,6 +18,18 @@ keywords:
   ]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80"
+slugFr: "comment-organiser-son-home-bar"
+faq:
+  - question: "What are the essential spirits for a home bar?"
+    answer: "The essentials are gin, whisky or bourbon, and rum, complemented by vermouth and bitters for classic cocktails."
+  - question: "How can I track what I have in my home bar?"
+    answer: "A dedicated app like Alcotheque lets you scan labels, manage storage locations, and track wines and spirits all in one place."
+  - question: "How often should I replace opened bottles?"
+    answer: "Spirits are stable for years. Vermouth and liqueurs are more fragile: vermouth keeps for 1 to 2 months in the refrigerator."
+  - question: "Is it worth buying premium spirits for cocktails?"
+    answer: "Mid-range spirits are usually sufficient for cocktails. Premium bottles are best reserved for sipping neat."
+  - question: "How much space do I need for a home bar?"
+    answer: "A shelf or cabinet can hold 15 to 20 bottles. Using vertical space helps maximize the available area."
 ---
 
 # How to Set Up and Organize Your Home Bar in 2026

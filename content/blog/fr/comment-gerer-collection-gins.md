@@ -18,6 +18,18 @@ keywords:
   ]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=800&q=80"
+slugEn: "how-to-manage-gin-collection"
+faq:
+  - question: "Qu'est-ce qui distingue un gin de collection ?"
+    answer: "La grande diversité botanique fait que presque aucun gin ne ressemble à un autre, ce qui rend la collection particulièrement intéressante."
+  - question: "Combien de temps se conserve un gin ouvert ?"
+    answer: "Un gin ouvert est généralement meilleur dans les 12 mois. Conservez-le avec un bouchon hermétique, à l'abri de la lumière."
+  - question: "Le gin est-il un bon investissement comme le whisky ?"
+    answer: "Rarement. La collection de gin est avant tout une démarche de plaisir, avec quelques exceptions très limitées."
+  - question: "Quelle est la meilleure façon de déguster un gin de collection ?"
+    answer: "Commencez par le déguster pur, puis avec un peu d'eau, avant de passer au gin tonic. Évitez de le servir trop glacé pour préserver les arômes."
+  - question: "À partir de combien de gins une application de gestion devient-elle utile ?"
+    answer: "En général à partir de 10 à 15 bouteilles, une application comme Alcothèque permet de mieux organiser et suivre sa collection."
 ---
 
 # Comment débuter et gérer sa collection de gins : guide complet

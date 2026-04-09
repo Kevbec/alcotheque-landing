@@ -18,6 +18,18 @@ keywords:
   ]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1527281400683-1aae777175f8?w=800&q=80"
+slugFr: "comment-constituer-collection-whisky"
+faq:
+  - question: "Which whisky should I choose to start a collection?"
+    answer: "Start with 3 to 5 different styles: an accessible Speyside, a peated Islay, and a bourbon to cover the main flavor profiles."
+  - question: "Should I keep a bottle sealed?"
+    answer: "Compare the secondary market price with the retail price and availability before deciding whether to keep or open a bottle."
+  - question: "Does whisky improve in the bottle?"
+    answer: "No. Age refers to time in the barrel. Once bottled, whisky remains stable and does not improve over time."
+  - question: "What budget do I need to start a whisky collection?"
+    answer: "A budget of 30 to 50 euros per bottle and around ten references is enough to build a solid and varied starter collection."
+  - question: "What is the difference between whisky and whiskey?"
+    answer: "It is a geographic convention. Whisky is used for Scotland and Japan, whiskey for Ireland and the United States. Quality is not the distinction."
 ---
 
 # How to Build and Manage Your Whisky and Bourbon Collection

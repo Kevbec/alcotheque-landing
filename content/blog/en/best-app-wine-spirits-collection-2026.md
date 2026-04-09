@@ -28,6 +28,18 @@ keywords:
   ]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80"
+slugFr: "meilleure-app-cave-vin-spiritueux-2026"
+faq:
+  - question: "Is Alcotheque free to manage a wine and spirits collection?"
+    answer: "Yes, Alcotheque is free for up to 15 bottles. Beyond that, a premium subscription is available for around 0.99 euros per month."
+  - question: "Can I manage both wine and whisky in the same app?"
+    answer: "Yes, Alcotheque offers a unified interface to manage wines and multiple types of spirits in the same inventory."
+  - question: "Does Alcotheque work without an internet connection?"
+    answer: "An internet connection is required for AI scanning and cloud sync. Basic browsing remains accessible offline."
+  - question: "How does Alcotheque's AI scan work?"
+    answer: "Point your camera at the label. The AI automatically extracts the name, type, vintage, and estimated value of the bottle."
+  - question: "Can I track bottles received as gifts in Alcotheque?"
+    answer: "Yes, Alcotheque includes a dedicated gift tracking feature with the donor's name, date, and occasion."
 ---
 
 # Best App to Manage Your Wine and Spirits Collection in 2026

@@ -18,6 +18,18 @@ keywords:
   ]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80"
+slugFr: "guide-collectionneur-spiritueux"
+faq:
+  - question: "Where do I start if I have never collected spirits before?"
+    answer: "Start with a category you enjoy, buy 3 to 5 varied bottles, and take time to learn before expanding your collection."
+  - question: "How many bottles before a collection app becomes useful?"
+    answer: "Generally around 15 to 20 bottles is when a collection management app starts to provide real value."
+  - question: "Are limited editions a good investment?"
+    answer: "Rarely as a primary strategy. Only buy bottles you would be happy to open and drink."
+  - question: "What is the best long-term storage for a spirits collection?"
+    answer: "Store bottles upright, away from direct light, at 15 to 20 degrees Celsius, in their original packaging if sealed."
+  - question: "How do I know if a bottle is rare or valuable?"
+    answer: "Check secondary market sales and specialist aggregators. Condition, original box, and authenticity are key factors."
 ---
 
 # Spirits Collector's Guide: Where to Start in 2026?

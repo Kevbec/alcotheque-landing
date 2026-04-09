@@ -18,6 +18,18 @@ keywords:
   ]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1607622750671-6cd9a99eabd1?w=800&q=80"
+slugEn: "how-to-manage-rum-collection"
+faq:
+  - question: "Quelle est la différence entre rhum agricole et rhum traditionnel ?"
+    answer: "Le rhum agricole est distillé à partir de jus de canne fraîche, avec un profil herbacé. Le rhum traditionnel est produit à partir de mélasse, avec un profil plus rond et sucré."
+  - question: "Le rhum vieillit-il en bouteille ?"
+    answer: "Non. L'âge indiqué correspond au temps passé en fût. Une fois embouteillé, le rhum reste stable si bien conservé."
+  - question: "Quelle région recommandez-vous pour débuter une collection de rhums ?"
+    answer: "La Martinique est idéale pour débuter en Europe avec le rhum agricole. La Jamaïque offre des profils intenses et complexes très appréciés."
+  - question: "Comment éviter les doublons dans ma collection ?"
+    answer: "Un inventaire numérique consultable avant chaque achat permet d'éviter les doublons et de planifier intelligemment ses prochaines acquisitions."
+  - question: "Les éditions limitées de rhum sont-elles un bon plan ?"
+    answer: "Parfois, si la provenance est solide. Mais la plupart du temps, les éditions limitées sont surtout faites pour être dégustées."
 ---
 
 # Comment gérer sa collection de rhums : guide du collectionneur

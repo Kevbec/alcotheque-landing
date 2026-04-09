@@ -18,6 +18,18 @@ keywords:
   ]
 author: "Kevin, Founder of Alcotheque"
 coverImage: "https://images.unsplash.com/photo-1527281400683-1aae777175f8?w=800&q=80"
+slugEn: "how-to-build-whisky-bourbon-collection"
+faq:
+  - question: "Quel whisky choisir pour commencer une collection ?"
+    answer: "Commencez par 3 à 5 styles différents : un Speyside accessible, un Islay tourbé et un bourbon pour couvrir les grands profils."
+  - question: "Vaut-il mieux garder une bouteille fermée ?"
+    answer: "Comparez le marché secondaire avec le prix au détail et la disponibilité avant de décider de conserver ou d'ouvrir une bouteille."
+  - question: "Le whisky s'améliore-t-il en bouteille ?"
+    answer: "Non. L'âge correspond au temps en fût. Une fois embouteillé, le whisky reste stable et ne se bonifie pas avec le temps."
+  - question: "Quel budget prévoir pour débuter une collection de whisky ?"
+    answer: "Un budget de 30 à 50 euros par bouteille et une dizaine de références permettent de constituer une base solide et variée."
+  - question: "Quelle est la différence entre whisky et whiskey ?"
+    answer: "C'est une convention géographique. Whisky s'utilise pour l'Écosse et le Japon, whiskey pour l'Irlande et les États-Unis. La qualité n'est pas en cause."
 ---
 
 # Comment constituer et gérer sa collection de whisky et bourbon
