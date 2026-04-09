@@ -81,6 +81,11 @@ export function generateMetadata({
     ],
     alternates: {
       canonical: `/${locale}/blog`,
+      languages: {
+        fr: "/fr/blog",
+        en: "/en/blog",
+        "x-default": "/fr/blog",
+      },
     },
     openGraph: {
       title: c.metaTitle,

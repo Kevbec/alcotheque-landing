@@ -1,7 +1,7 @@
 import { FooterSection } from "@/components/landing/FooterSection";
 import { LandingNavbar } from "@/components/landing/LandingNavbar";
 import { AppStoreBadge } from "@/components/ui/AppStoreBadge";
-import { getAllPosts, getPostBySlug } from "@/lib/blog";
+import { getAllPosts, getPostBySlug, type BlogPost } from "@/lib/blog";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,6 +19,41 @@ function baseUrl(): string {
   if (process.env.VERCEL_URL)
     return `https://${process.env.VERCEL_URL.replace(/\/$/, "")}`;
   return "http://localhost:3000";
+}
+
+/** Clés YAML optionnelles pour relier deux slugs entre fr et en (hreflang) — extensible avec d’autres locales plus tard. */
+type BlogTranslationSlugs = {
+  slugEn?: string;
+  slugFr?: string;
+  /** Sur un article FR : slug de la version EN. Sur un article EN : slug de la version FR. */
+  translationSlug?: string;
+};
+
+/**
+ * hreflang complet seulement si on peut résoudre les deux URLs ;
+ * sinon canonical seul (évite des liens vers une mauvaise page).
+ */
+function blogArticleAlternates(
+  locale: AppLocale,
+  slug: string,
+  post: BlogPost,
+): NonNullable<Metadata["alternates"]> {
+  const p = post as BlogPost & BlogTranslationSlugs;
+  const frSlug =
+    locale === "fr" ? slug : (p.slugFr ?? p.translationSlug);
+  const enSlug =
+    locale === "en" ? slug : (p.slugEn ?? p.translationSlug);
+  if (!frSlug || !enSlug) {
+    return { canonical: `/${locale}/blog/${slug}` };
+  }
+  return {
+    canonical: `/${locale}/blog/${slug}`,
+    languages: {
+      fr: `/fr/blog/${frSlug}`,
+      en: `/en/blog/${enSlug}`,
+      "x-default": `/fr/blog/${frSlug}`,
+    },
+  };
 }
 
 function formatPostDate(iso: string, locale: AppLocale): string {
@@ -162,9 +197,7 @@ export async function generateMetadata({
     title: post.title,
     description: post.description,
     keywords: post.keywords,
-    alternates: {
-      canonical: `/${locale}/blog/${slug}`,
-    },
+    alternates: blogArticleAlternates(locale, slug, post),
     openGraph: {
       title: post.title,
       description: post.description,
