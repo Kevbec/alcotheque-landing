@@ -12,6 +12,8 @@ type LandingNavbarProps = {
    * `dark` = texte clair (ex. hero blog marine) ; `light` = fond clair (landing, articles).
    */
   transparentOver?: "light" | "dark";
+  /** Défilement vertical (px) au-delà duquel le fond opaque s’active ; défaut 16. */
+  scrollThreshold?: number;
 };
 
 /**
@@ -20,6 +22,7 @@ type LandingNavbarProps = {
  */
 export function LandingNavbar({
   transparentOver = "light",
+  scrollThreshold = 16,
 }: LandingNavbarProps) {
   const tNav = useTranslations("nav");
   const tFooter = useTranslations("footer");
@@ -30,11 +33,11 @@ export function LandingNavbar({
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 16);
+    const onScroll = () => setScrolled(window.scrollY > scrollThreshold);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [scrollThreshold]);
 
   // Fond sombre visible sous la nav uniquement si pas encore scrollé et page en "dark hero".
   const useLightText = !scrolled && transparentOver === "dark";

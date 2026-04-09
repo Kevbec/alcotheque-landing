@@ -153,7 +153,7 @@ export default async function BlogIndexPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <LandingNavbar transparentOver="dark" />
+      <LandingNavbar transparentOver="dark" scrollThreshold={0} />
       <main className="min-h-screen bg-white text-zinc-900">
         <div className="pt-16">
           <nav
