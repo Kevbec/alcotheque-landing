@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://alcotheque.app
+Host: https://www.alcotheque.app
 
 # Sitemaps
-Sitemap: https://alcotheque.app/sitemap.xml
+Sitemap: https://www.alcotheque.app/sitemap.xml
