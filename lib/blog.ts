@@ -17,6 +17,7 @@ export type BlogPostFrontmatter = {
   keywords: string[];
   author: string;
   coverImage?: string;
+  faq?: Array<{ question: string; answer: string }>;
 };
 
 /** Article complet : métadonnées + corps converti en HTML pour la page détail. */
