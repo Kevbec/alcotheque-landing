@@ -189,6 +189,19 @@ export function generateMetadata({
     alternates: {
       canonical: `/${locale}/support`,
     },
+    openGraph: {
+      title: c.metaTitle,
+      description: c.metaDescription,
+      url: `/${locale}/support`,
+      siteName: "Alcotheque",
+      locale: locale === "fr" ? "fr_FR" : "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.metaTitle,
+      description: c.metaDescription,
+    },
   };
 }
 
