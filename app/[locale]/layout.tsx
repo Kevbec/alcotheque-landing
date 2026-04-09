@@ -134,7 +134,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       url: `${site}/logo.png`,
     },
     sameAs: [
-      "https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=LandingPage&mt=8",
+      APP_STORE_URL,
       "https://twitter.com/Alcotheque_app",
     ],
     contactPoint: {
