@@ -11,14 +11,16 @@ import { StatsSection } from "@/components/landing/StatsSection";
 export default function LocaleHomePage() {
   return (
     <>
-      <HeroLanding />
-      <ScreenshotsSection />
-      <FeaturesSection />
-      <StatsSection />
-      <ReviewsSection />
-      <PricingSection />
-      <FAQSection />
-      <CTASection />
+      <main id="main-content">
+        <HeroLanding />
+        <ScreenshotsSection />
+        <FeaturesSection />
+        <StatsSection />
+        <ReviewsSection />
+        <PricingSection />
+        <FAQSection />
+        <CTASection />
+      </main>
       <FooterSection />
     </>
   );
