@@ -116,6 +116,32 @@ export default async function LocaleLayout({ children, params }: Props) {
     publisher: {
       "@type": "Organization",
       name: appName,
+      url: site,
+      logo: {
+        "@type": "ImageObject",
+        url: `${site}/logo.png`,
+      },
+    },
+  };
+
+  const organizationLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: locale === "fr" ? "Alcothèque" : "Alcotheque",
+    url: site,
+    logo: {
+      "@type": "ImageObject",
+      url: `${site}/logo.png`,
+    },
+    sameAs: [
+      "https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=LandingPage&mt=8",
+      "https://twitter.com/Alcotheque_app",
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      email: "alcotheque.app@gmail.com",
+      availableLanguage: ["French", "English"],
     },
   };
 
@@ -126,6 +152,10 @@ export default async function LocaleLayout({ children, params }: Props) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
         />
         {children}
       </LocaleHtml>
