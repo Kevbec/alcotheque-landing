@@ -1,6 +1,6 @@
 ---
 title: "Comment débuter et gérer sa collection de gins : guide complet"
-description: "Guide complet pour collectionner les gins. London dry, gins botaniques, artisanaux : conseils de stockage, organisation et meilleure application iOS pour gérer votre gin collection."
+description: "Guide pour collectionner les gins : London dry, botaniques, artisanaux. Conseils de stockage, organisation et application iOS pour gérer votre collection."
 date: "2026-03-15"
 slug: "comment-gerer-collection-gins"
 keywords:

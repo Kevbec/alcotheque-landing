@@ -1,6 +1,6 @@
 ---
-title: "CellarTracker Alternative for iPhone: Why Collectors Switch to Alcotheque"
-description: "Looking for a modern CellarTracker alternative on iPhone? Discover why collectors who love wine AND spirits are switching to Alcotheque — one app for your entire collection."
+title: "CellarTracker Alternative on iPhone for Wine and Spirits"
+description: "Looking for a CellarTracker alternative on iPhone? Discover why collectors switch to Alcotheque to manage wine and spirits in one app."
 date: "2026-04-08"
 slug: "cellar-tracker-alternative"
 keywords: ["cellar tracker alternative", "wine collection tracker iphone", "track wine cellar app", "wine and spirits inventory app", "wine tracker iphone", "spirits collection app"]

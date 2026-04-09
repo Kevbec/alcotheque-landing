@@ -1,6 +1,6 @@
 ---
-title: "Alternative à CellarTracker sur iPhone : pourquoi les collectionneurs choisissent Alcothèque"
-description: "Vous cherchez une alternative à CellarTracker sur iPhone ? Découvrez pourquoi des collectionneurs de vins ET de spiritueux se tournent vers Alcothèque — une seule app pour toute votre cave."
+title: "Alternative à CellarTracker sur iPhone pour vins et spiritueux"
+description: "Vous cherchez une alternative à CellarTracker sur iPhone ? Découvrez pourquoi des collectionneurs choisissent Alcothèque pour gérer vins et spiritueux."
 date: "2026-04-08"
 slug: "alternative-cellar-tracker"
 keywords: ["alternative cellar tracker", "application cave à vin iphone", "suivi cave vin app", "application collection vin et spiritueux", "tracker vin iphone", "application spiritueux collection"]

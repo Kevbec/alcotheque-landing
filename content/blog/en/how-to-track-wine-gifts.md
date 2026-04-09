@@ -1,5 +1,5 @@
 ---
-title: "How to Track Wine Gifts: The Complete Guide"
+title: "How to Track Wine Gifts: The Complete Guide 2026"
 description: "Giving or receiving wine as a gift? Learn how to track wine gifts properly — who gave what, when, and why it makes your collection more meaningful over time."
 date: "2026-04-08"
 slug: "how-to-track-wine-gifts"

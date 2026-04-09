@@ -1,5 +1,5 @@
 ---
-title: "Meilleure application pour gérer sa cave à vins et spiritueux en 2026"
+title: "Meilleure app pour gérer sa cave à vins et spiritueux 2026"
 description: "Découvrez comment Alcothèque révolutionne la gestion de votre cave à vins et spiritueux grâce au scan IA, au suivi des cadeaux et aux analytics en temps réel."
 date: "2026-01-15"
 slug: "meilleure-app-cave-vin-spiritueux-2026"

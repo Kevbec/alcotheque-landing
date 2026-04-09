@@ -1,6 +1,6 @@
 ---
 title: "Comment gérer sa collection de rhums : guide du collectionneur"
-description: "Guide complet pour débuter et organiser votre collection de rhums. Rhum agricole, vieux, blanc : conseils de stockage, organisation et meilleure application iOS pour collectionner."
+description: "Guide pour débuter votre collection de rhums : agricole, vieux, blanc. Conseils de stockage, organisation et meilleure application iOS pour collectionner."
 date: "2026-03-01"
 slug: "comment-gerer-collection-rhums"
 keywords:

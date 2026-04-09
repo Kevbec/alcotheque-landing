@@ -1,6 +1,6 @@
 ---
 title: "Guide du collectionneur de spiritueux : par où commencer ?"
-description: "Guide complet pour débuter et développer une collection de spiritueux. Whisky, rhum, gin, cognac : conseils d'expert pour organiser, valoriser et gérer votre collection avec une app iOS."
+description: "Guide pour débuter une collection de spiritueux : whisky, rhum, gin, cognac. Conseils d'expert pour organiser et gérer votre collection avec une app iOS."
 date: "2026-03-20"
 slug: "guide-collectionneur-spiritueux"
 keywords:
