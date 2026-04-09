@@ -17,6 +17,7 @@ keywords:
     "upright bottle storage",
   ]
 author: "Kevin, Founder of Alcotheque"
+coverImage: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200&q=80"
 faq:
   - question: "What is the best way to organize a spirits collection?"
     answer: "The most practical approach is to group bottles by type (whiskey, rum, gin, etc.), then by status (sealed vs opened). Using a collection app adds a digital layer so you always know what you have."
