@@ -162,5 +162,8 @@
     "copyright": "© 2026 Alcotheque. All rights reserved.",
     "storeLink": "Download on the App Store",
     "storeLinkAria": "Download Alcotheque on the App Store"
+  },
+  "pain": {
+    "text": "Forgotten who gave you that bottle of whisky? Most collectors rely on a spreadsheet, a paper list, or nothing at all. There is an app for that."
   }
 }

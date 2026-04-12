@@ -162,5 +162,8 @@
     "copyright": "© 2026 Alcothèque. Tous droits réservés.",
     "storeLink": "Télécharger sur l'App Store",
     "storeLinkAria": "Télécharger Alcothèque sur l'App Store"
+  },
+  "pain": {
+    "text": "Tu as oublié qui t'a offert cette bouteille de whisky ? La plupart des collectionneurs utilisent Excel, un carnet papier, ou rien du tout. Il existe une app pour ça."
   }
 }
