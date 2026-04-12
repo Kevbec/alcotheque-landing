@@ -17,27 +17,27 @@
     "subtitle": "La seule app qui gère vos vins ET vos spiritueux. Là où Vivino s'arrête, Alcothèque continue.",
     "scan": {
       "title": "Scan IA de vos bouteilles",
-      "text": "Photographiez une étiquette, l'IA extrait automatiquement tous les détails."
+      "text": "Pointe ta caméra sur l'étiquette. Alcothèque lit automatiquement le nom, le millésime, le type et la valeur estimée."
     },
     "wineSpirits": {
       "title": "Vins ET spiritueux",
-      "text": "La seule app qui gère votre cave et votre bar en un seul endroit."
+      "text": "Vivino oublie tes whiskys. Alcothèque gère toute ta cave, du vin au rhum."
     },
     "gifts": {
       "title": "Suivi des cadeaux",
-      "text": "N'oubliez jamais qui vous a offert quelle bouteille et quand."
+      "text": "Qui t'a offert quoi, et quand ? Ne l'oublie plus et n'offre jamais deux fois pareil."
     },
     "value": {
       "title": "Valeur de votre collection",
-      "text": "Suivez la valeur estimée de votre collection en temps réel."
+      "text": "Ta cave vaut combien ? Découvre-le sans ouvrir Excel."
     },
     "locations": {
       "title": "Gestion par emplacement",
-      "text": "Cave, bar, salon : organisez vos bouteilles où qu'elles soient."
+      "text": "Cave, armoire, résidence secondaire. Tu sais toujours où est chaque bouteille."
     },
     "languages": {
       "title": "7 langues disponibles",
-      "text": "Français, anglais, allemand, espagnol, italien, néerlandais, portugais."
+      "text": "Disponible en 7 langues pour les collectionneurs du monde entier."
     }
   },
   "stats": {
@@ -86,7 +86,7 @@
   "hero": {
     "appName": "Alcothèque",
     "tagline": "Vins & spiritueux. Toute ta cave, chaque cadeau.",
-    "subtext": "Scanne tes bouteilles, organise ta collection de vins et spiritueux, et ne perds jamais le fil de tes cadeaux.",
+    "subtext": "Tu sais combien vaut ta cave ? Scanne tes bouteilles, suis tes cadeaux et gère vins et spiritueux au même endroit.",
     "cta": "Télécharger sur l'App Store",
     "ctaAria": "Télécharger Alcothèque sur l'App Store",
     "badgeAlt": "Disponible sur l'App Store",

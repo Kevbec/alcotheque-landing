@@ -17,27 +17,27 @@
     "subtitle": "The only app that manages your wine AND spirits. Where Vivino stops, Alcotheque keeps going.",
     "scan": {
       "title": "AI Bottle Scanner",
-      "text": "Photograph a label, AI automatically extracts all the details."
+      "text": "Point your camera at any label. Alcotheque instantly reads the name, vintage, type and value for you."
     },
     "wineSpirits": {
       "title": "Wine AND Spirits",
-      "text": "The only app that manages your cellar and your bar in one place."
+      "text": "Vivino stops at wine. Alcotheque manages your whisky, rum, gin and every spirit too."
     },
     "gifts": {
       "title": "Gift Tracking",
-      "text": "Never forget who gifted you which bottle and when."
+      "text": "Who gave you what, and when? Never forget a gift or give the same one twice."
     },
     "value": {
       "title": "Collection Value",
-      "text": "Track the estimated value of your collection in real time."
+      "text": "What is your collection worth? Get an instant estimate without opening a spreadsheet."
     },
     "locations": {
       "title": "Location Management",
-      "text": "Cellar, bar, living room: organize your bottles wherever they are."
+      "text": "Cellar, cabinet, holiday home. Always know where every bottle is."
     },
     "languages": {
       "title": "7 Languages",
-      "text": "French, English, German, Spanish, Italian, Dutch, Portuguese."
+      "text": "Available in 7 languages for collectors around the world."
     }
   },
   "stats": {
@@ -86,7 +86,7 @@
   "hero": {
     "appName": "Alcotheque",
     "tagline": "Wine & spirits. Your cellar, your gifts. Never forget a bottle.",
-    "subtext": "Scan your bottles, organize your wine and spirits collection, and never lose track of a gift.",
+    "subtext": "Do you know what your collection is worth? Scan your bottles, track your gifts and manage wine and spirits in one place.",
     "cta": "Download on the App Store",
     "ctaAria": "Download Alcotheque on the App Store",
     "badgeAlt": "Available on the App Store",
