@@ -14,7 +14,7 @@
   "features": {
     "eyebrow": "FEATURES",
     "title": "Everything you need",
-    "subtitle": "Built for true wine and spirits enthusiasts.",
+    "subtitle": "The only app that manages your wine AND spirits. Where Vivino stops, Alcotheque keeps going.",
     "scan": {
       "title": "AI Bottle Scanner",
       "text": "Photograph a label, AI automatically extracts all the details."
@@ -85,8 +85,8 @@
   },
   "hero": {
     "appName": "Alcotheque",
-    "tagline": "Your wine & spirits collection, always with you.",
-    "subtext": "Scan your bottles, organize your collection, track every gift.",
+    "tagline": "Wine & spirits. Your cellar, your gifts. Never forget a bottle.",
+    "subtext": "Scan your bottles, organize your wine and spirits collection, and never lose track of a gift.",
     "cta": "Download on the App Store",
     "ctaAria": "Download Alcotheque on the App Store",
     "badgeAlt": "Available on the App Store",

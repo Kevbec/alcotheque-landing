@@ -14,7 +14,7 @@
   "features": {
     "eyebrow": "FONCTIONNALITÉS",
     "title": "Tout ce dont vous avez besoin",
-    "subtitle": "Conçu pour les vrais amateurs de vins et spiritueux.",
+    "subtitle": "La seule app qui gère vos vins ET vos spiritueux. Là où Vivino s'arrête, Alcothèque continue.",
     "scan": {
       "title": "Scan IA de vos bouteilles",
       "text": "Photographiez une étiquette, l'IA extrait automatiquement tous les détails."
@@ -85,8 +85,8 @@
   },
   "hero": {
     "appName": "Alcothèque",
-    "tagline": "Toute votre cave, dans votre poche.",
-    "subtext": "Scannez vos bouteilles, organisez votre collection, suivez chaque cadeau.",
+    "tagline": "Vins & spiritueux. Toute ta cave, chaque cadeau.",
+    "subtext": "Scanne tes bouteilles, organise ta collection de vins et spiritueux, et ne perds jamais le fil de tes cadeaux.",
     "cta": "Télécharger sur l'App Store",
     "ctaAria": "Télécharger Alcothèque sur l'App Store",
     "badgeAlt": "Disponible sur l'App Store",
