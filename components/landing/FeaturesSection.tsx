@@ -87,7 +87,7 @@ export function FeaturesSection() {
 
   return (
     <section
-      className="bg-gradient-to-br from-[#F8F9FF] via-white to-[#F0F4FF] py-16 sm:py-24"
+      className="bg-gradient-to-br from-[#F8F9FF] via-white to-[#F0F4FF] pb-16 pt-8 sm:pb-24 sm:pt-10"
       aria-labelledby="features-heading"
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
