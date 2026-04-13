@@ -17,7 +17,7 @@ keywords:
     "rum collection iOS",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1607622750671-6cd9a99eabd1?w=800&q=80"
+coverImage: "/images/blog/rum-collection.jpg"
 slugFr: "comment-gerer-collection-rhums"
 faq:
   - question: "What is the difference between agricole rum and traditional rum?"

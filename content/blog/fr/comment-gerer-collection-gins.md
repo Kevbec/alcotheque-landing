@@ -17,7 +17,7 @@ keywords:
     "gin collection app iOS",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=800&q=80"
+coverImage: "/images/blog/gin-collection.jpg"
 slugEn: "how-to-manage-gin-collection"
 faq:
   - question: "Qu'est-ce qui distingue un gin de collection ?"

@@ -17,7 +17,7 @@ keywords:
     "gérer collection spiritueux",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200&q=80"
+coverImage: "/images/blog/spirits-organization.jpg"
 slugEn: "how-to-organize-your-spirits-collection-at-home"
 faq:
   - question: "Quelle est la meilleure façon d'organiser une collection de spiritueux ?"

@@ -5,7 +5,7 @@ date: "2026-04-08"
 slug: "alternative-cellar-tracker"
 keywords: ["alternative cellar tracker", "application cave à vin iphone", "suivi cave vin app", "application collection vin et spiritueux", "tracker vin iphone", "application spiritueux collection"]
 author: "Kevin, Fondateur d'Alcothèque"
-coverImage: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80"
+coverImage: "/images/blog/wine-cellar.jpg"
 slugEn: "cellar-tracker-alternative"
 faq:
   - question: "Alcothèque remplace-t-elle complètement CellarTracker ?"

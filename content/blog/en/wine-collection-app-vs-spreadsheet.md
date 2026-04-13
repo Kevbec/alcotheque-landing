@@ -18,7 +18,7 @@ keywords:
     "mobile wine inventory",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=1200&q=80"
+coverImage: "/images/blog/app-vs-spreadsheet.jpg"
 faq:
   - question: "Is a spreadsheet good enough to track a wine collection?"
     answer: "A spreadsheet works for small collections but becomes hard to maintain as your collection grows. It has no label scanning, no photo storage, and no mobile access optimized for quick updates."

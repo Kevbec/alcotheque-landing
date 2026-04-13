@@ -5,7 +5,7 @@ date: "2026-04-08"
 slug: "how-to-track-wine-gifts"
 keywords: ["track wine gifts app", "wine gift tracker", "wine gift app iphone", "track bottle gifts", "wine gifting app"]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=1200&q=80"
+coverImage: "/images/blog/wine-gift.jpg"
 slugFr: "comment-suivre-cadeaux-vin"
 faq:
   - question: "Do I need a dedicated app to track wine gifts?"

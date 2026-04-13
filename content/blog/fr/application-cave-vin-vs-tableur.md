@@ -17,7 +17,7 @@ keywords:
     "inventaire vin mobile",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=1200&q=80"
+coverImage: "/images/blog/app-vs-spreadsheet.jpg"
 slugEn: "wine-collection-app-vs-spreadsheet"
 faq:
   - question: "Un tableur suffit-il pour gérer une collection de vin ?"

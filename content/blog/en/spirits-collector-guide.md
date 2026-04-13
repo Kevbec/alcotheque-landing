@@ -17,7 +17,7 @@ keywords:
     "manage spirits collection",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80"
+coverImage: "/images/blog/collection-overview.jpg"
 slugFr: "guide-collectionneur-spiritueux"
 faq:
   - question: "Where do I start if I have never collected spirits before?"

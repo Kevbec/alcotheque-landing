@@ -17,7 +17,7 @@ keywords:
     "home bar iOS app",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80"
+coverImage: "/images/blog/home-bar.jpg"
 slugFr: "comment-organiser-son-home-bar"
 faq:
   - question: "What are the essential spirits for a home bar?"

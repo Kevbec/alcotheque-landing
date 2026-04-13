@@ -28,7 +28,7 @@ keywords:
     "whisky collection",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80"
+coverImage: "/images/blog/collection-overview.jpg"
 slugEn: "best-app-wine-spirits-collection-2026"
 faq:
   - question: "Alcothèque est-elle gratuite pour gérer une cave à vins et spiritueux ?"

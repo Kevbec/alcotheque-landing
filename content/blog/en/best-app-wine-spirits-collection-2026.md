@@ -27,7 +27,7 @@ keywords:
     "spirits collection",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80"
+coverImage: "/images/blog/collection-overview.jpg"
 slugFr: "meilleure-app-cave-vin-spiritueux-2026"
 faq:
   - question: "Is Alcotheque free to manage a wine and spirits collection?"

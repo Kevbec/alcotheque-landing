@@ -17,7 +17,7 @@ keywords:
     "cave whisky",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1527281400683-1aae777175f8?w=800&q=80"
+coverImage: "/images/blog/whisky-collection.jpg"
 slugEn: "how-to-build-whisky-bourbon-collection"
 faq:
   - question: "Quel whisky choisir pour commencer une collection ?"

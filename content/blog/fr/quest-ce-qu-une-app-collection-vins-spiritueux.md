@@ -17,7 +17,7 @@ keywords:
     "inventaire home bar",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=1200&q=80"
+coverImage: "/images/blog/collection-overview.jpg"
 slugEn: "what-is-a-wine-and-spirits-collection-app"
 faq:
   - question: "À quoi sert une application de collection de vins et spiritueux ?"

@@ -18,7 +18,7 @@ keywords:
     "home bar inventory",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=1200&q=80"
+coverImage: "/images/blog/collection-overview.jpg"
 faq:
   - question: "What does a wine and spirits collection app do?"
     answer: "It lets you scan bottle labels, record purchases, track quantities, manage storage locations, and view analytics about your collection — all from your smartphone."

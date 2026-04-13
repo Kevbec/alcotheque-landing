@@ -5,7 +5,7 @@ date: "2026-04-08"
 slug: "cellar-tracker-alternative"
 keywords: ["cellar tracker alternative", "wine collection tracker iphone", "track wine cellar app", "wine and spirits inventory app", "wine tracker iphone", "spirits collection app"]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80"
+coverImage: "/images/blog/wine-cellar.jpg"
 slugFr: "alternative-cellar-tracker"
 faq:
   - question: "Does Alcotheque fully replace CellarTracker?"

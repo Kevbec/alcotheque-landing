@@ -17,7 +17,7 @@ keywords:
     "bottle tracker",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "https://images.unsplash.com/photo-1527281400683-1aae777175f8?w=800&q=80"
+coverImage: "/images/blog/whisky-collection.jpg"
 slugFr: "comment-constituer-collection-whisky"
 faq:
   - question: "Which whisky should I choose to start a collection?"

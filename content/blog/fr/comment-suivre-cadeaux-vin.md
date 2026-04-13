@@ -5,7 +5,7 @@ date: "2026-04-08"
 slug: "comment-suivre-cadeaux-vin"
 keywords: ["cadeau vin application", "suivi cadeaux vin", "tracker cadeaux bouteilles", "application cadeau vin iphone", "gérer cadeaux cave"]
 author: "Kevin, Fondateur d'Alcothèque"
-coverImage: "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=1200&q=80"
+coverImage: "/images/blog/wine-gift.jpg"
 slugEn: "how-to-track-wine-gifts"
 faq:
   - question: "Faut-il obligatoirement une application pour suivre ses cadeaux de vin ?"
