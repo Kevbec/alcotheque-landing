@@ -3,6 +3,7 @@ title: "Wine Collection App vs Spreadsheet: Which One Should You Use?"
 description: "Comparing a dedicated wine and spirits collection app against a spreadsheet to help you decide which tool fits your collection best."
 date: "2026-04-09"
 slug: "wine-collection-app-vs-spreadsheet"
+slugFr: "application-cave-vin-vs-tableur"
 keywords:
   [
     "wine collection app vs spreadsheet",
