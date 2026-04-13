@@ -3,6 +3,7 @@ title: "What Is a Wine and Spirits Collection App?"
 description: "A wine and spirits collection app lets you track every bottle you own, scan labels with AI, and manage your cellar from your phone. Here is everything you need to know."
 date: "2026-04-09"
 slug: "what-is-a-wine-and-spirits-collection-app"
+slugFr: "quest-ce-qu-une-app-collection-vins-spiritueux"
 keywords:
   [
     "wine collection app",
