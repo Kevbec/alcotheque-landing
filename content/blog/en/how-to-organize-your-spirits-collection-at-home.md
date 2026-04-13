@@ -3,6 +3,7 @@ title: "How to Organize Your Spirits Collection at Home"
 description: "A practical guide to sorting, storing, and tracking your home spirits collection — whether you have 10 bottles or 100."
 date: "2026-04-09"
 slug: "how-to-organize-your-spirits-collection-at-home"
+slugFr: "comment-organiser-collection-spiritueux"
 keywords:
   [
     "organize spirits collection",
