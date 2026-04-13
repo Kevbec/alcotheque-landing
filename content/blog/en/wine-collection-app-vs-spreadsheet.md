@@ -43,14 +43,16 @@ Spreadsheets are free, flexible, and familiar. For a collection under 20 bottles
 
 ## Where Spreadsheets Fall Short
 
-| Limitation with a spreadsheet | Alcotheque |
-|---|---|
-| You enter every detail manually | AI label scanning |
-| No photo storage | Photo saved automatically |
-| Slow to update on mobile | Built for mobile |
-| No gift tracking | Track who gave you what |
-| No location management | Assign bottles to storage spots |
-| No analytics | Full collection stats |
+| Feature | Spreadsheet | Alcotheque |
+|---|:---:|:---:|
+| Enter bottle details | ✅ Manual only | ✅ AI label scanning |
+| Photo storage | ❌ Not supported | ✅ Saved automatically |
+| Mobile experience | ❌ Slow and clunky | ✅ Built for mobile |
+| Gift tracking | ❌ Not available | ✅ Track who gave you what |
+| Storage location management | ❌ Not available | ✅ Assign bottles to spots |
+| Collection analytics | ❌ Not available | ✅ Full collection stats |
+
+*Alcotheque handles the details so you can focus on enjoying your collection.*
 
 ## What a Dedicated App Adds
 
