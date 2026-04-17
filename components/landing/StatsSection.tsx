@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useInView } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import {
   type CSSProperties,
   useEffect,
@@ -28,19 +28,21 @@ type StatDef = {
 };
 
 const STATS: StatDef[] = [
-  { id: "bottles", value: 1200, suffix: "+" },
-  { id: "users", value: 200, suffix: "+" },
-  { id: "gifts", value: 150, suffix: "+" },
+  { id: "bottles", value: 2500, suffix: "+" },
+  { id: "users", value: 350, suffix: "+" },
+  { id: "gifts", value: 400, suffix: "+" },
   { id: "rating", value: 5, suffix: "★" },
 ];
 
-// Compteur : de 0 à `target` en ~2 s quand `active` passe à true (déclenché par la visibilité).
+// Compteur : de 0 à `value` en ~2 s quand `active` passe à true (déclenché par la visibilité).
 function AnimatedCounter({
-  target,
+  value,
   active,
+  locale,
 }: {
-  target: number;
+  value: number;
   active: boolean;
+  locale: string;
 }) {
   const [display, setDisplay] = useState(0);
 
@@ -55,15 +57,19 @@ function AnimatedCounter({
       if (startTime === null) startTime = now;
       const rawT = Math.min((now - startTime) / durationMs, 1);
       const eased = easeOutCubic(rawT);
-      setDisplay(Math.round(eased * target));
+      setDisplay(Math.round(eased * value));
       if (rawT < 1) frameId = requestAnimationFrame(step);
     };
 
     frameId = requestAnimationFrame(step);
     return () => cancelAnimationFrame(frameId);
-  }, [active, target]);
+  }, [active, value]);
 
-  return <>{display.toLocaleString()}</>;
+  return (
+    <>
+      {new Intl.NumberFormat(locale, { useGrouping: true }).format(display)}
+    </>
+  );
 }
 
 const gridVariants = {
@@ -88,6 +94,7 @@ const statItemVariants = {
 
 export function StatsSection() {
   const t = useTranslations("stats");
+  const locale = useLocale();
   const sectionRef = useRef<HTMLElement>(null);
   const isInView = useInView(sectionRef, { once: true, amount: 0.25 });
 
@@ -126,9 +133,15 @@ export function StatsSection() {
                 {/* Note App Store : "5★" statique — pas d’animation du chiffre. */}
                 <span className="text-[40px] sm:text-[64px] font-extrabold leading-none tracking-tight text-white">
                   {stat.id === "rating" ? (
-                    stat.value.toLocaleString()
+                    new Intl.NumberFormat(locale, { useGrouping: false }).format(
+                      stat.value,
+                    )
                   ) : (
-                    <AnimatedCounter target={stat.value} active={isInView} />
+                    <AnimatedCounter
+                      value={stat.value}
+                      active={isInView}
+                      locale={locale}
+                    />
                   )}
                 </span>
                 {/* Suffixe : bleu clair pour +, or #FFD700 pour l’étoile note. */}
