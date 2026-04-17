@@ -48,8 +48,8 @@ export function ReviewsSection() {
         </div>
         <span className="text-sm font-semibold text-navy">
           {locale === "fr"
-            ? "13 avis · 5 étoiles sur l'App Store"
-            : "13 ratings · 5 stars on the App Store"}
+            ? "16 avis · 5 étoiles sur l'App Store"
+            : "16 ratings · 5 stars on the App Store"}
         </span>
       </div>
       <h2 className="mb-12 text-center text-3xl font-extrabold text-navy">{t("title")}</h2>
