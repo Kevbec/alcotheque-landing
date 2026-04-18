@@ -141,5 +141,3 @@ CellarTracker is the most powerful wine data platform available. If community, v
 Alcotheque is something else: a private, mobile-first inventory for collectors who drink beyond wine, value simplicity over community, and want a tool that works with one hand while the other holds a glass.
 
 The best way to find out if it fits is to try it. The free plan is there for exactly that reason.
-
-[Download Alcotheque on the App Store](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=LandingPage&mt=8)
