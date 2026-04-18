@@ -139,5 +139,3 @@ CellarTracker est la plateforme de données vin la plus puissante du marché. Si
 Alcothèque est autre chose : un inventaire privé, pensé pour iPhone, pour les collectionneurs qui boivent au-delà du vin, qui préfèrent la simplicité à la communauté, et qui veulent un outil qui fonctionne d'une main pendant que l'autre tient un verre.
 
 La meilleure façon de savoir si ça te correspond, c'est d'essayer. Le plan gratuit est là exactement pour ça.
-
-[Télécharger Alcothèque sur l'App Store](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=LandingPage&mt=8)
