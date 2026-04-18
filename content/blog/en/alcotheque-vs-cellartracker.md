@@ -74,7 +74,7 @@ Alcotheque is available in 8 languages including French, German, Spanish, Dutch,
 | Android + Web | ❌ | ✅ |
 | Languages | 8 | English only |
 | Community and tasting notes | ❌ | ✅ (13M reviews) |
-| Collection valuation | Coming soon | ✅ |
+| Collection valuation | ✅ | ✅ |
 | Drink window prediction | ❌ | ✅ |
 | Free entry plan | ✅ (15 bottles) | ❌ |
 | Pricing | < €1/month flat | $4.99 to $44.99/month |
