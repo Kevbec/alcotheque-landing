@@ -72,7 +72,7 @@ Alcothèque est disponible en 8 langues dont le français, l'allemand, l'espagno
 | Android + Web | ❌ | ✅ |
 | Langues disponibles | 8 | Anglais uniquement |
 | Communauté et notes de dégustation | ❌ | ✅ (13M avis) |
-| Valorisation de la collection | Bientôt | ✅ |
+| Valorisation de la collection | ✅ | ✅ |
 | Fenêtre de consommation | ❌ | ✅ |
 | Plan gratuit | ✅ (15 bouteilles) | ❌ |
 | Tarif | Moins d'1€/mois fixe | De 4,99$ à 44,99$/mois |
