@@ -161,6 +161,4 @@ Non. Alcothèque est axée sur la gestion personnelle. Vous pouvez ajouter vos p
 
 ---
 
-[Télécharger Alcothèque gratuitement sur l'App Store](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=BlogCTA&mt=8)
-
 ---

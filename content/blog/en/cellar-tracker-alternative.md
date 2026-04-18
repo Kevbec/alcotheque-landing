@@ -165,6 +165,4 @@ No. Alcotheque focuses on personal collection management. You can add your own t
 
 ---
 
-[Download Alcotheque free on the App Store](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=BlogCTA&mt=8)
-
 ---

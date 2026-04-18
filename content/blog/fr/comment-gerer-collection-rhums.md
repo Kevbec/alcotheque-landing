@@ -122,6 +122,4 @@ Oui. La fonctionnalité de gestion des emplacements d'Alcothèque te permet d'or
 - [Comment organiser son home bar](/fr/blog/comment-organiser-son-home-bar)
 - [Meilleure app pour gérer sa cave](/fr/blog/meilleure-app-cave-vin-spiritueux-2026)
 
-[Téléchargez Alcothèque sur l’App Store](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=BlogCTA&mt=8) et pilotez votre **rhum collection** comme un pro.
-
 *Par Kevin, Founder of Alcotheque.*

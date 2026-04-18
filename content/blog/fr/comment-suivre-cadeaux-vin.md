@@ -148,6 +148,4 @@ En ajoutant ou modifiant une bouteille dans Alcothèque, vous pouvez la marquer 
 
 ---
 
-[Télécharger Alcothèque gratuitement sur l'App Store](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=BlogCTA&mt=8)
-
 ---

@@ -61,6 +61,5 @@ Tu pointes ton appareil photo vers une étiquette de bouteille. L'application li
 La plupart des applications de collection proposent une version gratuite avec un nombre limité de bouteilles, et un abonnement payant pour un accès illimité. Alcothèque permet de gérer jusqu'à 15 bouteilles gratuitement, sans limite de temps.
 
 Télécharge Alcothèque gratuitement et commence à gérer ta collection dès aujourd'hui :
-[Télécharger Alcothèque](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=LandingPage&mt=8)
 
 ---

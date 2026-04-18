@@ -122,6 +122,4 @@ Yes. Alcotheque manages both spirits and wine in a single unified inventory. If 
 - [How to Organize Your Home Bar](/en/blog/how-to-organize-your-home-bar)
 - [Best App for Wine & Spirits](/en/blog/best-app-wine-spirits-collection-2026)
 
-[Download Alcothèque on the App Store](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=BlogCTA&mt=8) and run your **gin collection** like a pro.
-
 *By Kevin, Founder of Alcotheque.*

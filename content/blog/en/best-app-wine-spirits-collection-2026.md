@@ -181,8 +181,6 @@ Yes. Your collection is private and linked only to your account. Alcotheque does
 - [How to Build Your Whisky Collection](/en/blog/how-to-build-whisky-bourbon-collection)
 - [How to Organize Your Home Bar](/en/blog/how-to-organize-your-home-bar)
 
-**Download Alcotheque for free on the App Store and start organizing your collection today.**
-
 ---
 *By Kevin, Founder of Alcotheque.*
 

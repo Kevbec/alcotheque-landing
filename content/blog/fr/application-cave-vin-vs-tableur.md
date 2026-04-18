@@ -75,6 +75,5 @@ Si ta collection grandit, mélange vins et spiritueux, ou est partagée avec que
 Alcothèque est gratuite jusqu'à 15 bouteilles, ce qui te permet de tester sans engagement.
 
 Télécharge Alcothèque gratuitement et commence à gérer ta collection dès aujourd'hui :
-[Télécharger Alcothèque](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=LandingPage&mt=8)
 
 ---

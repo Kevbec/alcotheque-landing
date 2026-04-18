@@ -148,6 +148,4 @@ When adding or editing a bottle in Alcotheque, you can mark it as received as a 
 
 ---
 
-[Download Alcotheque free on the App Store](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=BlogCTA&mt=8)
-
 ---

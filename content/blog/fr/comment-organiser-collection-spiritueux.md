@@ -74,6 +74,5 @@ Un système d'organisation physique ne fonctionne que si tu le mets à jour. Le 
 Tu as ainsi une vue en temps réel de ta collection sans avoir à vérifier l'étagère à chaque fois.
 
 Télécharge Alcothèque gratuitement et commence à organiser ta collection dès aujourd'hui :
-[Télécharger Alcothèque](https://apps.apple.com/app/apple-store/id6755549562?pt=128302951&ct=LandingPage&mt=8)
 
 ---
