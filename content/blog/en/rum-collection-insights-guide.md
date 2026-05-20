@@ -1,7 +1,7 @@
 ---
 title: "Rum Collection Insights: What Your Bottles Really Tell You"
 description: "Go beyond the label. Discover how tracking rum style, region, aging system, and sugar content transforms a random shelf of bottles into a real collection with meaning."
-date: "2026-04-22"
+date: "2026-05-20"
 slug: "rum-collection-insights-guide"
 keywords:
   [
@@ -15,7 +15,7 @@ keywords:
     "rhum agricole collection",
   ]
 author: "Kevin, Founder of Alcotheque"
-coverImage: "/images/blog/rum-collection-insights.jpg"
+coverImage: "/images/blog/rum-collection-insights.png"
 slugFr: "guide-insights-collection-rhum"
 faq:
   - question: "What is the difference between agricole and industrial rum?"
