@@ -1,7 +1,7 @@
 ---
 title: "Collection de rhum : ce que vos bouteilles révèlent vraiment"
 description: "Au-delà de l'étiquette. Découvrez comment suivre le style, la région, le système de vieillissement et la teneur en sucre transforme une étagère en vraie collection."
-date: "2026-04-22"
+date: "2026-05-20"
 slug: "guide-insights-collection-rhum"
 keywords:
   [
@@ -15,7 +15,7 @@ keywords:
     "rhum agricole martinique",
   ]
 author: "Kevin, créateur d'Alcothèque"
-coverImage: "/images/blog/rum-collection-insights.jpg"
+coverImage: "/images/blog/rum-collection-insights.png"
 slugEn: "rum-collection-insights-guide"
 faq:
   - question: "Quelle est la différence entre le rhum agricole et le rhum industriel ?"
