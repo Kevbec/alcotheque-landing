@@ -52,7 +52,7 @@ export function ScreenshotsSection() {
     if (maxScroll <= 0) return;
     const firstCard = el.querySelector('.snap-center') as HTMLElement | null;
     const cardWidth = firstCard ? firstCard.getBoundingClientRect().width : 0;
-    const gap = 24;
+    const gap = 8;
     const step = cardWidth + gap;
     const visibleCards = Math.round(el.clientWidth / step);
     let index: number;
@@ -79,7 +79,7 @@ export function ScreenshotsSection() {
         <div className="relative">
           <motion.div
             ref={scrollRef}
-            className="relative scrollbar-hide flex snap-x snap-mandatory flex-row gap-6 overflow-x-auto scroll-smooth px-6 md:px-16 scroll-p-6 py-8"
+            className="relative scrollbar-hide flex snap-x snap-mandatory flex-row gap-2 overflow-x-auto scroll-smooth px-6 md:px-16 scroll-p-6 py-8"
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
