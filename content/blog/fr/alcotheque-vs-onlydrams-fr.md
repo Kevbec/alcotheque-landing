@@ -1,7 +1,7 @@
 ---
 title: "Alcotheque vs OnlyDrams : quelle app choisir pour ta collection ?"
 description: "Comparatif honnête entre Alcotheque et OnlyDrams. Deux bonnes apps avec des approches très différentes. Découvre laquelle correspond à ta façon de collectionner."
-date: "2026-05-20"
+date: "2026-07-16"
 slug: "alcotheque-vs-onlydrams-fr"
 keywords:
   [
