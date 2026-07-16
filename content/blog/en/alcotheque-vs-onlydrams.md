@@ -1,7 +1,7 @@
 ---
 title: "Alcotheque vs OnlyDrams: Which Spirits App Is Right for You?"
 description: "Honest comparison between Alcotheque and OnlyDrams. Two solid spirits apps with very different approaches. Find out which one fits your collection style."
-date: "2026-05-20"
+date: "2026-07-16"
 slug: "alcotheque-vs-onlydrams"
 keywords:
   [
