@@ -88,7 +88,7 @@ Alcotheque is currently available on iOS, with Android support on the roadmap. I
 | Android | Coming soon | ✅ |
 | Languages | 8 | English only |
 | Free plan | ✅ (15 bottles) | ✅ (unlimited) |
-| Premium price | < €1/month | Elite plan |
+| Premium price | < €1/month | $4.99/month (Elite) |
 
 ---
 
