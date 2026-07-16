@@ -88,7 +88,7 @@ Alcothèque est actuellement disponible sur iOS, avec le support Android dans la
 | Android | Bientôt | ✅ |
 | Langues | 8 | Anglais uniquement |
 | Plan gratuit | ✅ (15 bouteilles) | ✅ (illimité) |
-| Prix premium | Moins d'1€/mois | Plan Elite |
+| Prix premium | Moins d'1€/mois | 4,99$/mois (Elite) |
 
 ---
 
