@@ -145,6 +145,25 @@ export default async function LocaleLayout({ children, params }: Props) {
     },
   };
 
+  // Schema WebSite : permet à Google d'afficher
+  // une barre de recherche et identifie le site
+  // comme entité web principale
+  const websiteLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: locale === "fr" ? "Alcothèque" : "Alcotheque",
+    url: site,
+    inLanguage: locale === "fr" ? "fr-FR" : "en-US",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${site}/${locale}/blog?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <LocaleHtml locale={locale}>
@@ -156,6 +175,12 @@ export default async function LocaleLayout({ children, params }: Props) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
+        />
+        {/* Schema WebSite — identifie le site et active
+            la SearchAction dans les résultats Google */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd) }}
         />
         {children}
       </LocaleHtml>

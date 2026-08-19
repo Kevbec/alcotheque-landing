@@ -288,6 +288,37 @@ export default async function BlogArticlePage({
           }}
         />
       )}
+      {/* Schema BreadcrumbList — structure de navigation
+          pour Google sur les pages d'articles */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: locale === "fr" ? "Accueil" : "Home",
+                item: `${site}/${locale}`,
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Blog",
+                item: `${site}/${locale}/blog`,
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: post.title,
+                item: articleUrl,
+              },
+            ],
+          }),
+        }}
+      />
       <LandingNavbar />
       <main className="min-h-screen bg-white text-zinc-900">
         <div className="pt-16">

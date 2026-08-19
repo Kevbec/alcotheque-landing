@@ -153,6 +153,31 @@ export default async function BlogIndexPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {/* Schema BreadcrumbList — structure de navigation
+          pour Google sur la page index blog */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: locale === "fr" ? "Accueil" : "Home",
+                item: `${site}/${locale}`,
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Blog",
+                item: `${site}/${locale}/blog`,
+              },
+            ],
+          }),
+        }}
+      />
       <LandingNavbar transparentOver="dark" scrollThreshold={0} />
       <main className="min-h-screen bg-white text-zinc-900">
         <div className="pt-16">
