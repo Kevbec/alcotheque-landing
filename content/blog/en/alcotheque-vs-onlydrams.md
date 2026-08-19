@@ -1,12 +1,13 @@
 ---
-title: "Alcotheque vs OnlyDrams: Which Spirits App Is Right for You?"
-description: "Honest comparison between Alcotheque and OnlyDrams. Two solid spirits apps with very different approaches. Find out which one fits your collection style."
+title: "Alcotheque vs OnlyDrams App: Which Spirits Tracker Is Right for You?"
+description: "Honest comparison of the Alcotheque and OnlyDrams app. Two solid spirits trackers with very different approaches. Find out which one fits your collection."
 date: "2026-07-16"
 slug: "alcotheque-vs-onlydrams"
 keywords:
   [
     "alcotheque vs onlydrams",
     "onlydrams alternative",
+    "onlydrams app",
     "spirits collection app comparison",
     "best spirits tracker iPhone",
     "onlydrams vs alcotheque",
