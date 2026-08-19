@@ -6,7 +6,6 @@ slug: "alcotheque-vs-cellartracker"
 keywords:
   [
     "alcotheque vs cellartracker",
-    "cellartracker alternative",
     "wine app comparison",
     "spirits collection app",
     "wine cellar app iPhone",
