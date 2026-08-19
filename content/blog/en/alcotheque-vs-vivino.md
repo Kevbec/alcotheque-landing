@@ -1,6 +1,6 @@
 ---
-title: "Alcotheque vs Vivino: Two Apps, Two Different Goals"
-description: "Vivino helps you discover wine. Alcotheque helps you manage what you already own. An honest comparison to help you choose the right tool for your collection."
+title: "Alcotheque vs Vivino: The Best Vivino Alternative for Wine and Spirits"
+description: "Vivino is great for discovering wine. But if you collect spirits too, Alcotheque is the vivino alternative that tracks everything in one place. Honest comparison inside."
 date: "2026-04-20"
 slug: "alcotheque-vs-vivino"
 keywords:
