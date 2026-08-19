@@ -1,6 +1,6 @@
 ---
-title: "Comment constituer et gérer sa collection de whisky et bourbon"
-description: "Guide complet pour débuter et gérer votre collection de whisky, bourbon et scotch. Conseils de stockage, organisation et application iOS recommandée."
+title: "Logiciel gestion whisky : guide complet pour constituer et gérer sa collection"
+description: "Le meilleur logiciel de gestion whisky pour débuter et organiser votre collection. Bourbon, scotch, single malt : conseils de stockage et app iOS recommandée."
 date: "2026-02-10"
 slug: "comment-constituer-collection-whisky"
 keywords:
@@ -48,7 +48,7 @@ On démarre par quelques références solides plutôt que par une dizaine d’ac
 
 Les bouteilles se conservent mieux à température stable, à l’abri de la lumière directe et debout pour que le bouchon reste humide sans baigner trop le whisky. Organisez par type : whisky, **bourbon**, **scotch**, **cognac**, **gin**, **rhum**, afin de retrouver vite ce que vous cherchez lors d’un service ou d’une dégustation. Pour la gestion des stocks, notez clairement ce qui est ouvert, fermé, offert ou terminé : c’est la base d’un **inventaire** fiable pour votre **cave**. L’erreur classique : racheter une étiquette déjà présente parce qu’on ne se souvient plus du fond de placard. Un suivi centralisé règle le problème.
 
-## Utiliser une application pour gérer sa collection de whisky
+## Logiciel de gestion whisky : quelle application choisir ?
 
 Un tableur Excel montre vite ses limites : saisie lourde, pas de photo d’étiquette intégrée, peu d’usage naturel sur mobile dans la **cave**. Une vraie app apporte un scan IA pour ajouter une bouteille en secondes, des analytics sur la composition de la cave et un historique des dégustations ou des cadeaux.
 
