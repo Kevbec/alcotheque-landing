@@ -1,6 +1,6 @@
 ---
-title: "How to Set Up and Organize Your Home Bar in 2026"
-description: "Everything you need to create and organize the perfect home bar. Spirits selection, storage, inventory management and best iOS app to manage your home bar like a pro."
+title: "Home Bar Setup Guide: How to Organize Your Bar in 2026"
+description: "Complete home bar setup guide: which spirits to choose, how to organize storage and manage your inventory with the best iOS app for home bar lovers."
 date: "2026-03-10"
 slug: "how-to-organize-your-home-bar"
 keywords:
