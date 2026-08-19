@@ -1,6 +1,6 @@
 ---
-title: "Comment gérer sa collection de rhums : guide du collectionneur"
-description: "Guide pour débuter votre collection de rhums : agricole, vieux, blanc. Conseils de stockage, organisation et meilleure application iOS pour collectionner."
+title: "Rhum de collection : guide complet pour débuter et gérer sa cave"
+description: "Tout savoir sur le rhum de collection : agricole, vieux, éditions limitées. Conseils de stockage, organisation et meilleure app iOS pour gérer votre collection."
 date: "2026-03-01"
 slug: "comment-gerer-collection-rhums"
 keywords:
@@ -82,7 +82,7 @@ La géographie est tout dans le rhum. Contrairement au whisky, qui se concentre 
 
 **L'Amérique centrale** — Guatemala, Panama, Nicaragua — produit des rhums à colonne qui plaisent aux collectionneurs qui apprécient les profils plus doux, sucrés et orientés bois.
 
-## Construire une collection de rhums qui te ressemble
+## Construire ta cave de rhum de collection
 
 Le rhum est personnel. Plus que presque n'importe quelle autre catégorie, ta collection finit par refléter ton goût, ta géographie et ta philosophie de ce qui fait un grand spiritueux.
 

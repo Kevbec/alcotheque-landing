@@ -1,6 +1,6 @@
 ---
-title: "How to Manage Your Rum Collection: The Collector's Guide"
-description: "Complete guide to starting and organizing your rum collection. Agricultural rum, aged rum, white rum: storage tips, organization advice and best iOS app for collectors."
+title: "Rum Collection Guide: How to Start, Store and Track Your Bottles"
+description: "Everything about building a rum collection: agricole, aged, limited editions. Storage tips, organization advice and best iOS app to manage your bottles."
 date: "2026-03-01"
 slug: "how-to-manage-rum-collection"
 keywords:
