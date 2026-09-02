@@ -1,7 +1,7 @@
 ---
 title: "Guide cadeau bouteille : comment choisir et offrir le parfait cadeau vin ou spiritueux"
 description: "Comment choisir la bouteille parfaite en cadeau en 2026. Vin, whisky, rhum, cognac — trouve la bonne bouteille pour chaque occasion et chaque destinataire."
-date: "2026-08-20"
+date: "2026-09-02"
 slug: "guide-cadeau-bouteille"
 keywords:
   [
