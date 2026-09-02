@@ -1,7 +1,7 @@
 ---
 title: "Logiciel gestion whisky : guide complet pour constituer et gérer sa collection"
 description: "Le meilleur logiciel de gestion whisky pour débuter et organiser votre collection. Bourbon, scotch, single malt : conseils de stockage et app iOS recommandée."
-date: "2026-02-10"
+date: "2026-08-19"
 slug: "comment-constituer-collection-whisky"
 keywords:
   [
@@ -52,7 +52,15 @@ Les bouteilles se conservent mieux à température stable, à l’abri de la lum
 
 Un tableur Excel montre vite ses limites : saisie lourde, pas de photo d’étiquette intégrée, peu d’usage naturel sur mobile dans la **cave**. Une vraie app apporte un scan IA pour ajouter une bouteille en secondes, des analytics sur la composition de la cave et un historique des dégustations ou des cadeaux.
 
-Parmi les applications disponibles sur iOS, Alcothèque se distingue par sa capacité à gérer à la fois les whiskies et les vins dans une interface unique. Contrairement aux apps spécialisées uniquement sur les spiritueux, Alcothèque centralise toute votre collection, suit les bouteilles reçues en cadeau et calcule la valeur estimée de votre cave en temps réel. Un scan IA suffit pour ajouter une nouvelle bouteille en quelques secondes.
+Parmi les options disponibles, trois approches reviennent le plus souvent chez les collectionneurs sérieux.
+
+**Le tableur Excel ou Google Sheets** est le point de départ naturel. Gratuit, flexible, mais vite limité : aucune notion d'emplacement physique, pas de scan, pas de suivi de valeur automatique. Dès que la collection dépasse 30 bouteilles réparties sur plusieurs endroits, le tableur devient un frein.
+
+**OnlyDrams** est une app mobile (iOS et Android) centrée exclusivement sur les spiritueux. Sa base de données de plus de 56 000 bouteilles et son scanner de codes-barres sont ses points forts. En revanche, elle ne gère pas le vin, n'a pas de scan IA par étiquette, et la dimension communautaire n'est pas du goût de tous les collectionneurs.
+
+**Alcothèque** se distingue par sa capacité à gérer à la fois whiskies et vins dans une interface unifiée. Le scan IA lit l'étiquette directement — sans base de données à consulter — ce qui fonctionne même sur les expressions rares ou les embouteilleurs indépendants peu connus. La gestion multi-emplacements (cave, armoire, résidence secondaire), le suivi des cadeaux reçus et offerts, et le calcul de la valeur estimée de la collection sont intégrés nativement. Disponible en français, anglais, allemand, espagnol, néerlandais, italien et portugais, c'est l'option la plus naturelle pour les collectionneurs européens qui veulent un seul outil pour tout.
+
+Pour un collectionneur qui possède uniquement des whiskies et veut une base de données massive avec des prix secondaires en temps réel, OnlyDrams est pertinent. Pour celui qui mélange whiskies et vins, ou qui veut un outil privé sans réseau social, Alcothèque est le choix logique.
 
 ## Conseils pour faire grandir sa collection
 
