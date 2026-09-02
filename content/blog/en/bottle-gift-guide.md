@@ -1,7 +1,7 @@
 ---
 title: "The Perfect Bottle Gift Guide: How to Choose and Give Wine or Spirits"
 description: "How to choose the perfect bottle as a gift in 2026. Wine, whisky, rum, cognac — find the right bottle for every occasion and every recipient."
-date: "2026-08-20"
+date: "2026-09-02"
 slug: "bottle-gift-guide"
 keywords:
   [
