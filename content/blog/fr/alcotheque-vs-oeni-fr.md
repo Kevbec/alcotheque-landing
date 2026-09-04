@@ -21,7 +21,7 @@ faq:
   - question: "Oeni gère-t-il les spiritueux comme le whisky ou le rhum ?"
     answer: "Non. Oeni est exclusivement centré sur le vin. Si ta collection inclut des spiritueux, Alcothèque est la seule app qui gère vins et spiritueux dans une interface unifiée."
   - question: "Combien coûte Oeni ?"
-    answer: "Oeni est freemium avec 30 jours d'essai gratuit des fonctionnalités premium. Le tarif exact après l'essai n'est pas affiché publiquement sur leur site. Le plan premium d'Alcothèque coûte moins d'1€ par mois sans période d'essai requise."
+    answer: "Oeni est freemium avec 30 jours d'essai gratuit des fonctionnalités premium. Les plans premium démarrent à 3,99€ pour une offre spéciale annuelle, avec des plans standard de 29,99€ à 59,99€ par an, ou 8,99€ par mois. Le plan premium d'Alcothèque coûte moins d'1€ par mois sans période d'essai requise."
   - question: "Oeni a-t-il une visualisation de cave en 3D ?"
     answer: "Oeni propose une fonctionnalité cave 3D qui te permet de recréer ton espace de stockage physique et de localiser les bouteilles visuellement. Alcothèque suit les emplacements de stockage par nom plutôt que par visualisation 3D."
   - question: "Quelle app est meilleure pour suivre les cadeaux de bouteilles ?"
@@ -94,7 +94,7 @@ Alcothèque est actuellement disponible sur iOS, avec Android dans la roadmap. E
 | Langues | 8 | 9 |
 | Plan gratuit | ✅ (15 bouteilles) | ✅ (freemium) |
 | Essai premium | ❌ | ✅ (30 jours) |
-| Prix premium | Moins d'1€/mois | Non affiché publiquement |
+| Prix premium | Moins d'1€/mois | À partir de 3,99€/an ou 8,99€/mois |
 
 ---
 
@@ -120,7 +120,7 @@ Alcothèque gère vins et spiritueux avec la même profondeur. Le même scan IA,
 
 ## Sur le prix : une note sur la transparence
 
-Le prix d'Oeni n'est pas affiché publiquement sur leur site. Tu peux démarrer un essai gratuit de 30 jours des fonctionnalités premium, mais le coût après n'est pas divulgué avant de t'inscrire. C'est un choix commercial légitime, mais cela rend la comparaison directe difficile.
+Le plan premium d'Oeni démarre à 3,99€ pour une offre spéciale annuelle, avec des plans annuels standard allant de 29,99€ à 59,99€ selon le palier, et une option mensuelle à 8,99€ par mois. Le détail exact de ce que chaque palier débloque n'est pas clairement indiqué sur leur site avant de s'inscrire.
 
 Le prix d'Alcothèque est transparent. Le plan gratuit couvre 15 bouteilles. Le plan premium coûte moins d'1€ par mois et débloque bouteilles, emplacements et scans IA illimités. Il n'y a pas de période d'essai parce qu'il n'y en a pas besoin à ce prix.
 
@@ -160,7 +160,7 @@ Si tu pars de zéro avec une collection mixte, Alcothèque est le point de dépa
 Non. Oeni est exclusivement centré sur le vin. Si ta collection inclut des spiritueux, Alcothèque est la seule app qui gère vins et spiritueux dans une interface unifiée.
 
 ### Combien coûte Oeni ?
-Oeni est freemium avec 30 jours d'essai gratuit des fonctionnalités premium. Le tarif exact après l'essai n'est pas affiché publiquement sur leur site. Le plan premium d'Alcothèque coûte moins d'1€ par mois sans période d'essai requise.
+Oeni est freemium avec 30 jours d'essai gratuit des fonctionnalités premium. Les plans premium démarrent à 3,99€ pour une offre spéciale annuelle, avec des plans standard de 29,99€ à 59,99€ par an, ou 8,99€ par mois. Le plan premium d'Alcothèque coûte moins d'1€ par mois sans période d'essai requise.
 
 ### Oeni a-t-il une visualisation de cave en 3D ?
 Oui. Oeni propose une fonctionnalité cave 3D qui te permet de recréer ton espace de stockage physique et de localiser les bouteilles visuellement. Alcothèque suit les emplacements de stockage par nom plutôt que par visualisation 3D.
