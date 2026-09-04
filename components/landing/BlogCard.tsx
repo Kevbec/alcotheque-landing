@@ -59,7 +59,7 @@ export function BlogCard({
   return (
     <Link
       href={href}
-      className="group block overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-md"
+      className="group flex h-full flex-col overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-md"
     >
       {coverImage ? (
         <div className="relative h-48 w-full overflow-hidden rounded-t-2xl">
@@ -72,7 +72,7 @@ export function BlogCard({
           />
         </div>
       ) : null}
-      <div className="p-6">
+      <div className="flex flex-1 flex-col p-6">
         <time
           dateTime={date}
           className="inline-block rounded-full bg-navy/10 px-3 py-1 text-xs font-medium text-navy"
@@ -91,6 +91,7 @@ export function BlogCard({
             {minutes} {readTimeSuffix}
           </span>
         </p>
+        <div className="flex-1" />
         <div className="mt-4 flex items-center justify-between gap-4">
           <span className="text-xs text-gray-400">{author}</span>
           <span className="shrink-0 text-sm font-medium text-navy">

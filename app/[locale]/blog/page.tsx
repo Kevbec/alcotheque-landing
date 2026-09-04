@@ -229,7 +229,7 @@ export default async function BlogIndexPage({
             {locale === "fr" ? "Articles du blog" : "Blog posts"}
           </h2>
           <div
-            className={`mx-auto grid grid-cols-1 gap-8 px-6 ${
+            className={`mx-auto grid grid-cols-1 items-stretch gap-8 px-6 ${
               posts.length === 1
                 ? "max-w-2xl"
                 : "max-w-6xl md:grid-cols-2"
