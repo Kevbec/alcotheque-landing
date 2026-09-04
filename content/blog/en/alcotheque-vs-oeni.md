@@ -21,7 +21,7 @@ faq:
   - question: "Does Oeni support spirits like whisky or rum?"
     answer: "No. Oeni is focused exclusively on wine. If your collection includes spirits, Alcotheque is the only app that manages both wine and spirits in one unified interface."
   - question: "How much does Oeni cost?"
-    answer: "Oeni is freemium with a 30-day free trial of its premium features. The exact premium pricing is not publicly listed on their website. Alcotheque's premium plan costs less than €1 per month with no trial period required."
+    answer: "Oeni is freemium with a 30-day free trial of its premium features. Premium plans start at €3.99 for an annual special offer, with standard plans from €29.99 to €59.99 per year, or €8.99 per month. Alcotheque's premium plan costs less than €1 per month with no trial period required."
   - question: "Does Oeni have 3D cellar visualization?"
     answer: "Yes. Oeni has a 3D cellar feature that lets you recreate your physical storage space and locate bottles visually. Alcotheque tracks storage locations by name rather than 3D visualization."
   - question: "Which app is better for tracking wine gifts?"
@@ -94,7 +94,7 @@ Alcotheque is currently available on iOS, with Android on the roadmap. It is ava
 | Languages | 8 | 9 |
 | Free plan | ✅ (15 bottles) | ✅ (freemium) |
 | Premium trial | ❌ | ✅ (30 days) |
-| Premium price | < €1/month | Not publicly listed |
+| Premium price | < €1/month | From €3.99/year or €8.99/month |
 
 ---
 
@@ -120,7 +120,7 @@ Alcotheque manages wine and spirits with equal depth. The same AI scanning, loca
 
 ## On Pricing: A Note on Transparency
 
-Oeni's pricing is not publicly listed on their website. You can start a 30-day free trial of the premium features, but the cost after that is not disclosed before you sign up. This is a legitimate business choice, but it does make direct comparison difficult.
+Oeni's premium plan starts at €3.99 for an annual special offer, with standard annual plans ranging from €29.99 to €59.99 per year depending on the tier, and a monthly option at €8.99 per month. The exact breakdown of what each tier unlocks is not clearly detailed on their website before signing up.
 
 Alcotheque's pricing is transparent. The free plan covers 15 bottles. The premium plan costs less than €1 per month and unlocks unlimited bottles, locations, and AI scans. There is no trial period because there is no need for one at that price.
 
@@ -160,7 +160,7 @@ If you are starting fresh with a mixed collection, Alcotheque is the simpler sta
 No. Oeni is focused exclusively on wine. If your collection includes spirits, Alcotheque is the only app that manages both wine and spirits in one unified interface.
 
 ### How much does Oeni cost?
-Oeni is freemium with a 30-day free trial of its premium features. The exact premium pricing is not publicly listed on their website. Alcotheque's premium plan costs less than €1 per month with no trial period required.
+Oeni is freemium with a 30-day free trial of its premium features. Premium plans start at €3.99 for an annual special offer, with standard plans from €29.99 to €59.99 per year, or €8.99 per month. Alcotheque's premium plan costs less than €1 per month with no trial period required.
 
 ### Does Oeni have 3D cellar visualization?
 Yes. Oeni has a 3D cellar feature that lets you recreate your physical storage space and locate bottles visually. Alcotheque tracks storage locations by name rather than 3D visualization.
