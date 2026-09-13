@@ -60,6 +60,11 @@ export default function RootLayout({ children }: Props) {
     y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
   })(window, document, "clarity", "script", "w525933ioo");`}
         </Script>
+        <Script
+          src="https://cloud.umami.is/script.js"
+          data-website-id="734e41f6-06ac-456c-b578-20fbf2deed9d"
+          strategy="afterInteractive"
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
